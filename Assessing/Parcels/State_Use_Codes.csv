@@ -1,0 +1,282 @@
+STATE USE CODE,DEFINITION
+13,Mixed Res & Com
+14,Mixed Res & Ind
+21,Mixed OpenSp & Res
+31,Mixed Com & Res
+34,Mixed Com & Ind
+41,Mixed Ind & Res
+100,RESIDENTIAL
+101,Single Family
+102,Condominium
+103,Mobile Home
+104,Two Family
+105,Three Family
+106,Res Accessory Imprv
+109,Multi Res Bldgs
+111,4-8 Unit Apartments
+112,>8 Unit Apartments
+121,Rooming Houses
+122,Fraternity
+123,Dormitories
+124,Rectories
+130,Res Developable Land
+131,Res Potential Devel Lnd
+132,Res UnDevel Land
+140,Child Care
+198,Condo Res Parking
+199,Condo Bldg
+200,OPEN SPACE
+201,Res Open Space
+202,Res UnderWater Lnd
+210,Non-Productive Agri Lnd
+211,Non-Productive Vac Lnd
+220,Com Vacant Lnd
+221,Com UnderWater Lnd
+230,Ind Vacant Lnd
+231,Ind UnderWater Lnd
+300,COMMERCIAL
+301,Motel
+302,Inns Resorts
+304,Nursing Home
+305,Private Hospital
+310,Fuel Tanks
+311,Gas Tanks
+312,Feed Elevators
+313,Lumber Yards
+314,Truck Terminals
+315,Pier Storage
+316,Warehouse Storage
+317,Farm Bldgs
+318,Com Greenhouses
+321,Hardware Equipment
+322,Discount Stores
+323,Shopping Centers
+324,Supermarkets
+325,Small Retail
+326,Eating-Fast Food
+327,Small Retail
+329,Billboard
+330,Auto Sales
+331,Auto Supplies
+332,Auto Repair
+333,Fuel Service Areas
+334,Gas Service Stations
+335,Car Wash
+336,Parking Garage
+337,Parking Lot
+338,Other Vehicles Sales
+339,Condo Parking Space
+340,General Office Bldg
+341,Bank
+342,Medical Office Bldg
+343,Office Condo
+345,Retail/Office
+350,Postal Serv
+351,Educational Property
+353,Fraternal
+354,Bus Facilities
+355,Funeral Homes
+356,Misc Professional Org
+360,Museums
+361,Art Galleries
+362,Movie Theaters
+363,Drive-In Movies
+364,Legitimate Theaters
+365,Stadiums
+366,Arena/Field Houses
+367,Race Tracks
+368,Amusement Parks
+369,Other Entertainmt Prop
+370,Bowling
+371,Ice Skating
+372,Roller Skating
+373,Swimming Pools
+374,Health Spas
+375,Tennis Clubs
+376,Athletic Clubs
+377,Indoor Recreational Clb
+380,Golf Courses
+381,Tenis Courts
+382,Riding Stables
+383,Beach or Swim Pools
+384,Marinas
+385,Fish/Game Clubs
+386,Camping Facilities
+387,Summer Camps
+388,Other Outdoor Recreatl
+389,Structures in 61B Land
+390,Com Developable Lnd
+391,Com Potential Devel Lnd
+392,Com Undevelopable Lnd
+393,Agricul Lnd not in 61A
+400,INDUSTRIAL
+401,Manufacturing Warehse
+402,Manufacture Office Bldg
+403,Manufacture Lnd used
+404,R & D Facilities
+405,Retail/Office/Industrial
+406,High Tech
+407,Clean Manufacturing
+410,Sand & Gravel Pit
+411,Gypsum
+412,Rock
+413,Other
+420,Pub Util Tanks
+421,"Pub Util Tanks, LNG"
+422,Pub Util Elect Gen Plants
+423,Pub Util Transmission
+424,Pub Util Regulating 
+425,Pub Util Gas Product
+426,Pub Util Pipeline
+427,Pub Util Natural Gas
+428,Pub Util Gas Pressure
+430,Pub Util Tel Exchange
+431,Pub Util Tel Relay
+432,Pub Util Cable TV
+433,Pub Util TV Trans
+440,Ind Developable Land
+441,Ind Potential Devel Lnd
+442,Ind UnDevel Land
+500,PERSONAL PROP
+501,PP-Sole Proprietors
+502,PP-Business
+503,PP-Manufacturing
+504,PP-Utilites
+505,PP-Poles/Wire
+506,PP-Conduits
+900,EXEMPT
+901,Commonwealth of MA
+902,Counties
+903,Municipal
+904,Private Schools
+905,Charitable
+906,Church/Synag/Temples
+907,121A Corporations
+908,Housing Authorities
+931,City Hall
+932,City Hall Annex
+933,Community Develop
+934,Community Schools
+935,Fire Station
+936,City Hospital
+937,City Infirmary
+938,Library
+939,Miscellaneous
+940,Parking
+941,Police Department
+942,Pubic Works
+945,Recreational Dept
+947,School Department
+948,School & Recreation
+949,Tax-Title
+950,War Memorial
+951,Water Department
+952,Human Services
+960,Benevolent
+965,Rectory-Parsonage
+970,Scientific
+975,Govt Land Bank
+980,MBTA
+990,Camb Redevelop Auth
+995,Cemetery Private
+996,Other
+997,Just-A-Start
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
