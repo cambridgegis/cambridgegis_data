@@ -1,0 +1,177 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>HYDRO_Floodplains</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The National Flood Hazard Layer (NFHL) data incorporates all Digital Flood Insurance Rate Map(DFIRM) databases published by FEMA, and any Letters Of Map Revision (LOMRs) that have been issued against those databases since their publication date. The DFIRM Database is the digital, geospatial version of the flood hazard information shown on the published paper Flood Insurance Rate Maps(FIRMs). The primary risk classifications used are the 1-percent-annual-chance flood event, the 0.2-percent-annual-chance flood event, and areas of minimal flood risk. The NFHL data are derived from Flood Insurance Studies (FISs), previously published Flood Insurance Rate Maps (FIRMs), flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data where available. The FISs and FIRMs are published by the Federal Emergency Management Agency (FEMA). The specifications for the horizontal control of DFIRM data are consistent with those required for mapping at a scale of 1:12,000. The NFHL data contain layers in the Standard DFIRM datasets except for S_Label_Pt and S_Label_Ld. The NFHL is available as State or US Territory data sets. Each State or Territory data set consists of all DFIRMs and corresponding LOMRs available on the publication date of the data set.</abstract>
+      <purpose>FEMA FLOOD INSURANCE RATE MAPS EFFECTIVE June 4, 2010  The FIRM is the basis for floodplain management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP). Insurance applications include enforcement of the mandatory purchase requirement of the Flood Disaster Protection Act, which "... requires the purchase of flood insurance by property owners who are being assisted by Federal programs or by Federally supervised, regulated or insured agencies or institutions in the acquisition or improvement of land facilities" (Section 2 (b) (4) of the Flood Disaster Protection Act of 1973). In addition to the identification of Special Flood Hazard Areas (SFHAs), the risk zones shown on the FIRMs are the basis for the establishment of premium rates for flood coverage offered through the NFIP. The NFHL data present the flood risk information depicted on the FIRM in a digital format suitable for use in electronic mapping applications. The NFHL database is a subset of the information created for the FIS and serves as a means to archive a portion of the information collected during the FIS.Floodplains</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.158658</westbc>
+        <eastbc>-71.063899</eastbc>
+        <northbc>42.403752</northbc>
+        <southbc>42.352359</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>Flood Insurance Rate Map</themekey>
+        <themekey>Special Flood Hazard Area</themekey>
+        <themekey>environment</themekey>
+        <themekey>SFHA</themekey>
+        <themekey>DFIRM</themekey>
+        <themekey>DFIRM Database</themekey>
+        <themekey>structure</themekey>
+        <themekey>Coastal Barrier Resources System</themekey>
+        <themekey>FEMA Flood Hazard Zone</themekey>
+        <themekey>Floodway</themekey>
+        <themekey>Base Flood Elevation</themekey>
+        <themekey>Riverine Flooding</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>Coastal Flooding</themekey>
+        <themekey>FIRM</themekey>
+        <themekey>elevation</themekey>
+        <themekey>CBRS</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>Digital Flood Insurance Rate Map</themekey>
+        <themekey>transportation</themekey>
+        <themekey>NFIP</themekey>
+        <themekey>Massachusetts</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty. FEMA will warrant the delivery of this product in a computer-readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site.</useconst>
+    <datacred>Federal Emergency Management Agency</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>17</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003125</absres>
+            <ordres>0.0003125</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cambridge.gisdata.HYDRO_Floodplains</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLD_AR_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLD_ZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLOODWAY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SFHA_TF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Percentage</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_CIT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130815</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

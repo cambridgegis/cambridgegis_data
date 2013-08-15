@@ -1,0 +1,207 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>BOUNDARY_CDDNeighborhoods</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Created for the establishment of neighborhood planning groups, administration of Community Development Block Group )(CDBG) programs, Community Development Departmetn (CDD) staff allocation, and for mapping and analysis purposes.</abstract>
+      <purpose>This polygon layer contains the boundaries of the City of Cambridge's thirteen neighborhoods.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.160581</westbc>
+        <eastbc>-71.063810</eastbc>
+        <northbc>42.403841</northbc>
+        <southbc>42.352358</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>CDD</themekey>
+        <themekey>Boundary</themekey>
+        <themekey>Neighborhoods</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>City of Cambridge</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>13</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00019171428038206538</absres>
+            <ordres>0.00019171428038206538</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cambridge.gisdata.BOUNDARY_CDDNeighborhoods</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>N_HOOD</attrlabl>
+        <attrdef>Neighborhood classification</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>East Cambridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>MIT/Area 2</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Wellington-Harrington</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Area IV</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Cambridgeport</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Mid-Cambridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Riverside</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Agassiz</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Neighborhood 9</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Neighborhood 10</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>North Cambridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Cambridge Highlands</edomvd>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Strawberry Hill</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Neighborhood Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Webpage</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130815</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

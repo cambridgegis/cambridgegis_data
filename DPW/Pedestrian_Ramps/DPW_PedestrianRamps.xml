@@ -1,0 +1,163 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Eng_Ramp</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>City owned and maintained pedestrian ramps. This layer is maintained by Cambridge Public Works</abstract>
+      <purpose>City owned and maintained pedestrian ramps. This layer is maintained by Cambridge Public Works</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.160387</westbc>
+        <eastbc>-71.068607</eastbc>
+        <northbc>42.402706</northbc>
+        <southbc>42.353372</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>DPW</themekey>
+        <themekey>Pedestrian Ramps</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>City of Cambridge</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>4063</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003125</absres>
+            <ordres>0.0003125</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dpw.gisdata.Eng_Ramp</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_WIDTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOTAL_RAMP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OPENING_WI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SLOPE_COMP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MATERIAL_T</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CONDITION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PUDDLING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RAMP_LINE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_OPEN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_SLOPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_COND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_ALIGN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_TOTAL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_PUDDLE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>contract</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_TOTAL06</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130815</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
