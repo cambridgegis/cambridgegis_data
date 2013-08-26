@@ -8,7 +8,7 @@ GitHub recognizes our GeoJSON files and creates interactive maps using Mapbox fo
 
 # Report Issues and Update Data
 
-If you notice a problem with the data, you can report an issue on this site using the New Issue form.
+If you notice a problem with the data, you can report an issue on this site using the [New Issue form](https://github.com/cambridgegis/cambridgegis_data/issues/new).
 
 You can also click 'Edit' on any GeoJSON file to make a fork/copy on your own account, make changes, and suggest that they get adopted here.
 
