@@ -1,0 +1,213 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Cambridge, MA</origin>
+        <title>BASEMAP_Sidewalks</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Cambridge, MA, USA</pubplace>
+          <publish>City of Cambridge IT Department</publish>
+        </pubinfo>
+        <onlink>Default value.</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>City of Cambridge, MA GIS basemap development project encompasses the land area of City of Cambridge with a 200 foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale.This layer is occasionally updated from site plans submitted to the City. The accuracy of the edits do not meet the specifications of the 2010 mapping project, but are a better reflection of what is on the ground currently</abstract>
+      <purpose>City of Cambridge 1" - 40' base map layers from an April 14, 2010 flyover. Basemap layers created by Infotech America, and updated by the City.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.161323</westbc>
+        <eastbc>-71.065470</eastbc>
+        <northbc>42.404389</northbc>
+        <southbc>42.351885</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Planimetric Data</themekey>
+        <themekey>Contour</themekey>
+        <themekey>Digital Terrain Model (DTM)</themekey>
+      </theme>
+      <theme>
+        <themekt>National Park Service Theme Category Thesaurus</themekt>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>City of Cambridge, MA</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Cambridge GIS, Infotech America</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>Compiled to meet horizontal and vertical accuracy at 95% confidence level in accordance with ASPRS Class 1 standards.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Compiled to meet the vertical accuracy at 95% confidence level in accordance with ASPRS Class 1 standards.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Digital aerial photography was acquired using Microsoft-Vexcel UltraCAMX on April 14, 2010 on a clear day with onboard airborne GPS and IMU parameters. Digital Aerial Triangulation (DAT) was performed, primarily, using softcopy workstations and Intergraph's ISPM / ISAT software or BINGO where applicable. Image tie points were collected using automatic correlation. The correlated points were triangulated and blunders were rectified with manual edits until the desired accuracy levels were achieved. Well distributed 21 ground control points surveyed in the year 2010, 6 controls from 2006_Harvard, 6 controls form 2003_CambridgeGIS and 5 vertical controls from 1995_CambridgeGIS were used to achieve the absolute accuracy within the defined residual limits. Geodatabase schema was developed for the Planimetric features to create the required basemap data. The planimetric features were compiled using standard pothogrammetric collection techniques on Intergraph's SSK softcopy workstations. The features were post processed in ESRI's ArcGIS and topology validation was performed. The dataset comprises of 35 feature classes with 142 attribute domains. Feature specific description is provided in the attributes section of this metadata. Appropriate attributes for the hydro features, buildings, etc were conflated from the Cambridge, MA existing GIS database. Digital Terrain Model (DTM) was developed using softcopy photogrammetry for the purposes of ortho rectification and 1 ft contour generation. Elevation point (masspoint) data was collected at 20ft grid and supplemented with breaklines. Breaklines were collected at significant breaks in the terrain to support the generation of 1 ft interval contours. DTM data was enhanced with the contour interpolate (CIP) 3d geometry features include Curb, Road Paved &amp; Unpaved, Road-Traffic-Island, Alley, Trail Paved &amp; Unpaved, Driveway Paved &amp; Unpaved, Parking lot Paved and Unpaved, Sidewalk, Public Footpath, Impervious features, Concrete Pad, Patio, Plaza and other impervious features, Rail road - Abandon, Active, Elevated, Floodwall, Wet area, Open channel, River / stream, Pond, In ground pool, Retention Pond, Retaining Wall, etc) to generate accurate 1ft contours. Also, spot elevations were collected at street intersections, depression areas, saddles and peaks. These DTM features include elevation points, breaklines, CIP features and spot elevations were interpolated using Maps 3D software and 1 ft contours were generated. Contours were coded for Index (every 5th contour), intermediate, depression, hidden and obscured according to the specification. Index contours were labeled with the contour value. Spot elevations placed at the intersections of streets, ridges, saddles, depressions were labeled with one decimal precision for cartographic representation. DTM data was supplemented with building polygons and used for true ortho generation for the project area. All the Planimetric features, DTM points and Contour data was loaded to Geodabase schema and annotation layers were created for Streets (Roads), Spot Elevations, Cemeteries, Hydro and Index Contours from the respective attribute fields.Topology has been validated for all features.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Infotech Enterprises America, Inc</cntorg>
+              <cntper>Srinu Ratnala</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>100 Carpenter Dr, STE 200</address>
+              <city>Sterling</city>
+              <state>Virginia</state>
+              <postal>20164</postal>
+              <country>United States of America</country>
+            </cntaddr>
+            <cntvoice>(571) 313-1065 ext 129</cntvoice>
+            <cntfax>(571) 313-1071</cntfax>
+            <cntemail>Srinu.Ratnala@infotech-enterprises.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4363</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333334</absres>
+            <ordres>0.0003280833333333334</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cambridge.GISDATA.Sidewalks</enttypl>
+        <enttypd>A sidewalk is asphalt, brick or concrete pedestrian walkway or path along the side of a road network through the neighborhoods which has the passage for all public. Edge of the sidewalk feature is collected as polygon which is normally separated from the vehicular section by a curb or a strip of vegetation, grass or bushes or a combination of these.</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EditDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130906</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>Not Available</metscs>
+      <metshd>Not Available</metshd>
+    </metsi>
+  </metainfo>
+</metadata>
