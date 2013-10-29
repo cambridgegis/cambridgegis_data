@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>20841</ptvctcnt>
+        <ptvctcnt>20844</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -124,7 +124,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20131015</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -132,6 +132,16 @@
           <cntper>Cambridge GIS</cntper>
         </cntorgp>
         <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>Massachusetts</state>
+          <postal>02139</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
       </cntinfo>
     </metc>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
