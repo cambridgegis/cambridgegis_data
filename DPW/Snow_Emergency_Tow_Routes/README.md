@@ -1,7 +1,7 @@
 Snow Emergency Tow Routes
 =========================
 # Disclaimer
-The information in this data set is for general informational purposes only and the actual SNOW emergency signs posted on street are the legal Traffic Regulations. For updated information please contact the Traffic, Parking and Transportation.
+The information in this data set is for general informational purposes only and the actual SNOW emergency signs posted on street are the legal Traffic Regulations. For updated information please contact the Traffic, Parking and Transportation Department.
 
 344 Broadway  
 Cambridge, MA 02139  
