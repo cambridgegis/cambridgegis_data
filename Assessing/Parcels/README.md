@@ -3,7 +3,7 @@
 The TaxFY14 CAMA data is current as of Jan. 01, 2013.  
 The TaxFY13 CAMA data is current as of Jan. 01, 2012.
  
-Link the field ML in the GIS to field ML in the Access or Excel file. 
+Link the field ML in the corresponding ASSESSING_ParcelsFY20xx.geojson file to field ML in the CSV file. 
 
 | Field							| Description |  
 | -----							| ----------- |  
