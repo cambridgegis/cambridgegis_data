@@ -1,0 +1,4 @@
+Database,Source Dataset,Source Name,Destination Name,Destination Path
+cambridge,CDD_Zoning,ZoningDistricts,CDD_ZoningDistricts,CDD\Zoning_Districts
+dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
+dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
