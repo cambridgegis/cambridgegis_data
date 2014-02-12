@@ -1,4 +1,2 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,CDD_Zoning,ZoningDistricts,CDD_ZoningDistricts,CDD\Zoning_Districts
-dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
-dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
+cambridge,ASSESSING_TaxFY2014,ResidentialDistrictsFY2014,ASSESSING_ResidentialDistrictsFY2014,Assessing\FY2014\FY2014_Residential_Districts
