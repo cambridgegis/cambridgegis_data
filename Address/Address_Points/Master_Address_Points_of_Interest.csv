@@ -1,4 +1,4 @@
-poi_id,address_id,poi_type,Point_of_interest_name,named_address
+﻿poi_id,address_id,poi_type,Point_of_interest_name,(No column name)
 4,23745,HARV,Adams House,TRUE
 5,389,HARV,Ames Hall,TRUE
 6,23746,HARV,Cabot House,TRUE
@@ -61,8 +61,7 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 63,421,LESL,Bouma Hall,FALSE
 64,414,LESL,Wilson House,FALSE
 65,410,LESL,Compass Hall,FALSE
-66,11981,LESL,White Hall,FALSE
-67,29613,LESL,Wolford Hall,FALSE
+66,11981,LESL,Stebbins,FALSE
 68,25722,MUNI,Montessori School,FALSE
 69,30652,CHA,Corcoran Park,FALSE
 70,30653,CHA,Corcoran Park,FALSE
@@ -134,8 +133,8 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 136,3434,CPMPLX,Cambridge Co-Housing,FALSE
 137,25460,ORG,Cambridge Friends School,FALSE
 138,26251,MUNI,Engine 6,FALSE
-139,26247,MUNI,Peabody School,FALSE
-140,24012,HARV,Winthrop Hall,TRUE
+139,26247,CSCHOOL,Peabody School,FALSE
+140,24012,LESL,Winthrop Hall,TRUE
 141,23883,HARV,Pforzheimer Hall Masters Residence,TRUE
 143,26378,HARV,Comstock Hall,TRUE
 144,30958,CPMPLX,One Charles Park,TRUE
@@ -155,7 +154,7 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 159,23862,HARV,Houghton Library,FALSE
 160,25805,HARV,Lamont Library,FALSE
 161,23863,HARV,Widener Library,FALSE
-162,30982,HARV,Sakler Museum,FALSE
+162,30982,HARV,Sackler Museum,FALSE
 163,15349,MUNI,Fire Headquarters,FALSE
 165,23921,CPMPLX,Warren House,FALSE
 166,26190,HARV,Fine Arts Library,FALSE
@@ -475,25 +474,23 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 495,846,MUNI,McCusker Center,FALSE
 496,846,MUNI,City Hall Annex,FALSE
 500,94,MUNI,Cambridge Water Department,FALSE
-510,568,MUNI,Police Headquarters,FALSE
 511,1181,MUNI,Public Health Department,FALSE
 512,852,CPMPLX,Cambridge Hospital,FALSE
 513,841,CPMPLX,Youville Hospital,FALSE
 514,141,CPMPLX,Mount Auburn Hospital,FALSE
 515,67,ELDER,Sancta Maria Nursing Facility,FALSE
-516,483,MUNI,Amigos School,FALSE
-517,425,MUNI,Baldwin School,FALSE
+517,425,CSCHOOL,Baldwin School,FALSE
 518,670,MUNI,Cambridgeport School,FALSE
-519,269,MUNI,Graham & Parks School,FALSE
-520,77,MUNI,Haggerty School,FALSE
-521,736,MUNI,Kennedy/Longfellow School,FALSE
-522,483,MUNI,King School,FALSE
-523,886,MUNI,King Open School,FALSE
-524,690,MUNI,Fletcher/Maynard Academy,FALSE
-525,31147,MUNI,Tobin School,FALSE
+519,269,CSCHOOL,Graham and Parks School,FALSE
+520,77,CSCHOOL,Haggerty School,FALSE
+521,736,CSCHOOL,Kennedy/Longfellow School,FALSE
+522,483,CSCHOOL,King School,FALSE
+523,886,CSCHOOL,King Open School,FALSE
+524,690,CSCHOOL,Fletcher/Maynard Academy,FALSE
+525,31147,CSCHOOL,Tobin School,FALSE
 526,5436,MUNI,Cambridge Rindge and Latin School,FALSE
 527,26126,ORG,Benjamin Bannaker School,FALSE
-528,844,MUNI,Cambridge High School Extention Program,FALSE
+528,844,MUNI,Old Longfellow School,FALSE
 529,31148,MUNI,Cemetery Office,FALSE
 530,637,MUNI,Fire Station 2,FALSE
 531,31149,MUNI,Fire Station 3,FALSE
@@ -511,7 +508,7 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 543,887,MUNI,Cambridge Public Library - Valente Branch,FALSE
 544,65,MUNI,Cambridge Golf Course - Garage,FALSE
 546,121,ORG,National Guard Armory,FALSE
-547,64,MUNI,Cambridge Golf Course - Clubhouse,FALSE
+547,64,MUNI,Thomas P. ONeill Jr. Muncipal Golf Course,FALSE
 548,223,MUSE,Longfellow House,FALSE
 549,6024,MUNI,Corporal Burns Shelter,FALSE
 550,517,MUNI,Community Center,FALSE
@@ -523,7 +520,7 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 556,59,MUNI,Cambridge VFW Hall,FALSE
 557,17704,MUNI,Cambridge Rindge and Latin - Auto Shop,FALSE
 558,31150,MUNI,Gately Youth Center,FALSE
-559,77,MUNI,West Cambridge Youth Center,FALSE
+559,31645,MUNI,West Cambridge Youth Center,FALSE
 560,25741,MUNI,Willis D. Moore Youth Center,FALSE
 561,26435,MUNI,Frisoli Youth Center,FALSE
 562,660,MUNI,Area 4 Youth Center,FALSE
@@ -538,7 +535,6 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 571,25624,PVSCH,Shady Hill School,FALSE
 572,598,PVSCH,Farr Academy,FALSE
 573,7705,MUNI,238 Broadway Building,FALSE
-576,767,MUNI,Emergency Communications,FALSE
 577,159,MUNI,New School of Music,FALSE
 578,5731,MUNI,North Cambridge VFW,FALSE
 579,17671,MUNI,School Administration Building,FALSE
@@ -546,11 +542,10 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 581,94,MUNI,Water Treatment Facility (Walter J. Sullivan ),FALSE
 582,25759,MUNI,Green Street Parking Garage,FALSE
 583,87,ELDER,Neville Center,FALSE
-584,10791,ELDER,Vernon Hall,FALSE
+584,10791,ELDER,Cambridge Rehabilitation and Nursing Center,FALSE
 585,263,HARV,Cabot House,FALSE
 586,31175,HARV,Barnard Building,FALSE
 587,31200,CPARK,Lechmere Canal Park,FALSE
-588,935,CPARK,Charles Park,FALSE
 590,31202,CPARK,Front Park,FALSE
 591,31203,CPARK,Costa Lopez Taylor Park,FALSE
 592,31204,CPARK,Gold Star Mothers Park,FALSE
@@ -563,23 +558,19 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 599,31210,CPARK,Millers River Park,FALSE
 600,31211,MUNI,Municipal Lot 12,FALSE
 601,886,MUNI,Gold Star Mothers Swimming Pool,FALSE
-602,31212,CPARK,Donnelly Field,FALSE
-603,31213,CPARK,Harvard Street Park,FALSE
 604,31214,CPARK,Fort Washington Park,FALSE
 605,31215,CPARK,Clement G. Morgan Park,FALSE
 606,31216,CPARK,Pine Street Park,FALSE
-607,31217,CPARK,Harvard Street Park,FALSE
 608,31218,CPARK,Squirrel Brand Park,FALSE
 609,31219,CPARK,Market Street Park,FALSE
 610,31220,CPARK,Callinan Square,FALSE
 611,31221,CPARK,Elm / Hampshire Plaza,FALSE
 612,932,MUNI,Municipal Lot 11,FALSE
 613,31222,MUNI,Municipal Lot 14,FALSE
-614,31223,CPARK,Sennott Park,FALSE
 615,31224,MUNI,Municipal Lot 4,FALSE
 616,31225,MUNI,Municipal Lot 5,FALSE
 617,31226,MUNI,Municipal Lot 6,FALSE
-618,31227,ORG,Pacific Street Open Space,FALSE
+618,31227,CPARK,Pacific Street Open Space,FALSE
 619,31228,CPARK,Lopez Street Park,FALSE
 620,31229,CPARK,Fulmore Park,FALSE
 621,31230,CPARK,David Nunes Park,FALSE
@@ -588,38 +579,33 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 624,31232,CPARK,Dana Park,FALSE
 625,31233,MUNI,Municipal Lot 8,FALSE
 626,31234,CPARK,McElroy Park,FALSE
-627,31235,CPARK,Cronin Square,FALSE
+627,31235,CPLAZA,Cronin Square,FALSE
 628,31236,CPARK,Wilder-Lee Park,FALSE
 629,31237,CPARK,Paine Park,FALSE
 630,31238,CPARK,Vellucci Park,FALSE
 631,31239,CPARK,Maple Avenue Park,FALSE
 632,31240,CPARK,Cooper Park,FALSE
 633,31241,MUNI,Municipal Lot 9,FALSE
-634,31242,CPARK,Franklin Street Park,FALSE
-635,31243,CPARK,Tubman Square,FALSE
+635,31243,CPLAZA,Tubman Square,FALSE
 636,31244,CPARK,Hoyt Field,FALSE
-637,31245,CPARK,Alberico Park,FALSE
 638,31246,CPARK,Riverside Press Park,FALSE
 639,31247,CPARK,Corporal Burns Park,FALSE
-640,31248,CPARK,Sullivan Square,FALSE
+640,31248,CPLAZA,Sullivan Square,FALSE
 641,31249,CPARK,Joan Lorentz Park,FALSE
-642,31250,CPARK,Agassiz / Alden Park,FALSE
-643,31251,CGARDN,Sacramento Street Garden,FALSE
+642,31250,CPARK,Alden Park,FALSE
+643,31251,CPARK,Sacramento Field,FALSE
 644,31252,CPARK,Arsenal Square,FALSE
 645,31253,CPARK,Flaggstaff Park,FALSE
 646,31254,MUNI,Old Burying Ground,FALSE
 647,31255,CPARK,Cambridge Common,FALSE
-648,31256,CPARK,Mary Connolly Park,FALSE
+648,31256,CPARK,Mary Conlan Park,FALSE
 649,31257,CPARK,Winthrop Square,FALSE
 650,31258,CPARK,Clarendon Avenue Playgound,FALSE
 651,31259,CPARK,Reverend Williams Park,FALSE
-652,31262,CPARK,McMath Park,FALSE
 653,31261,CPARK,Rindge Field,FALSE
 654,31260,CPARK,Anderson Courts,FALSE
 655,31263,MUNI,Municipal Lot - Walden St,FALSE
 656,31264,CPARK,Corcoran Field,FALSE
-657,31265,CPARK,Longfellow Park,FALSE
-658,31266,CPARK,Lowell Street Park,FALSE
 659,94,CPARK,Fresh Pond Reservation,FALSE
 660,31268,CPARK,Rafferty Park,FALSE
 661,30362,CPARK,Russell Field,FALSE
@@ -631,20 +617,17 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 667,31272,CPARK,Father Callahan Playground,FALSE
 668,31148,MUNI,Cambridge Cemetery,FALSE
 669,31273,CPARK,Larch Road Park,FALSE
-670,31274,CPARK,Gibbons Park,FALSE
 671,31275,CPARK,Glacken Field,FALSE
-672,94,CPARK,Kingsley Field,FALSE
-673,31276,CPARK,Linear Park,FALSE
-674,31277,CPARK,Bishop Allen Plaza,FALSE
-675,31278,CPARK,George A. Kennedy Square,FALSE
+672,94,CPARK,Kingsley Park,FALSE
+674,31277,CPLAZA,Bishop Allen Plaza,FALSE
 676,31279,CPARK,Centanni Way,FALSE
-677,31280,CPARK,Dawes Park,FALSE
+677,31280,CPLAZA,Dawes Park,FALSE
 678,31281,CPARK,Dog Park,FALSE
 679,31282,CPARK,Eliot Street Plaza,FALSE
 680,31283,CPARK,Fountain Terrace,FALSE
-681,31284,CPARK,Mt. Auburn Veterans Memorial Plaza,FALSE
-682,31285,CPARK,Brattle Square,FALSE
-683,31286,CPARK,Harvard Square,FALSE
+681,31284,CPLAZA,Mt. Auburn Veterans Memorial Plaza,FALSE
+682,31285,CPLAZA,Brattle Square,FALSE
+683,31286,CPLAZA,Harvard Square,FALSE
 684,NULL,STATE,HAMILTON MEMORIAL,TRUE
 685,NULL,STATE,HAMILTON MEM2,TRUE
 686,NULL,STATE,HAMILTON MOM,FALSE
@@ -660,4 +643,136 @@ poi_id,address_id,poi_type,Point_of_interest_name,named_address
 696,13224,CPMPLX,Cadbury Commons,FALSE
 697,24781,CPMPLX,The Cambridge Homes,FALSE
 698,835,CPMPLX,Youville House,FALSE
-NULL,NULL,NULL,NULL,NULL
+699,31636,CSCHOOL,Amigos School,FALSE
+700,31307,HARV,Palfrey House,FALSE
+701,229,HARV,Cronkhite Graduate Center,FALSE
+702,31644,ORG,Cambridge Multicultural Arts Center,FALSE
+704,2221,MUNI,Police Headquarters,FALSE
+773,31658,HARV,Agassiz House,TRUE
+775,31391,MITB,Ashdown House,FALSE
+776,31391,MIT,MW35,FALSE
+777,31619,CPMPLX,303 Third Street,TRUE
+778,31620,CPMPLX,303 Third Street,TRUE
+779,31621,CPMPLX,303 Third Street,TRUE
+780,31622,CPMPLX,303 Third Street,TRUE
+781,31623,CPMPLX,303 Third Street,TRUE
+782,31617,HARV,Landscape Institute,FALSE
+784,31627,HARV,Engineering Science Lab,FALSE
+787,31618,CPMPLX,Two Cambridge Center,TRUE
+789,31511,CPMPLX,Trolley Square,TRUE
+790,31512,CPMPLX,Trolley Square,TRUE
+791,31513,CPMPLX,Trolley Square,TRUE
+792,31433,CPMPLX,Trolley Square,TRUE
+793,31434,CPMPLX,Trolley Square,TRUE
+794,31435,CPMPLX,Trolley Square,TRUE
+795,31436,CPMPLX,Trolley Square,TRUE
+796,31510,CPMPLX,Trolley Square,TRUE
+797,31509,CPMPLX,Trolley Square,TRUE
+798,31508,CPMPLX,Trolley Square,TRUE
+799,31507,CPMPLX,Trolley Square,TRUE
+800,31506,CPMPLX,Trolley Square,TRUE
+801,31505,CPMPLX,Trolley Square,TRUE
+802,31504,CPMPLX,Trolley Square,TRUE
+803,31503,CPMPLX,Trolley Square,TRUE
+804,31502,CPMPLX,Trolley Square,TRUE
+805,31501,CPMPLX,Trolley Square,TRUE
+806,31689,COMM,Hotel Veritas,FALSE
+807,31694,ORG,The Church of Jesus Christ of the Latter Day Saints,FALSE
+808,31696,LESL,White Hall,FALSE
+809,393,LESL,Founders,FALSE
+810,394,LESL,Doble,FALSE
+811,31697,LESL,Wolfard,FALSE
+812,31698,LESL,MacKenzie,FALSE
+813,31699,LESL,Malloch,FALSE
+814,5942,COMM,Harding House ,FALSE
+815,563,ORG,YMCA,FALSE
+816,568,MUNI,Old Police Station,FALSE
+819,378,HARV,Paine Hall,TRUE
+820,31706,MITB,MIT Sloan,FALSE
+821,31706,MIT,MIT Building 62,FALSE
+822,31707,MITB,David H. Koch Institute for Integrative Cancer Research,FALSE
+823,31707,MIT,MIT Building 76,FALSE
+825,566,ORG,U.S. Post Office,FALSE
+826,530,PVSCH,Cambridge College,FALSE
+827,26189,HARV,Greenough Hall,TRUE
+828,26191,HARV,Morton Prince House,TRUE
+829,23938,HARV,Fine Arts Library,TRUE
+830,1014,HARV,Harvard University Police,TRUE
+831,760,ORG,IKEDA CENTER,FALSE
+832,31473,ORG,JOSE MATEO BALLET THEATRE,FALSE
+833,1703,COMM,The Inn at Harvard,FALSE
+834,758,ORG,Old Cambridge Baptist Church,FALSE
+835,25364,HARV,Catholic Student Center,FALSE
+836,384,HARV,Harkness Commons,FALSE
+837,31676,HARV,Harkness Commons,FALSE
+838,31777,HARV,Caspersen Student Center,FALSE
+839,31744,ORG,Shady Hill Square Green,FALSE
+841,31802,MUNI,Cambridge Teachers Federal Credit Union,FALSE
+842,31803,LESL,Washburn Hall,TRUE
+843,9230,LESL,Parker Hall,TRUE
+844,238,LESL,Pierce Hall,TRUE
+845,31804,LESL,Sherrill Library,TRUE
+846,31806,LESL,Lawrence Hall,TRUE
+847,31807,LESL,Wright Hall,TRUE
+848,31808,LESL,Bernham Hall,TRUE
+849,31809,LESL,Reed Hall,TRUE
+850,31810,LESL,St. Johns Chapel,TRUE
+851,225,LESL,101 Brattle,TRUE
+852,24424,LESL,Kidder Hall,TRUE
+853,24839,LESL,Kidder Hall,TRUE
+854,25026,LESL,Rousmaniere Hall,TRUE
+855,24645,LESL,Winthrop Hall,TRUE
+856,24943,LESL,Winthrop Hall,TRUE
+857,25089,LESL,Winthrop Hall,TRUE
+858,31812,LESL,Buildings and Grounds,TRUE
+859,31738,CPARK,North Point Park,TRUE
+860,31424,HARV,CGIS South,FALSE
+861,23821,HARV,1746 Cambridge Street,FALSE
+862,29482,HARV,Broadway Garage,TRUE
+863,804,CSCHOOL,Cambridge Rindge and Latin School,FALSE
+865,31824,CPARK,Bergin Park,FALSE
+866,31825,CPARK,Charles Park,FALSE
+867,31829,CPARK,Franklin Street Park,FALSE
+868,31830,CPARK,Gibbons Park,FALSE
+870,31832,CPARK,Linear Park,FALSE
+871,31833,CPARK,Longfellow Park,FALSE
+872,31834,CPARK,Lowell School Park,TRUE
+873,31260,CPARK,McMath Park,FALSE
+874,31835,CPARK,New Riverside Neighborhood Park,FALSE
+875,31264,CPARK,Raymond Park,FALSE
+876,31836,CPARK,Sennott Park,FALSE
+877,64,CPARK,Thomas P. ONeill Jr. Muncipal Golf Course,FALSE
+878,31272,CPARK,Tobin Field,FALSE
+879,87,CPARK,William G. Maher Park,FALSE
+880,31837,STATE,Lowell Park,FALSE
+881,31838,STATE,Francis J. McCrehan Memorial Pool,FALSE
+882,31839,STATE,Veterans Memorial Pool,FALSE
+883,550,CSCHOOL,High School Extension Program,FALSE
+884,31255,CPARK,Kemp Playground,FALSE
+885,31840,CGARDN,Emily Garden,TRUE
+886,31204,CPARK,Winter Street Park,FALSE
+887,31841,CPLAZA,Lafayette Square,TRUE
+888,31842,CPLAZA,Carl Barron Plaza,TRUE
+889,31843,CGARDN,Fresh Pond Reservation / Parkway Community Garden,FALSE
+890,31264,CGARDN,Corcoran Park Community Garden,FALSE
+891,31844,CGARDN,Field of Dreams Community Garden,FALSE
+892,31251,CGARDN,Sacramento Street Community Garden,FALSE
+894,31845,CPLAZA,Porter Square,FALSE
+895,31846,CPLAZA,Quincy Square,TRUE
+896,31433,CPLAZA,Trolley Square Park,FALSE
+897,31847,CGARDN,Whittemore Avenue Gardens,FALSE
+898,27937,ORG,Cambridge Boat Club,FALSE
+899,31848,CPARK,Donnelly Field,FALSE
+900,31849,CGARDN,Green Street Neighborhood Garden,TRUE
+901,31850,CPARK,George A. Kennedy Square,FALSE
+902,31851,CGARDN,Peggy Hayes Memorial Garden,TRUE
+904,31852,CPARK,Point Park,TRUE
+906,31854,CPARK,Yerxa Road Underpass,TRUE
+907,31855,CPARK,Loughrey Walkway,TRUE
+908,87,CGARDN,William G. Maher Park Community Garden,FALSE
+909,31260,CGARDN,McMath Park Community Garden,FALSE
+910,31218,CGARDN,Squirrel Brand Park Community Garden,FALSE
+911,31613,CPARK,Green Rose Heritage Park,FALSE
+912,31613,CGARDN,Moore Street Community Garden,FALSE
+914,31203,CGARDN,Costa Lopez Taylor Park Community Garden,FALSE
+916,31823,CPARK,Alberico Park,FALSE
