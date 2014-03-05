@@ -112,7 +112,7 @@ cambridge,,TRANS_SubwayStations,TRANS_SubwayStations,Trans\Subway_Stations
 dpw,,Trash_LitterBarrel,DPW_LitterBarrels,DPW\Litter_Barrels
 dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
 dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
-dpw,SewerStormwaterData,CDPW_Catchbasin,CDPW_Catchbasin,Infra\Catchbasins
+dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
 water,Water_Distribution_Network,wHydrant,INFRA_Hydrants,Infra\Hydrants
 images,,Cambridge1947,Cambridge1947,Images\Cambridge\1947_Cambridge_Aerial_Photos
 images,,Cambridge1969,Cambridge1969,Images\Cambridge\1969_Cambridge_Aerial_Photos
