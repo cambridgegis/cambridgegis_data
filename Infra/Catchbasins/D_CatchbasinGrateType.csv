@@ -1,0 +1,27 @@
+code,description
+MHCOV,Manhole Cover
+V,Type V
+R,Type R
+Q,Type Q
+W,Type W
+D,Type D
+AM,Type AM
+BM,Type BM
+SM,Type SM
+AG,Type AG
+BG,Type BG
+SG,Type SG
+F,Type F
+P,Type P
+DG,Double Grate
+UNK,UnknownGrate
+OTH,Other
+C,C
+CL,CL
+TI,Type I
+TII,Type II
+CI,CI
+DRYW,DryWell
+WATCOV,Watertight Cover
+FS,Type FS
+CAS,CASCADE
