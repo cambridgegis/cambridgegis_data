@@ -98,9 +98,6 @@
         <attrlabl>inspectr</attrlabl>
       </attr>
       <attr>
-        <attrlabl>growspac</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>species</attrlabl>
       </attr>
       <attr>
@@ -110,19 +107,10 @@
         <attrlabl>trunks</attrlabl>
       </attr>
       <attr>
-        <attrlabl>def_cult</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>notes</attrlabl>
       </attr>
       <attr>
         <attrlabl>SiteType</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FormerSiteType</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SidewalkObstruction</attrlabl>
       </attr>
       <attr>
         <attrlabl>PlantDate</attrlabl>
@@ -149,18 +137,6 @@
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Diseases</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Pests</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>StructuralIssues</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DefectCodes</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>ProbabilityofFailure</attrlabl>
       </attr>
       <attr>
@@ -173,13 +149,7 @@
         <attrlabl>OtherRiskFactors</attrlabl>
       </attr>
       <attr>
-        <attrlabl>DescriptionOfOtherRisks</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>RiskRating</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>contracttype</attrlabl>
       </attr>
       <attr>
         <attrlabl>StreetNumber</attrlabl>
@@ -192,48 +162,6 @@
       </attr>
       <attr>
         <attrlabl>MemTree</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>D</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DW</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DEAD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CR</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>WBU</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PTA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LEAN</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>MCO</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PosD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PW</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PT</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>RT</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>M</attrlabl>
       </attr>
       <attr>
         <attrlabl>Location</attrlabl>
@@ -258,10 +186,16 @@
       <attr>
         <attrlabl>TreeGrateActionReq</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>BareRoot</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SpeciesNotes</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140206</metd>
+    <metd>20140305</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

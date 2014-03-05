@@ -1,2 +1,3 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,ASSESSING_TaxFY2014,ResidentialDistrictsFY2014,ASSESSING_ResidentialDistrictsFY2014,Assessing\FY2014\FY2014_Residential_Districts
+dpw,,Trash_LitterBarrel,DPW_LitterBarrels,DPW\Litter_Barrels
+dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
