@@ -1,3 +1,2 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-dpw,,Trash_LitterBarrel,DPW_LitterBarrels,DPW\Litter_Barrels
-dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
+water,Water_Distribution_Network,wHydrant,INFRA_Hydrants,Infra\Hydrants
