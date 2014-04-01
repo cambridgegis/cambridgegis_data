@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>UrbanForestry_Trees</title>
+        <title>DPW_StreetTrees</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>22304</ptvctcnt>
+        <ptvctcnt>30434</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -195,7 +195,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140305</metd>
+    <metd>20140401</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

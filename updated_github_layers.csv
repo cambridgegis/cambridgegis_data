@@ -1,2 +1,2 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-water,Water_Distribution_Network,wHydrant,INFRA_Hydrants,Infra\Hydrants
+dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
