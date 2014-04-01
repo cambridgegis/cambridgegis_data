@@ -114,14 +114,3 @@ dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
 dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
 dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
 water,Water_Distribution_Network,wHydrant,INFRA_Hydrants,Infra\Hydrants
-images,,Cambridge1947,Cambridge1947,Images\Cambridge\1947_Cambridge_Aerial_Photos
-images,,Cambridge1969,Cambridge1969,Images\Cambridge\1969_Cambridge_Aerial_Photos
-images,,Cambridge1995,Cambridge1995,Images\Cambridge\1995_Cambridge_Orthophotos
-images,,Cambridge2003,Cambridge2003,Images\Cambridge\2003_Cambridge_Orthophotos
-images,,Cambridge2010,Cambridge2010,Images\Cambridge\2010_Cambridge_Orthophotos
-images,,MassGIS2001,MassGIS2001,Images\MassGIS\2001_MassGIS_Orthophotos
-images,,MassGIS2011,MassGIS2011,Images\MassGIS\2011_MassGIS_Orthophotos
-images,,MassGIS2013,MassGIS2013,Images\MassGIS\2013_MassGIS_Orthophotos
-images,,Chase1865,Chase1865,Images\Other\1865_Chase_Map
-images,,Kodak2001,Kodak2001,Images\Other\2001_Kodak_Orthophotos
-images,,Walling1854,Walling1854,Images\Other\1854_Walling_Map
