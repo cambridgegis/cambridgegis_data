@@ -1,2 +1,3 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
+cambridge,,LANDMARK_YouthCenters,LANDMARK_YouthCenters,Landmark\Youth_Centers
+dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins

@@ -2,10 +2,14 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>dpw.GISDATA.CDPW_Catchbasin</title>
+        <title>INFRA_Catchbasin</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
+    <descript>
+      <abstract>Catchbasin</abstract>
+      <purpose>Catchbasin</purpose>
+    </descript>
     <spdom>
       <bounding>
         <westbc>-71.160787</westbc>
@@ -23,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>8735</ptvctcnt>
+        <ptvctcnt>8759</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -172,7 +176,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140228</metd>
+    <metd>20140403</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
