@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>TRANS.Intersections</title>
+        <title>TRANS_Intersections</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1861</ptvctcnt>
+        <ptvctcnt>1864</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -121,12 +121,14 @@
       </attr>
       <attr>
         <attrlabl>Street1</attrlabl>
+        <attrdef>Unpopulated</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
         <attrlabl>Street2</attrlabl>
+        <attrdef>Unpopulated</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -142,7 +144,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130906</metd>
+    <metd>20140415</metd>
     <metc>
       <cntinfo>
         <cntorgp>

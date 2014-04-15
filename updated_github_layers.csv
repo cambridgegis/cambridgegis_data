@@ -1,3 +1,10 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,,LANDMARK_YouthCenters,LANDMARK_YouthCenters,Landmark\Youth_Centers
-dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
+cambridge,,ADDRESS_AddressPoints,ADDRESS_AddressPoints,Address\Address_Points
+cambridge,,BASEMAP_Buildings,BASEMAP_Buildings,Basemap\Buildings
+cambridge,,BASEMAP_PublicFootpaths,BASEMAP_PublicFootpaths,Basemap\Public_Footpaths
+cambridge,TRANS_RoadCenterline,Intersections,TRANS_Intersections,Trans\Intersections
+cambridge,TRANS_RoadCenterline,Intersections,TRANS_Intersections,Trans\Intersections
+cambridge,,RECREATION_BikeFacilities,RECREATION_BikeFacilities,Recreation\Bike_Facilities
+cambridge,,RECREATION_OpenSpace,RECREATION_OpenSpace,Recreation\Open_Space
+cambridge,BASEMAP_PavementEdge,Roads,BASEMAP_Roads,Basemap\Roads
+cambridge,BASEMAP_PavementEdge,Sidewalks,BASEMAP_Sidewalks,Basemap\Sidewalks

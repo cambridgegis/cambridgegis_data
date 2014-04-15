@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -87,6 +87,7 @@
       </attr>
       <attr>
         <attrlabl>JOIN_ID</attrlabl>
+        <attrdef>Internal ID</attrdef>
       </attr>
       <attr>
         <attrlabl>FCODE</attrlabl>
@@ -160,15 +161,19 @@
       </attr>
       <attr>
         <attrlabl>NAME</attrlabl>
+        <attrdef>Name of feature</attrdef>
       </attr>
       <attr>
         <attrlabl>OWNER</attrlabl>
+        <attrdef>Owner of open space</attrdef>
       </attr>
       <attr>
         <attrlabl>OSCODE</attrlabl>
+        <attrdef>Defunct ID</attrdef>
       </attr>
       <attr>
         <attrlabl>RCODE</attrlabl>
+        <attrdef>Defunct ID</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -204,7 +209,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140107</metd>
+    <metd>20140415</metd>
     <metc>
       <cntinfo>
         <cntorgp>

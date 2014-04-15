@@ -50,7 +50,7 @@
     <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -93,7 +93,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>19077</ptvctcnt>
+        <ptvctcnt>19080</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -136,6 +136,7 @@
       </enttyp>
       <attr>
         <attrlabl>TYPE</attrlabl>
+        <attrdef>Type of building (building, outbuilding, ruin)</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -147,15 +148,19 @@
       </attr>
       <attr>
         <attrlabl>TOP_GL</attrlabl>
+        <attrdef>Elevation of highest point above ground level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>ELEV_SL</attrlabl>
+        <attrdef>Elevation of roofline edge above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>TOP_SL</attrlabl>
+        <attrdef>Elevation of highest point above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>BASE_ELEV</attrlabl>
+        <attrdef>Elevation of structure (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -167,12 +172,15 @@
       </attr>
       <attr>
         <attrlabl>BldgID</attrlabl>
+        <attrdef>Unique building ID in master address block</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date of last edit</attrdef>
       </attr>
       <attr>
         <attrlabl>ELEV_GL</attrlabl>
+        <attrdef>Elevation of roofline edge above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -183,7 +191,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140107</metd>
+    <metd>20140415</metd>
     <metc>
       <cntinfo>
         <cntorgp>

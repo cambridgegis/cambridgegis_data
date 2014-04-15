@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>20854</ptvctcnt>
+        <ptvctcnt>20859</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -79,6 +79,16 @@
         <enttypl>cambridge.gisdata.ADDRESS_AddressPoints</enttypl>
       </enttyp>
       <attr>
+        <attrlabl>BldgID</attrlabl>
+        <attrdef>Unique building ID</attrdef>
+        <attrdefs>Buildings</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ml</attrlabl>
+        <attrdef>Parcel ID (map-lot)</attrdef>
+        <attrdefs>Parcels</attrdefs>
+      </attr>
+      <attr>
         <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -87,28 +97,14 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>address_id</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>BldgID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ml</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>StNm</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>StName</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Full_Addr</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>TYPE</attrlabl>
+        <attrlabl>Entry</attrlabl>
+        <attrdef>Main point of entry</attrdef>
+        <attrdefs>Fied check</attrdefs>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date of last GIS edit</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -119,12 +115,45 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Entry</attrlabl>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Type of address (building, park, other)</attrdef>
+        <attrdefs>Field check and Cambridge GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>StNm</attrlabl>
+        <attrdef>Street Number</attrdef>
+        <attrdefs>Field and Cambridge GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>StName</attrlabl>
+        <attrdef>Street Name</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>address_id</attrlabl>
+        <attrdef>Unique address ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Full_Addr</attrlabl>
+        <attrdef>Full street number and address</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140107</metd>
+    <metd>20140415</metd>
     <metc>
       <cntinfo>
         <cntorgp>
