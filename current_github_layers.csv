@@ -113,4 +113,6 @@ dpw,,Trash_LitterBarrel,DPW_LitterBarrels,DPW\Litter_Barrels
 dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
 dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
 dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
+dpw,,StSweepDistricts,DPW_StreetSweepingDistricts,DPW\Street_Sweeping_Districts
+dpw,,StSweepRoads,DPW_StreetSweepingRoads,DPW\Street_Sweeping_Roads
 water,Water_Distribution_Network,wHydrant,INFRA_Hydrants,Infra\Hydrants
