@@ -2,6 +2,8 @@
 
 The City of Cambridge is committed to building repositories for data to be used by developers and for public consumption. Cambridge GIS has posted the majority of the data sets on this official City of Cambridge site. Larger size files which do not lend themselves to this site (such as elevation data, raster, and LiDAR) will soon be available for download at http://www.cambridgema.gov/GIS and also available on DVD or by stopping by our offices (by appointment) at 831 Massachusetts Avenue.
 
+All of these layer are also available for download in Shapefile and Esri File Geodatabase format on our website at http://www.cambridgema.gov/gis/gisdatadictionary/.
+
 # GeoJSON
 
 GitHub recognizes our GeoJSON files and creates interactive maps using Mapbox for most files. You can also view or download the raw GeoJSON using the 'Raw' button.
