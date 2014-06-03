@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.248940</westbc>
-        <eastbc>-71.068418</eastbc>
-        <northbc>42.434430</northbc>
-        <southbc>42.350296</southbc>
+        <westbc>-71.160364</westbc>
+        <eastbc>-71.068731</eastbc>
+        <northbc>42.403590</northbc>
+        <southbc>42.353373</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30300</ptvctcnt>
+        <ptvctcnt>29991</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -195,7 +195,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140506</metd>
+    <metd>20140603</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
