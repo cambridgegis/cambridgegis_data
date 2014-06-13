@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -94,18 +94,23 @@
       </attr>
       <attr>
         <attrlabl>DISTRICT</attrlabl>
+        <attrdef>District name</attrdef>
       </attr>
       <attr>
         <attrlabl>Congressman</attrlabl>
+        <attrdef>Name of current US representative for the district</attrdef>
       </attr>
       <attr>
         <attrlabl>NAME</attrlabl>
+        <attrdef>District Name</attrdef>
       </attr>
       <attr>
         <attrlabl>Party</attrlabl>
+        <attrdef>Party affiliation of current representative</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date of last edit</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -116,7 +121,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20131217</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

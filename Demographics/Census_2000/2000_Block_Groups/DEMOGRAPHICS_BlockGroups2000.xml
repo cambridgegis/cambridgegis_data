@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -116,6 +116,17 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>STFID</attrlabl>
+        <attrdef>Unique Block Group ID, Concatenation of FIPSSTCO, TRACT, and GROUP IDs</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.len</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>GROUP_</attrlabl>
         <attrdef>Block group number</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -130,17 +141,6 @@
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>STFID</attrlabl>
-        <attrdef>Unique Block Group ID, Concatenation of FIPSSTCO, TRACT, and GROUP IDs</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE.len</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -162,7 +162,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

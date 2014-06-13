@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>ASSESSING_ParcelMapIndex</title>
+        <title>ASSESSING_ParcelMapIndexFY2014</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>0</ptvctcnt>
+        <ptvctcnt>286</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -92,18 +92,23 @@
       </attr>
       <attr>
         <attrlabl>BSIZE_MAP_SCALE</attrlabl>
+        <attrdef>Scaling for 11 x 17 maps</attrdef>
       </attr>
       <attr>
         <attrlabl>BSIZE_INCH_TO_FOOT</attrlabl>
+        <attrdef>Scaling for 11 x 17 maps</attrdef>
       </attr>
       <attr>
         <attrlabl>DSIZE_MAP_SCALE</attrlabl>
+        <attrdef>Scaling for D size maps</attrdef>
       </attr>
       <attr>
         <attrlabl>DSIZE_INCH_TO_FOOT</attrlabl>
+        <attrdef>Scaling for D size maps</attrdef>
       </attr>
       <attr>
         <attrlabl>ROTATION</attrlabl>
+        <attrdef>Rotation angle for 11" x 17" map set</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -133,7 +138,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130924</metd>
+    <metd>20140403</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>City of Cambridge, MA</origin>
-        <title>INFRA_StreetLights</title>
+        <title>INFRA_StreetLights2010Flyover</title>
         <geoform>vector digital data</geoform>
         <pubinfo>
           <pubplace>Cambridge, MA, USA</pubplace>
@@ -13,7 +13,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>City of Cambridge, MA GIS basemap development project encompasses the land area of City of Cambridge with a 200 foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale.</abstract>
+      <abstract>City of Cambridge, MA GIS basemap development project encompasses the land area of City of Cambridge with a 200 foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale.THIS ONLY REFLECTS LIGHTS CAPTURED BY THE 2010 FLYOVER AND WAS NOT FIELD VERIFIED</abstract>
       <purpose>City of Cambridge 1" - 40' base map layers from an April 14, 2010 flyover. Basemap layers created by Infotech America.</purpose>
     </descript>
     <status>
@@ -68,7 +68,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -149,11 +149,12 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.INFRA_StreetLights</enttypl>
+        <enttypl>cambridge.gisdata.INFRA_StreetLights2010Flyover</enttypl>
         <enttypd>Street infrastructure (INFRA) or furniture is a collective term for objects and pieces of equipment installed on streets and roads within right-of-way for various purposes, including utility features such as Catch Basin (storm drain), Fire Hydrant, Light Poles, Utility poles with Streetlights, traffic lights, Traffic signs, Pedestrian Ramps, etc represented as point features.</enttypd>
       </enttyp>
       <attr>
         <attrlabl>ELEV</attrlabl>
+        <attrdef>Elevation of top of street light above sea level</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -174,7 +175,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140107</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

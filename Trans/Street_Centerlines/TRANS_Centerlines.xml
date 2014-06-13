@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>TRANS.Centerline</title>
+        <title>TRANS_Centerlines</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>2611</ptvctcnt>
+        <ptvctcnt>2613</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -186,30 +186,38 @@
       </attr>
       <attr>
         <attrlabl>ZIP_Left</attrlabl>
+        <attrdef>Left side zip code</attrdef>
       </attr>
       <attr>
         <attrlabl>ZIP_Right</attrlabl>
+        <attrdef>Right side zip code</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date of last edit</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>Potential_L_From</attrlabl>
+        <attrdef>Potential left side address range 'from'</attrdef>
       </attr>
       <attr>
         <attrlabl>Potential_L_To</attrlabl>
+        <attrdef>Potential left side address range 'to'</attrdef>
       </attr>
       <attr>
         <attrlabl>Potential_R_From</attrlabl>
+        <attrdef>Potential right side address range 'from'</attrdef>
       </attr>
       <attr>
         <attrlabl>Potential_R_To</attrlabl>
+        <attrdef>Potential right side address range 'to'</attrdef>
       </attr>
       <attr>
         <attrlabl>Potentail_Range_Done</attrlabl>
+        <attrdef>Potential range researched and populated</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape.len</attrlabl>
@@ -229,7 +237,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140107</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

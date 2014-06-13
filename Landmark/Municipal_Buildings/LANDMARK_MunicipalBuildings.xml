@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -86,6 +86,7 @@
       </attr>
       <attr>
         <attrlabl>SITE_NAME</attrlabl>
+        <attrdef>Name of building</attrdef>
       </attr>
       <attr>
         <attrlabl>ADDRESS</attrlabl>
@@ -123,7 +124,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

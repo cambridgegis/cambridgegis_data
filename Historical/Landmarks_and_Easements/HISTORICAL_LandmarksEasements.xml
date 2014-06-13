@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Historical Commission</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -103,9 +103,11 @@
       </attr>
       <attr>
         <attrlabl>BLOCK</attrlabl>
+        <attrdef>Assessing block number</attrdef>
       </attr>
       <attr>
         <attrlabl>LOT</attrlabl>
+        <attrdef>Assessing lot number</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -120,6 +122,7 @@
       </attr>
       <attr>
         <attrlabl>PropertyType</attrlabl>
+        <attrdef>Type of protection on the property</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
@@ -144,7 +147,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -156,8 +159,9 @@
           <addrtype>mailing and physical</addrtype>
           <address>831 Massachusetts Ave</address>
           <city>Cambridge</city>
-          <state>MA</state>
+          <state>Massachusetts</state>
           <postal>02139</postal>
+          <country>US</country>
         </cntaddr>
         <cntvoice>617-349-4140</cntvoice>
         <cntemail>CambridgeGIS@cambridgema.gov</cntemail>

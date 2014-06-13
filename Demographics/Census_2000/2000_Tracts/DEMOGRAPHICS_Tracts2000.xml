@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -113,6 +113,17 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>STFID</attrlabl>
+        <attrdef>Concatenation of FIPSSTCO and TRT2000</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.len</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>TRT2000</attrlabl>
         <attrdef>Unique 4-digit tract ID plus 00 used in some Census data files</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -127,17 +138,6 @@
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>STFID</attrlabl>
-        <attrdef>Concatenation of FIPSSTCO and TRT2000</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE.len</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -159,7 +159,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

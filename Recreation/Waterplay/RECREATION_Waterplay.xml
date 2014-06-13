@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -95,18 +95,23 @@
       </attr>
       <attr>
         <attrlabl>PARK</attrlabl>
+        <attrdef>Park which waterplay resides</attrdef>
       </attr>
       <attr>
         <attrlabl>Size</attrlabl>
+        <attrdef>Size of waterplay equipment</attrdef>
       </attr>
       <attr>
         <attrlabl>Status</attrlabl>
+        <attrdef>Status of waterplay area</attrdef>
       </attr>
       <attr>
         <attrlabl>JOIN_ID</attrlabl>
+        <attrdef>Used for internal mapping</attrdef>
       </attr>
       <attr>
         <attrlabl>LOCATION</attrlabl>
+        <attrdef>Street which waterplay is located</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -123,7 +128,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20131015</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

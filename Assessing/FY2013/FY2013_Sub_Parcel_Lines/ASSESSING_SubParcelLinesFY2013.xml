@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>ASSESSING_SitedParcelLinesFY2013</title>
+        <title>ASSESSING_SubParcelLinesFY2013</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -34,7 +34,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -106,7 +106,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130814</metd>
+    <metd>20140331</metd>
     <metc>
       <cntinfo>
         <cntorgp>

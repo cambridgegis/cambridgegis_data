@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>ASSESSING_ResidentialDistricts</title>
+        <title>ASSESSING_ResidentialDistrictsFY2014</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -13,7 +13,7 @@
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063809</eastbc>
+        <eastbc>-71.063810</eastbc>
         <northbc>42.403841</northbc>
         <southbc>42.352358</southbc>
       </bounding>
@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>0</ptvctcnt>
+        <ptvctcnt>19</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -117,7 +117,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130924</metd>
+    <metd>20140331</metd>
     <metc>
       <cntinfo>
         <cntorgp>

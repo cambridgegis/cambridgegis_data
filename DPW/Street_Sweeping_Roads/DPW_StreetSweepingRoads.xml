@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>City of Cambridge, MA</origin>
-        <title>Street Sweeping Roads</title>
+        <title>DPW_StreetSweepingRoads</title>
         <geoform>vector digital data</geoform>
         <pubinfo>
           <pubplace>Cambridge, MA, USA</pubplace>
@@ -191,7 +191,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140425</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

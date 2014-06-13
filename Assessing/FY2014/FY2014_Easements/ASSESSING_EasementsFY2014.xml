@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>ASSESSING_Easements</title>
+        <title>ASSESSING_EasementsFY2014</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -13,8 +13,8 @@
     <spdom>
       <bounding>
         <westbc>-71.159664</westbc>
-        <eastbc>-71.071554</eastbc>
-        <northbc>42.401174</northbc>
+        <eastbc>-71.071555</eastbc>
+        <northbc>42.401166</northbc>
         <southbc>42.353286</southbc>
       </bounding>
     </spdom>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>0</ptvctcnt>
+        <ptvctcnt>1150</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -111,7 +111,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130924</metd>
+    <metd>20140403</metd>
     <metc>
       <cntinfo>
         <cntorgp>

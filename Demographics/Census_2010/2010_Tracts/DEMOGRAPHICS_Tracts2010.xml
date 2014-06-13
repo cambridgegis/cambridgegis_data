@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -84,6 +84,29 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>MTFCC10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALAND10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AWATER10</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>SHAPE</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -120,33 +143,10 @@
       <attr>
         <attrlabl>NAMELSAD10</attrlabl>
       </attr>
-      <attr>
-        <attrlabl>MTFCC10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FUNCSTAT10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ALAND10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>AWATER10</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>INTPTLAT10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>INTPTLON10</attrlabl>
-      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

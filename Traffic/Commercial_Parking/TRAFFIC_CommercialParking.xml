@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -86,27 +86,35 @@
       </attr>
       <attr>
         <attrlabl>Id</attrlabl>
+        <attrdef>Unused ID</attrdef>
       </attr>
       <attr>
         <attrlabl>DESCRIPTIO</attrlabl>
+        <attrdef>Description of parking facility</attrdef>
       </attr>
       <attr>
         <attrlabl>ML</attrlabl>
+        <attrdef>Assessor Block and Lot</attrdef>
       </attr>
       <attr>
         <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Address of facility</attrdef>
       </attr>
       <attr>
         <attrlabl>ACCESSVIA</attrlabl>
+        <attrdef>Street where lot is accessible</attrdef>
       </attr>
       <attr>
         <attrlabl>STRUCTURE</attrlabl>
+        <attrdef>Type of structure or lot</attrdef>
       </attr>
       <attr>
         <attrlabl>OWNTYPE</attrlabl>
+        <attrdef>Owner type (private, municipal, ect.)</attrdef>
       </attr>
       <attr>
         <attrlabl>TOTALSP</attrlabl>
+        <attrdef>Total number of spaces</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
@@ -121,6 +129,7 @@
       </attr>
       <attr>
         <attrlabl>COMMSPAC</attrlabl>
+        <attrdef>Commercial spaces</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -136,7 +145,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

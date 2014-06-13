@@ -34,7 +34,7 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
     <accconst>None</accconst>
     <useconst>None, but to be used for planning purposes only</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -138,7 +138,7 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130814</metd>
+    <metd>20140331</metd>
     <metc>
       <cntinfo>
         <cntorgp>

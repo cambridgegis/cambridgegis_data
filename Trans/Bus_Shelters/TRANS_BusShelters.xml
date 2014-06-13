@@ -68,7 +68,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -162,15 +162,19 @@
       </attr>
       <attr>
         <attrlabl>TOP_GL</attrlabl>
+        <attrdef>Elevation of highest point above ground level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>ELEV_SL</attrlabl>
+        <attrdef>Elevation of roofline edge above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>TOP_SL</attrlabl>
+        <attrdef>Elevation of highest point above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>BASE_ELEV</attrlabl>
+        <attrdef>Elevation of structure (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -182,45 +186,58 @@
       </attr>
       <attr>
         <attrlabl>Comments</attrlabl>
+        <attrdef>Comments about shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date of last edit</attrdef>
       </attr>
       <attr>
         <attrlabl>STOP_ID</attrlabl>
+        <attrdef>MBTA Bus Stop ID</attrdef>
       </attr>
       <attr>
         <attrlabl>STOP_NAME</attrlabl>
+        <attrdef>MBTA Bus Stop name</attrdef>
       </attr>
       <attr>
         <attrlabl>OID_</attrlabl>
+        <attrdef>Internal ID</attrdef>
       </attr>
       <attr>
         <attrlabl>XLS_NO</attrlabl>
+        <attrdef>Internal ID</attrdef>
       </attr>
       <attr>
         <attrlabl>STREET</attrlabl>
+        <attrdef>Street which bus shelter is on</attrdef>
       </attr>
       <attr>
         <attrlabl>X_STREET</attrlabl>
+        <attrdef>Cross street for bus shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>DIRECTION</attrlabl>
+        <attrdef>inbound or outbound</attrdef>
       </attr>
       <attr>
         <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Address of bus shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>STYLE</attrlabl>
+        <attrdef>Style of bus shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>QUANTITY</attrlabl>
+        <attrdef>Number of shelters at bus stop</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>ELEV_GL</attrlabl>
+        <attrdef>Elevation of roofline edge above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -231,7 +248,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

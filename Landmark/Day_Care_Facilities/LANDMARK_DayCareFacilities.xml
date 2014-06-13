@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, Health and Human Services (DHSP), DPW</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -86,9 +86,11 @@
       </attr>
       <attr>
         <attrlabl>PUBLICPRIV</attrlabl>
+        <attrdef>Private of public facility</attrdef>
       </attr>
       <attr>
         <attrlabl>OWNER</attrlabl>
+        <attrdef>Owner of public facilities</attrdef>
       </attr>
       <attr>
         <attrlabl>SITE_NAME</attrlabl>
@@ -100,12 +102,15 @@
       </attr>
       <attr>
         <attrlabl>PHONE</attrlabl>
+        <attrdef>Telephone number of facility</attrdef>
       </attr>
       <attr>
         <attrlabl>SHELTER</attrlabl>
+        <attrdef>Denotes whether the school acts as an emergency shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>SHEL_CAP</attrlabl>
+        <attrdef>Capacity of shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -135,7 +140,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

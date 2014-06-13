@@ -53,26 +53,8 @@
     </keywords>
     <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
     <useconst>None</useconst>
-    <ptcontac>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>MA</state>
-          <postal>02139</postal>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </ptcontac>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -158,6 +140,7 @@
       </enttyp>
       <attr>
         <attrlabl>TYPE</attrlabl>
+        <attrdef>Type of wall (retaining, sitting, urban plaza structure, other)</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -181,7 +164,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -193,8 +176,9 @@
           <addrtype>mailing and physical</addrtype>
           <address>831 Massachusetts Ave</address>
           <city>Cambridge</city>
-          <state>MA</state>
+          <state>Massachusetts</state>
           <postal>02139</postal>
+          <country>US</country>
         </cntaddr>
         <cntvoice>617-349-4140</cntvoice>
         <cntemail>CambridgeGIS@cambridgema.gov</cntemail>

@@ -49,7 +49,7 @@
     <accconst>None</accconst>
     <useconst>No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty. FEMA will warrant the delivery of this product in a computer-readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site.</useconst>
     <datacred>Federal Emergency Management Agency</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -151,7 +151,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -163,8 +163,9 @@
           <addrtype>mailing and physical</addrtype>
           <address>831 Massachusetts Ave</address>
           <city>Cambridge</city>
-          <state>MA</state>
+          <state>Massachusetts</state>
           <postal>02139</postal>
+          <country>US</country>
         </cntaddr>
         <cntvoice>617-349-4140</cntvoice>
         <cntemail>CambridgeGIS@cambridgema.gov</cntemail>

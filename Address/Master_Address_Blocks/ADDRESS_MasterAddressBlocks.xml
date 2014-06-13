@@ -21,7 +21,7 @@
     <accconst>None</accconst>
     <useconst>This layer is available for staff and public use without limitations</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -119,7 +119,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -127,6 +127,16 @@
           <cntper>Cambridge GIS</cntper>
         </cntorgp>
         <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>Massachusetts</state>
+          <postal>02139</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
       </cntinfo>
     </metc>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>

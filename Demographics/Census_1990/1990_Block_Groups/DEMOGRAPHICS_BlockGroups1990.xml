@@ -2,10 +2,14 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>cambridge.GISDATA.BlockGroups1990</title>
+        <title>DEMOGRAPHICS_BlockGroups1990</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
+    <descript>
+      <abstract>This polygon layer contains the boundaries of the 94 block groups in the City of Cambridge for the 1990 US Census.</abstract>
+      <purpose>Created for spatial analysis of associated Census 1990 demographic data. Used for planning, mapping, and Community Development Block Grant (CBDG) purposes by the Community Development Department.</purpose>
+    </descript>
     <spdom>
       <bounding>
         <westbc>-71.160558</westbc>
@@ -14,9 +18,15 @@
         <southbc>42.352358</southbc>
       </bounding>
     </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Census block groups</themekey>
+      </theme>
+    </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -106,7 +116,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

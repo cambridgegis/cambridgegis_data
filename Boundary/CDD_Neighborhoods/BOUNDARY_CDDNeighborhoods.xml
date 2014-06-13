@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Created for the establishment of neighborhood planning groups, administration of Community Development Block Group )(CDBG) programs, Community Development Departmetn (CDD) staff allocation, and for mapping and analysis purposes.</abstract>
+      <abstract>Created for the establishment of neighborhood planning groups, administration of Community Development Block Group )(CDBG) programs, Community Development Department (CDD) staff allocation, and for mapping and analysis purposes.</abstract>
       <purpose>This polygon layer contains the boundaries of the City of Cambridge's thirteen neighborhoods.</purpose>
     </descript>
     <spdom>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -160,6 +160,7 @@
       </attr>
       <attr>
         <attrlabl>Webpage</attrlabl>
+        <attrdef>Used for internal mapping</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape.area</attrlabl>
@@ -181,7 +182,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
@@ -193,8 +194,9 @@
           <addrtype>mailing and physical</addrtype>
           <address>831 Massachusetts Ave</address>
           <city>Cambridge</city>
-          <state>MA</state>
+          <state>Massachusetts</state>
           <postal>02139</postal>
+          <country>US</country>
         </cntaddr>
         <cntvoice>617-349-4140</cntvoice>
         <cntemail>CambridgeGIS@cambridgema.gov</cntemail>

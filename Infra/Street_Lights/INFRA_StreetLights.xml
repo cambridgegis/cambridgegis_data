@@ -2,41 +2,28 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>INFRA_StreetLightsNSTAR2005</title>
+        <title>cambridge.gisdata.INFRA_StreetLights</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>NSTAR Electric previously owned the street lights in Cambridge. This layer reflects the lights through 2005 mapped and maintained by NSTAR Electric</abstract>
-      <purpose>Street Lights within Cambridge from NSTAR Electric</purpose>
-    </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160016</westbc>
-        <eastbc>-71.070245</eastbc>
-        <northbc>42.403956</northbc>
-        <southbc>42.352834</southbc>
+        <westbc>-71.160021</westbc>
+        <eastbc>-71.070185</eastbc>
+        <northbc>42.403954</northbc>
+        <southbc>42.352833</southbc>
       </bounding>
     </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>City of Cambridge</themekey>
-        <themekey>Street Lights</themekey>
-        <themekey>NSTAR</themekey>
-      </theme>
-    </keywords>
     <accconst>None</accconst>
-    <useconst>Layer ihas not been updated after1995 and not validated by the City of Cambridge.</useconst>
-    <datacred>NSTAR Electric</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>5646</ptvctcnt>
+        <ptvctcnt>6026</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -57,8 +44,8 @@
         <planci>
           <plance>coordinate pair</plance>
           <coordrep>
-            <absres>0.00006400000005960467</absres>
-            <ordres>0.00006400000005960467</ordres>
+            <absres>0.00032808333333333333</absres>
+            <ordres>0.00032808333333333333</ordres>
           </coordrep>
           <plandu>foot_us</plandu>
         </planci>
@@ -74,183 +61,73 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.GISDATA.INFRA_StreetLightsNSTAR2005</enttypl>
+        <enttypl>cambridge.gisdata.INFRA_StreetLights</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>OBJECTID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>POINT_TAG</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>NTAG</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OLDNODE_TA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OLDPOINT_T</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>POINT_TYPE</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>POINT_SUBT</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CKT_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FEATURE_ST</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SYMBOL</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>GROUP_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>POLE_TYPE_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>EQUIP_LOCN</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>STR_NAME</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>STR_DES</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>INTERSECTI</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LUMENS</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>BRACKET_CD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LMP_CLASS_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LMP_INSTL_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LMP_TYPE</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LOCN_ATTAC</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SCHD_BURN_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SERV_TYPE_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>TRANS_PEND</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DATE_ATTAC</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DATE_BILL_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>QTY_UNIT_L</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FIRE_BOX_L</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>NPOLE_TAG</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CNTL_TY</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LAMP_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>NO_LAMP</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ERR_FLAG</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ERR_DESC</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CREATE__ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>VER_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>VER_END</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OID_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LOCK__ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PHASE__ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OBJECT__ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE</attrlabl>
+        <attrlabl>Shape</attrlabl>
         <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>GlobalID</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PoleID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>StreetName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>StreetSuffix</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Intersection</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NumLamps</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EditDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Description</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Owner</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LEDchk</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Neighborhood</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Street_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Pole_Num</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FixtureType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Lamp1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Lamp2</attrlabl>
       </attr>
     </detailed>
   </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>SDE Feature Class</formname>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
   <metainfo>
-    <metd>20130814</metd>
-    <metc>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>MA</state>
-          <postal>02139</postal>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </metc>
+    <metd>20140613</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

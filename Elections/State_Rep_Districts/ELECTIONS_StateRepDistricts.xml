@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -86,12 +86,25 @@
       </attr>
       <attr>
         <attrlabl>DISTRICT</attrlabl>
+        <attrdef>State Representative district name</attrdef>
       </attr>
       <attr>
         <attrlabl>REP</attrlabl>
+        <attrdef>Name of current state representative for the district</attrdef>
       </attr>
       <attr>
         <attrlabl>Party</attrlabl>
+        <attrdef>Party affiliation of current representative</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
@@ -108,19 +121,8 @@
       </attr>
       <attr>
         <attrlabl>PARTY</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrdef>This field is not used</attrdef>
         <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape.area</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape.len</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
@@ -139,7 +141,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20131015</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

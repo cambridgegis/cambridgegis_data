@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>Street Sweeping Districts</title>
+        <title>DPW_StreetSweepingDistricts</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -102,7 +102,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140425</metd>
+    <metd>20140613</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

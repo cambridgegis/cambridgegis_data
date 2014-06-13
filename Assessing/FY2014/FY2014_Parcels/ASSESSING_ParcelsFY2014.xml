@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>ASSESSING_Parcels</title>
+        <title>ASSESSING_ParcelsFY2014</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -17,7 +17,7 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
         <westbc>-71.160327</westbc>
         <eastbc>-71.065207</eastbc>
         <northbc>42.403841</northbc>
-        <southbc>42.351870</southbc>
+        <southbc>42.351909</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -34,14 +34,14 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
     <accconst>None</accconst>
     <useconst>None, but to be used for planning purposes only</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>0</ptvctcnt>
+        <ptvctcnt>13116</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -103,6 +103,7 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
       </attr>
       <attr>
         <attrlabl>UYEAR</attrlabl>
+        <attrdef>Fiscal Year updated</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -122,15 +123,19 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
       </attr>
       <attr>
         <attrlabl>LOC_ID</attrlabl>
+        <attrdef>Uniqe ID used for MassGIS Statewide parcel layer</attrdef>
       </attr>
       <attr>
         <attrlabl>POLY_TYPE</attrlabl>
+        <attrdef>Type of parcel used for MassGIS Statewide parcel layer</attrdef>
       </attr>
       <attr>
         <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source of parcel edit</attrdef>
       </attr>
       <attr>
         <attrlabl>PLAN_ID</attrlabl>
+        <attrdef>Plan ID used for MassGIS Statewide parcel layer</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE.area</attrlabl>
@@ -152,7 +157,7 @@ NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130924</metd>
+    <metd>20140403</metd>
     <metc>
       <cntinfo>
         <cntorgp>

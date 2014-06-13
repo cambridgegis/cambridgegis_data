@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3176</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -92,14 +92,27 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>SHELTER</attrlabl>
+        <attrdef>Field is 'YES'</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHEL_FOOD</attrlabl>
+        <attrdef>Denotes whether the foo  is served at the shelter</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHEL_CAP</attrlabl>
+        <attrdef>Capacity of shelter</attrdef>
+      </attr>
+      <attr>
         <attrlabl>MED_FAC</attrlabl>
+        <attrdef>Denotes whether the shelter has medical facilities</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrdef>Date of last edit</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -115,30 +128,27 @@
       </attr>
       <attr>
         <attrlabl>CONCATEID</attrlabl>
+        <attrdef>Building ID</attrdef>
       </attr>
       <attr>
         <attrlabl>Address</attrlabl>
+        <attrdef>Address of shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>Capacity</attrlabl>
+        <attrdef>Capacity of shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>Phone</attrlabl>
+        <attrdef>Phone number of shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>Name</attrlabl>
+        <attrdef>Name of shelter</attrdef>
       </attr>
       <attr>
         <attrlabl>ZipCode</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHELTER</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHEL_FOOD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHEL_CAP</attrlabl>
+        <attrdef>Shelter zip code</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -155,7 +165,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20130815</metd>
+    <metd>20140613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
