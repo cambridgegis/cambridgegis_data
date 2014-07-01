@@ -119,6 +119,9 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
+        <attrlabl>Article</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>SHAPE.area</attrlabl>
       </attr>
       <attr>
@@ -138,7 +141,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20140701</metd>
     <metc>
       <cntinfo>
         <cntorgp>

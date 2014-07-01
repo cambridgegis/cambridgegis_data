@@ -19,7 +19,7 @@
         <westbc>-71.160170</westbc>
         <eastbc>-71.067549</eastbc>
         <northbc>42.403600</northbc>
-        <southbc>42.353199</southbc>
+        <southbc>42.353197</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>20857</ptvctcnt>
+        <ptvctcnt>20871</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -153,7 +153,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20140701</metd>
     <metc>
       <cntinfo>
         <cntorgp>
