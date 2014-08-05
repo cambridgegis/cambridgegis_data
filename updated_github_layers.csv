@@ -1,17 +1,4 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,,ADDRESS_AddressPoints,ADDRESS_AddressPoints,Address\Address_Points
-cambridge,,BASEMAP_Buildings,BASEMAP_Buildings,Basemap\Buildings
-cambridge,,BASEMAP_Driveways,BASEMAP_Driveways,Basemap\Driveways
-cambridge,,BASEMAP_PrivateWalkways,BASEMAP_PrivateWalkways,Basemap\Private_Walkways
-cambridge,TRANS_RoadCenterline,Centerline,TRANS_Centerlines,Trans\Street_Centerlines
-cambridge,TRANS_RoadCenterline,Intersections,TRANS_Intersections,Trans\Intersections
-cambridge,,LANDMARK_MemorialPoles,LANDMARK_MemorialPoles,Landmark\Memorial_Poles
-cambridge,,RECREATION_BikeFacilities,RECREATION_BikeFacilities,Recreation\Bike_Facilities
-cambridge,,RECREATION_OpenSpace,RECREATION_OpenSpace,Recreation\Open_Space
-cambridge,BASEMAP_PavementEdge,Roads,BASEMAP_Roads,Basemap\Roads
-cambridge,BASEMAP_PavementEdge,Sidewalks,BASEMAP_Sidewalks,Basemap\Sidewalks
-cambridge,,TRAFFIC_MeteredParkingSpaces,TRAFFIC_MeteredParkingSpaces,Traffic\Metered_Parking_Spaces
-cambridge,CDD_Zoning,ZoningOverlayDistricts,CDD_ZoningOverlayDistricts,CDD\Zoning_Overlay_Districts
 dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
 dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
 dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
