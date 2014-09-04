@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>29956</ptvctcnt>
+        <ptvctcnt>30006</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -195,7 +195,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140805</metd>
+    <metd>20140904</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
