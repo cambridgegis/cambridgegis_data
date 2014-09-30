@@ -1,2 +1,7 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,,CDD_LandUse,CDD_LandUse,CDD\Land_Use
+cambridge,,RECREATION_CommunityGardens,RECREATION_CommunityGardens,Recreation\Community_Gardens
+cambridge,CDD_Zoning,ZoningDistricts,CDD_ZoningDistricts,CDD\Zoning_Districts
+cambridge,,LANDMARK_ElderlyFacilities,LANDMARK_ElderlyFacilities,Landmark\Elderly_Facilities
+dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
+dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
+dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins

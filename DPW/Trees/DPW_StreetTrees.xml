@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30006</ptvctcnt>
+        <ptvctcnt>29995</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -178,9 +178,6 @@
         <attrlabl>Ownership</attrlabl>
       </attr>
       <attr>
-        <attrlabl>TreeGrate</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>ADACompliant</attrlabl>
       </attr>
       <attr>
@@ -192,10 +189,13 @@
       <attr>
         <attrlabl>SpeciesNotes</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>TreeWellCover</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140904</metd>
+    <metd>20140930</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

@@ -39,7 +39,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>22</ptvctcnt>
+        <ptvctcnt>23</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -131,7 +131,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20140930</metd>
     <metc>
       <cntinfo>
         <cntorgp>
