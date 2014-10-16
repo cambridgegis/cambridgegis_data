@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.208771</westbc>
-        <eastbc>-71.064251</eastbc>
-        <northbc>42.435193</northbc>
-        <southbc>42.351654</southbc>
+        <westbc>-71.209145</westbc>
+        <eastbc>-71.063349</eastbc>
+        <northbc>42.435689</northbc>
+        <southbc>42.351651</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>498</ptvctcnt>
+        <ptvctcnt>497</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -207,7 +207,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140701</metd>
+    <metd>20141015</metd>
     <metc>
       <cntinfo>
         <cntorgp>
