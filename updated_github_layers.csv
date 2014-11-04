@@ -1,2 +1,4 @@
 Database,Source Dataset,Source Name,Destination Name,Destination Path
-cambridge,ASSESSING_TaxFY2015,SitedParcelLinesFY2015,ASSESSING_SubParcelLinesFY2015,Assessing\FY2015\FY2015_Sub_Parcel_Lines
+dpw,,Eng_Ramp,DPW_PedestrianRamps,DPW\Pedestrian_Ramps
+dpw,,UrbanForestry_Trees,DPW_StreetTrees,DPW\Trees
+dpw,SewerStormwaterData,CDPW_Catchbasin,INFRA_Catchbasin,Infra\Catchbasins
