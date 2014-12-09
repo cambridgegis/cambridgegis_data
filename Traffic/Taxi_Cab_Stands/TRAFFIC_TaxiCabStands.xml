@@ -1,0 +1,139 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>TRAFFIC_TaxiCabStands</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Created for the License Commission. Includes location, hours, and number of spaces for each Taxi Stand location in the city.</abstract>
+      <purpose>Taxi Stand locations around the City of Cambridge.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.142609</westbc>
+        <eastbc>-71.074833</eastbc>
+        <northbc>42.397660</northbc>
+        <southbc>42.354555</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>location</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>Taxi</themekey>
+        <themekey>Taxi Stands</themekey>
+        <themekey>Cab</themekey>
+        <themekey>Cab Stands</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>City of Cambridge GIS</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3574</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>37</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TRAFFIC_TaxiCabStands</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Location</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hours</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Spaces</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20141209</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
