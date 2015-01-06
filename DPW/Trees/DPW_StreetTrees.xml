@@ -12,9 +12,9 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160364</westbc>
+        <westbc>-71.159683</westbc>
         <eastbc>-71.068731</eastbc>
-        <northbc>42.403590</northbc>
+        <northbc>42.403588</northbc>
         <southbc>42.353373</southbc>
       </bounding>
     </spdom>
@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3574</native>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>29995</ptvctcnt>
+        <ptvctcnt>30009</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -75,7 +75,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>dpw.gisdata.UrbanForestry_Trees</enttypl>
+        <enttypl>DPW_StreetTrees</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -195,7 +195,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20141202</metd>
+    <metd>20150106</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
