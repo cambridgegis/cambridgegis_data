@@ -12,9 +12,9 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.157671</westbc>
+        <westbc>-71.158345</westbc>
         <eastbc>-71.063810</eastbc>
-        <northbc>42.403833</northbc>
+        <northbc>42.403835</northbc>
         <southbc>42.353423</southbc>
       </bounding>
     </spdom>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None. For planning purposes only.</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>48</ptvctcnt>
+        <ptvctcnt>50</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -74,7 +74,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.GISDATA.ZoningOverlayDistricts</enttypl>
+        <enttypl>CDD_ZoningOverlayDistricts</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -122,10 +122,20 @@
         <attrlabl>Article</attrlabl>
       </attr>
       <attr>
-        <attrlabl>SHAPE.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -141,7 +151,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140701</metd>
+    <metd>20150304</metd>
     <metc>
       <cntinfo>
         <cntorgp>

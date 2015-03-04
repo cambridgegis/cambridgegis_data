@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -192,10 +192,25 @@
       <attr>
         <attrlabl>TreeWellCover</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>FloweringApril</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FloweringMay</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FloweringJune</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FloweringJuly</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FloweringAugust</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150106</metd>
+    <metd>20150304</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.155964</westbc>
-        <eastbc>-71.078306</eastbc>
-        <northbc>42.391918</northbc>
-        <southbc>42.363494</southbc>
+        <westbc>-71.155960</westbc>
+        <eastbc>-71.078312</eastbc>
+        <northbc>42.391055</northbc>
+        <southbc>42.364173</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>28</ptvctcnt>
+        <ptvctcnt>24</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -74,12 +74,12 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.LANDMARK_MunicipalBuildings</enttypl>
+        <enttypl>LANDMARK_MunicipalBuildings</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>OBJECTID_1</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
@@ -124,7 +124,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20150304</metd>
     <metc>
       <cntinfo>
         <cntorgp>
