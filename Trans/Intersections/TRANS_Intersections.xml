@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -74,7 +74,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.GISDATA.Intersections</enttypl>
+        <enttypl>TRANS_Intersections</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -144,7 +144,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20141015</metd>
+    <metd>20150406</metd>
     <metc>
       <cntinfo>
         <cntorgp>

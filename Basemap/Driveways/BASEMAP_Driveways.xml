@@ -50,7 +50,7 @@
     <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -93,7 +93,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>8803</ptvctcnt>
+        <ptvctcnt>8802</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -131,7 +131,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.BASEMAP_Driveways</enttypl>
+        <enttypl>BASEMAP_Driveways</enttypl>
         <enttypd>A driveway is a type of private road for local access to one or a small group of structures, and is owned and maintained by an individual or group. Paved driveways are generally asphalt or concrete surfaces. Paved and/or unpaved driveways are collected as polygon feature.</enttypd>
       </enttyp>
       <attr>
@@ -155,15 +155,25 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20141015</metd>
+    <metd>20150406</metd>
     <metc>
       <cntinfo>
         <cntorgp>
