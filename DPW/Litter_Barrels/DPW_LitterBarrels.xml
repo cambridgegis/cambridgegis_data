@@ -13,8 +13,8 @@
     <spdom>
       <bounding>
         <westbc>-71.157278</westbc>
-        <eastbc>-71.075749</eastbc>
-        <northbc>42.400902</northbc>
+        <eastbc>-71.075750</eastbc>
+        <northbc>42.400807</northbc>
         <southbc>42.353921</southbc>
       </bounding>
     </spdom>
@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1115</ptvctcnt>
+        <ptvctcnt>1108</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -75,7 +75,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>dpw.gisdata.Trash_LitterBarrel</enttypl>
+        <enttypl>DPW_LitterBarrels</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -125,7 +125,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20150407</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
