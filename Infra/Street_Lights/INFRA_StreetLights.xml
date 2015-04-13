@@ -2,28 +2,62 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>cambridge.gisdata.INFRA_StreetLights</title>
+        <title>INFRA_StreetLights</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
+    <descript>
+      <abstract>The City of Cambridge owns and maintains most street lights in the City. These were purchased from NSTAR in 2005. Types of lights include Cobrahead (most typical), and various types of decorative lighting. Park Lights are in a separate layer. Some street lights are owned by other organizations. DCR, the State, and Universities all own lights along the roadways they maintain. These street lights are in a layer 'StreetLightsNonCity'</abstract>
+      <purpose>This layer has all City of Cambridge owned street lights. These lights are maintained by the Cambridge Electrical Department.</purpose>
+    </descript>
+    <status>
+      <update>Continually</update>
+    </status>
     <spdom>
       <bounding>
-        <westbc>-71.160021</westbc>
-        <eastbc>-71.070185</eastbc>
-        <northbc>42.403954</northbc>
-        <southbc>42.352833</southbc>
+        <westbc>-71.160017</westbc>
+        <eastbc>-71.068686</eastbc>
+        <northbc>42.402560</northbc>
+        <southbc>42.353642</southbc>
       </bounding>
     </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>street lights</themekey>
+        <themekey>LED</themekey>
+        <themekey>Electrical</themekey>
+        <themekey>lights</themekey>
+      </theme>
+    </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Cambridge</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>6026</ptvctcnt>
+        <ptvctcnt>6049</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -61,7 +95,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.INFRA_StreetLights</enttypl>
+        <enttypl>cambridge.GISDATA.INFRA_StreetLights</enttypl>
       </enttyp>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -81,53 +115,100 @@
       </attr>
       <attr>
         <attrlabl>PoleID</attrlabl>
+        <attrdef>Unique ID for each street light. This number is also marked on each pole.</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>StreetName</attrlabl>
+        <attrdef>Name of street the light is on</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>StreetSuffix</attrlabl>
+        <attrdef>Street suffix for the street which the light is on.</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Intersection</attrlabl>
+        <attrdef>Street intersection if the light is at one</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>NumLamps</attrlabl>
+        <attrdef>Number of lamps on a pole</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
+        <attrdef>Date (year) lasted edited</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Description</attrlabl>
+        <attrdef>Type of head on the light. </attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Owner</attrlabl>
+        <attrdef>Owner - always City of Cambridge</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>LEDchk</attrlabl>
+        <attrdef>Field check by Cambridge GIS</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Neighborhood</attrlabl>
+        <attrdef>CDD Neighborhood each light is in.</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Street_ID</attrlabl>
+        <attrdef>Street ID. Each street has a unique ID. The first part of the PoleID.</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Pole_Num</attrlabl>
+        <attrdef>ID for each pole on a street. Part of the unique PoleID</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>FixtureType</attrlabl>
+        <attrdef>Coding for LED project. Corresponds to the number of LED lights in a fixture. A1 = 120 bulbs, A2 = 80 bulbs, A3 = 40 bulbs per lamp </attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Lamp1</attrlabl>
+        <attrdef>Unique ID for a pole with 2 lamps. </attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
         <attrlabl>Lamp2</attrlabl>
+        <attrdef>Unique ID for a pole with 2 lamps.</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20150413</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </metc>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
