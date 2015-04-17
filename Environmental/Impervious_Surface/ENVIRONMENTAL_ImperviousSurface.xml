@@ -1,0 +1,171 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>ENVIRONMENTAL_ImperviousSurface</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Impervious layers are a compilation of GIS layers which include buildings, structures, paved surfaces (road, sidewalk, parking lots, driveways), patio, concrete pads, plaza, transmission tower pad, electric boxes, and irrigation devices, This is a snapshot from April 14, 2010City of Cambridge, MA GIS basemap development project encompasses the land area of City of Cambridge with a 200 foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft. interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale.</abstract>
+      <purpose>Impervious Surface layer which is a compilation of GIS layers with impervious surfaces which do not allow the water to percolate into the ground or the features support for run-off. Created from the City of Cambridge 1" - 40' base map layers from an April 14, 2010 flyover. Basemap layers created by Infotech America.</purpose>
+    </descript>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.161328</westbc>
+        <eastbc>-71.063066</eastbc>
+        <northbc>42.404392</northbc>
+        <southbc>42.351080</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>impervious</themekey>
+        <themekey>stormwater</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Cambridge GIS, Infotech America</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>33337</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333334</absres>
+            <ordres>0.0003280833333333334</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ENVIRONMENTAL_ImperviousSurface</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Feature class which was used to create the impervious surfaces layer</attrdef>
+        <attrdefs>Infotech America</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>File Geodatabase Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150417</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
