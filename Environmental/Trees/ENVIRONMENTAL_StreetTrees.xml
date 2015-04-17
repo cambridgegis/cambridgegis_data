@@ -1,9 +1,293 @@
 ﻿<metadata>
   <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Environmental_StreetTrees</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Trees and tree planting sites owned, planted or maintained by the City of Cambridge, the Massachusetts Department of Conservation and Recreation, and MIT, Harvard University and other private organizations. This layer is maintained by Cambridge Public Works</abstract>
+      <purpose>City owned and maintained trees. This layer is maintained by Cambridge Public Works and updated regularly by the City Arborist. </purpose>
+    </descript>
+    <status>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.159683</westbc>
+        <eastbc>-71.068731</eastbc>
+        <northbc>42.403588</northbc>
+        <southbc>42.353373</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>DPW</themekey>
+        <themekey>Trees</themekey>
+        <themekey>Urban Forestry</themekey>
+      </theme>
+    </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Cambridge</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
   </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>30034</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003125</absres>
+            <ordres>0.0003125</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ENVIRONMENTAL_StreetTrees</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>created</attrlabl>
+        <attrdef>Date the record was created.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>creator</attrlabl>
+        <attrdef>Name of the editor who created the record.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>modified</attrlabl>
+        <attrdef>Date the record was last modified.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>inspectr</attrlabl>
+        <attrdef>Name of the tree inspector</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>species</attrlabl>
+        <attrdef>Common name of the species of the current tree.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>diameter</attrlabl>
+        <attrdef>Tree diameter in inches taken at approximately 4.5 feet above ground (DBH). If the diameter point falls on a swelling in the trunk it is customary to measure below the swelling at the point where the diameter is smallest. Note: an average diameter should be calculated for trees with multiple trunks (see the Trunks field); an online calculator for multi-stemmed trees may be found at http://www.treetec.net.au/TPZ_SRZ_DBH_calculator.php.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>trunks</attrlabl>
+        <attrdef>Number of tree trunks (see note at Diameter about using the number of trunks to calculate an average tree diameter).</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>notes</attrlabl>
+        <attrdef>Miscellaneous notes.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SiteType</attrlabl>
+        <attrdef>Designates whether the site is currently occupied by a tree (Tree) or stump (Stump), is an empty planting site (Planting  Site), or has been paved over or is otherwise empty and no longer available for planting (Retired). Note: this field typically supersedes any conflicting data within the record; for example, a record designated as a “Planting Site” would indicate that any values for Diameter and Trunks were no longer valid.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PlantDate</attrlabl>
+        <attrdef>Date that a tree was last planted at this site.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RemovalDate</attrlabl>
+        <attrdef>Date that a tree was last removed from this site.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SpeciesShort</attrlabl>
+        <attrdef>Genus of the current tree species (see Species).</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TreeID</attrlabl>
+        <attrdef>Unique identifier for the record.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TreeCondition</attrlabl>
+        <attrdef>Current condition of the tree as determined by the City Arborist.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OverheadWires</attrlabl>
+        <attrdef>Designates the presence of above-ground utility wires in the area of tree canopy growth at the site.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Cultivar</attrlabl>
+        <attrdef>Cultivated variety of the current tree species (see Species).</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+        <attrdef>ESRI unique ID</attrdef>
+        <attrdefs>Cambridge GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ProbabilityofFailure</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SizeoDefectiveParts</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ProbabilityofTargetImpact</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OtherRiskFactors</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RiskRating</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>StreetNumber</attrlabl>
+        <attrdef>Number of the street address closest to the site.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>StreetName</attrlabl>
+        <attrdef>Name of the street for the address closest to the site.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SidewalkWidth</attrlabl>
+        <attrdef>Width of the sidewalk in feet in the immediate vicinity of the site, measured between the back edge of the street curb and the back edge of the sidewalk.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MemTree</attrlabl>
+        <attrdef>Designates whether the current tree was planted in memoriam.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Location</attrlabl>
+        <attrdef>Designates whether the site is located along a street (Street Tree), beyond the back edge of a sidewalk in a front yard or other area not immediately adjacent to a street (Back of Sidewalk), in a park or other open space (Park Tree, Cemetery Tree, Golf Course), or on the grounds of a public school or other municipal building (Public School, City Building).</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ownership</attrlabl>
+        <attrdef>Designates the ownership of the tax parcel on which the site falls.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADACompliant</attrlabl>
+        <attrdef>Designates whether the site is ADA compliant, for instance whether the site has the minimum required sidewalk width of 4 feet.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TreeGrateActionReq</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BareRoot</attrlabl>
+        <attrdef>Designates whether the last tree was planted as a bare-root tree.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SpeciesNotes</attrlabl>
+        <attrdef>Miscellaneous notes about the species of the current tree.</attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TreeWellCover</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>StructuralSoil</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
   <metainfo>
+    <metd>20150417</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>MA</state>
+          <postal>02139</postal>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+      </cntinfo>
+    </metc>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
