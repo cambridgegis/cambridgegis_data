@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>Environmental_StreetTrees</title>
+        <title>ENVIRONMENTAL_StreetTrees</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30034</ptvctcnt>
+        <ptvctcnt>30050</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -270,7 +270,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150417</metd>
+    <metd>20150505</metd>
     <metc>
       <cntinfo>
         <cntorgp>
