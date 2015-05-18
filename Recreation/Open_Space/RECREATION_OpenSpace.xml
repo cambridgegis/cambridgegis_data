@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.159891</westbc>
-        <eastbc>-71.065681</eastbc>
-        <northbc>42.404435</northbc>
-        <southbc>42.352823</southbc>
+        <eastbc>-71.065692</eastbc>
+        <northbc>42.404432</northbc>
+        <southbc>42.352828</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -75,7 +75,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.RECREATION_OpenSpace</enttypl>
+        <enttypl>RECREATION_OpenSpace</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -190,10 +190,20 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
-        <attrlabl>SHAPE.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -209,7 +219,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140701</metd>
+    <metd>20150518</metd>
     <metc>
       <cntinfo>
         <cntorgp>
