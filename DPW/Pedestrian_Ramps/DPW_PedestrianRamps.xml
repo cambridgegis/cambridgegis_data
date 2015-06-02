@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>4323</ptvctcnt>
+        <ptvctcnt>4316</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -155,7 +155,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150203</metd>
+    <metd>20150602</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
