@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None. For planning purposes only.</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>12934</ptvctcnt>
+        <ptvctcnt>12929</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -76,7 +76,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.CDD_LandUse</enttypl>
+        <enttypl>CDD_LandUse</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -163,15 +163,31 @@ o State: Properties owned by the State of Massachusetts, including those owned b
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.STArea()</attrlabl>
+        <attrlabl>Shape_STArea__</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape.STLength()</attrlabl>
+        <attrlabl>Shape_STLength__</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140916</metd>
+    <metd>20150708</metd>
     <metc>
       <cntinfo>
         <cntorgp>
