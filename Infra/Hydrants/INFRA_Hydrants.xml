@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1859</ptvctcnt>
+        <ptvctcnt>1874</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -164,7 +164,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20150106</metd>
+    <metd>20150804</metd>
     <metc>
       <cntinfo>
         <cntorgp>
