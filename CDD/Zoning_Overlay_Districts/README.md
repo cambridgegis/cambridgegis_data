@@ -1,0 +1,2 @@
+## Note Regarding Medical Marijuana Districts ##
+The Medical Marijuana District polygon layer in this repository is an extract from the Zoning Overlay Districts layer provided for convenience.  For metadata on this layer see the metadata for the full Zoning Overlay Districts.
