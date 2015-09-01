@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30158</ptvctcnt>
+        <ptvctcnt>30138</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -191,21 +191,6 @@
         <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
-        <attrlabl>ProbabilityofFailure</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SizeoDefectiveParts</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ProbabilityofTargetImpact</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OtherRiskFactors</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>RiskRating</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>StreetNumber</attrlabl>
         <attrdef>Number of the street address closest to the site.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
@@ -213,11 +198,6 @@
       <attr>
         <attrlabl>StreetName</attrlabl>
         <attrdef>Name of the street for the address closest to the site.</attrdef>
-        <attrdefs>Cambridge DPW</attrdefs>
-      </attr>
-      <attr>
-        <attrlabl>SidewalkWidth</attrlabl>
-        <attrdef>Width of the sidewalk in feet in the immediate vicinity of the site, measured between the back edge of the street curb and the back edge of the sidewalk.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
@@ -267,10 +247,22 @@
       <attr>
         <attrlabl>StructuralSoil</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>TreeWellLength</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TreeWellWidth</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AbutsOpenArea</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ExposedRootFlare</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150804</metd>
+    <metd>20150901</metd>
     <metc>
       <cntinfo>
         <cntorgp>
