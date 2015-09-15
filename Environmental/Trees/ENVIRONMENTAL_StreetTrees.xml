@@ -230,6 +230,8 @@
       </attr>
       <attr>
         <attrlabl>TreeGrateActionReq</attrlabl>
+        <attrdef>This field is used to record if the metal tree grate surrounding the tree needs to be reset or removed.  When the tree grows, it can get girdled by the tree grate. </attrdef>
+        <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
         <attrlabl>BareRoot</attrlabl>
@@ -262,7 +264,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150901</metd>
+    <metd>20150915</metd>
     <metc>
       <cntinfo>
         <cntorgp>
