@@ -1,12 +1,10 @@
-﻿poi_id,address_id,poi_type,Point_of_interest_name,(No column name)
-4,23745,HARV,Adams House,TRUE
+poi_id,address_id,poi_type,Point_of_interest_name,named_address
 5,389,HARV,Ames Hall,TRUE
-6,23746,HARV,Cabot House,TRUE
 7,23747,HARV,Canaday Hall,TRUE
 8,388,HARV,Child Hall,TRUE
 9,23748,HARV,Claverly Hall,TRUE
 10,397,HARV,Conant Hall,TRUE
-11,256,HARV,Currier House,TRUE
+11,256,HARV,"Daniels Hall, Currier House",TRUE
 12,23749,HARV,Dane Hall,TRUE
 13,23750,HARV,Dunster House,TRUE
 14,23751,HARV,Eliot House,TRUE
@@ -14,11 +12,8 @@
 16,23753,HARV,Greenough Hall,TRUE
 17,330,HARV,Hastings Hall,TRUE
 18,23754,HARV,Hollis Hall,TRUE
-19,23755,HARV,Holmes Hall,TRUE
 20,23756,HARV,Holworthy Hall,TRUE
 21,23757,HARV,Hurlbut Hall,TRUE
-22,23758,HARV,Kirkland House,TRUE
-23,23759,HARV,Leverett House,TRUE
 24,23760,HARV,Lionel Hall,TRUE
 25,23761,HARV,Lowell House,TRUE
 26,23762,HARV,Massachusetts Hall,TRUE
@@ -28,7 +23,7 @@
 30,3104,HARV,North Hall,TRUE
 31,23766,HARV,Pennypacker Hall,TRUE
 32,395,HARV,Perkins Hall,TRUE
-33,23767,HARV,Quincy House,TRUE
+33,23767,HARV,"Mather Hall, Quincy House",TRUE
 34,392,HARV,Richards Hall,TRUE
 35,785,HARV,Rockefeller Hall,TRUE
 36,385,HARV,Shaw Hall,TRUE
@@ -38,29 +33,25 @@
 40,23771,HARV,Thayer Hall,TRUE
 41,23772,HARV,Weld Hall,TRUE
 42,23773,HARV,Wigglesworth Hall,TRUE
-43,23774,HARV,Winthrop House,TRUE
-44,339,HARV,Wyeth Hall,TRUE
-45,261,HARV,Pforzheimer Center,TRUE
-46,261,HARV,Pforzheimer House,TRUE
-47,23873,HARV,Apley Court,TRUE
+45,261,HARV,"Holmes Hall, Pforzheimer House",TRUE
+46,261,HARV,"Moors Halll, Pforzheimer House",TRUE
+47,23873,HARV,Apley Court at Dudley House,TRUE
 48,8829,CPMPLX,Fresh Pond Reservoir Pl,TRUE
 49,26453,MUSE,Museum of Science,TRUE
-50,1814,OFFI,University Pl,TRUE
+50,1814,HARV,University Place,FALSE
 51,4823,CPMPLX,Walden Park,TRUE
 52,24470,CPMPLX,Whittier Pl,TRUE
 53,25537,MBTA,Alewife MBTA Station,TRUE
 54,26149,LESL,Crockett House,FALSE
 55,26150,LESL,McCormack Hall,FALSE
-56,413,LESL,Jack T Schwartz Hall,FALSE
-57,415,LESL,OConner Hall,FALSE
+56,413,LESL,Schwartz Hall,FALSE
 58,418,LESL,Jenckes House,FALSE
-59,419,LESL,Fine Arts Hall,FALSE
 60,422,LESL,Glennon Hall,FALSE
-61,423,LESL,Kirkland House,FALSE
+61,423,LESL,Kirkland House,TRUE
 62,424,LESL,Wendell House,FALSE
 63,421,LESL,Bouma Hall,FALSE
-64,414,LESL,Wilson House,FALSE
-65,410,LESL,Compass Hall,FALSE
+64,414,LESL,Wilson House,TRUE
+65,410,LESL,Compass Hall,TRUE
 66,11981,LESL,Stebbins,FALSE
 68,25722,MUNI,Montessori School,FALSE
 69,30652,CHA,Corcoran Park,FALSE
@@ -78,8 +69,8 @@
 81,30664,CHA,Corcoran Park,FALSE
 82,30665,CHA,Corcoran Park,FALSE
 83,30666,CHA,Corcoran Park,FALSE
-84,30646,CHA,Corcoran Park,FALSE
-85,30647,CHA,Corcoran Park,FALSE
+84,30646,CHA,Corcoran Park,TRUE
+85,30647,CHA,Corcoran Park,TRUE
 86,30648,CHA,Corcoran Park,FALSE
 87,30649,CHA,Corcoran Park,FALSE
 88,30650,CHA,Corcoran Park,FALSE
@@ -123,11 +114,11 @@
 126,30708,CHA,Corcoran Park,FALSE
 127,25303,HARV,Hastings Hall,TRUE
 128,25970,HARV,Langdell Hall,TRUE
-129,23892,HARV,Reginald Lewis International Law Center,TRUE
-130,23907,HARV,Cruft Lab,FALSE
-131,23907,HARV,Lyman Lab,FALSE
+129,23892,HARV,Lewis International Law Center,TRUE
+130,23907,HARV,Cruft Lab,TRUE
+131,23907,HARV,Jefferson Lab,TRUE
 132,23912,HARV,Pierce Hall,TRUE
-133,336,HARV,Pound Hall,FALSE
+133,336,HARV,Pound Hall,TRUE
 134,30744,HARV,Holmes Hall,FALSE
 135,17285,CPMPLX,Cambridge Co-Housing,FALSE
 136,3434,CPMPLX,Cambridge Co-Housing,FALSE
@@ -136,73 +127,55 @@
 139,26247,CSCHOOL,Peabody School,FALSE
 140,24012,LESL,Winthrop Hall,TRUE
 141,23883,HARV,Pforzheimer Hall Masters Residence,TRUE
-143,26378,HARV,Comstock Hall,TRUE
+143,26378,HARV,"Comstock Hall, Pforzheimer House",TRUE
 144,30958,CPMPLX,One Charles Park,TRUE
 145,4190,OFFI,One Main St,TRUE
 146,23853,HARV,University Hall,TRUE
 147,23865,HARV,Boylston Hall,TRUE
-148,23866,HARV,Dudley House,TRUE
-149,23866,HARV,Lehman Hall,TRUE
+149,23866,HARV,"Lehman Hall, Dudley House",TRUE
 150,23854,HARV,Harvard Hall,TRUE
-151,23855,HARV,Holden Chapel,FALSE
-152,23856,HARV,Phillips Brooks House,FALSE
-153,23857,HARV,Memorial Church,FALSE
-154,23857,HARV,Appleton Chapel,FALSE
-155,25804,HARV,Robinson Hall,FALSE
-156,23858,HARV,Sever Hall,FALSE
-157,23859,HARV,Emerson Hall,FALSE
-159,23862,HARV,Houghton Library,FALSE
-160,25805,HARV,Lamont Library,FALSE
-161,23863,HARV,Widener Library,FALSE
-162,30982,HARV,Sackler Museum,FALSE
+151,23855,HARV,Holden Chapel,TRUE
+152,23856,HARV,Phillips Brooks House,TRUE
+153,23857,HARV,Memorial Church,TRUE
+154,23857,HARV,Appleton Chapel,TRUE
+156,23858,HARV,Sever Hall,TRUE
+159,23862,HARV,Houghton Library,TRUE
+161,23863,HARV,Widener Library,TRUE
+162,30982,HARV,Sackler Museum,TRUE
 163,15349,MUNI,Fire Headquarters,FALSE
-165,23921,CPMPLX,Warren House,FALSE
+165,23921,HARV,"Barker Center, Warren House",TRUE
 166,26190,HARV,Fine Arts Library,FALSE
 167,23933,HARV,Barker Center,FALSE
 168,23933,HARV,Burr Hall,FALSE
-169,23935,HARV,Dana Palmer Greenough,FALSE
+169,23935,HARV,Dana Palmer,FALSE
 170,23937,HARV,Faculty Club,FALSE
-171,26209,HARV,Carpenter Center,FALSE
-172,26209,HARV,Sert Gallery,FALSE
 173,23938,HARV,Fogg Art Museum,FALSE
 174,23938,HARV,Werner Otto Hall,FALSE
 175,23938,HARV,Busch Reisinger Museum,FALSE
-176,25803,HARV,Hurlbut Hall,FALSE
 177,581,MUNI,City Hall,FALSE
 178,625,CHA,Kennedy Housing,FALSE
 179,25091,ORG,YWCA,FALSE
 180,26388,MUNI,Pisani Center,FALSE
 181,455,MUNI,Morse School,FALSE
-182,26064,BU,DeWolfe Boat House,FALSE
+182,26064,BU, DeWolfe Boat House,FALSE
 183,1513,MIT,MIT Building NE125,FALSE
 184,724,MIT,MIT Building NE80,FALSE
 185,724,MITB,MIT Hill Building,FALSE
 186,724,OFFI,Draper Labs,FALSE
-187,31032,MIT,MIT Building NE83,FALSE
 188,13710,MIT,MIT Building NE48,FALSE
-189,8935,MIT,MIT Building NE46,FALSE
 190,8993,MIT,MIT Building NE49,FALSE
 191,8994,MIT,MIT Building NE47,FALSE
 192,4149,MIT,MIT Building E70,FALSE
 193,4149,MITB,MIT Badger Building,FALSE
-194,25462,MIT,MIT Building NE18,FALSE
-195,25470,MIT,MIT Building NE20,FALSE
-196,9154,MIT,MIT Building NE25,FALSE
 197,26502,MIT,MIT Building N57,FALSE
 198,16360,MIT,MIT Building NW61,FALSE
 199,16360,MITB,MIT Random Hall,FALSE
-200,16357,MIT,MIT Building NW61,FALSE
-201,16357,MITB,MIT Random Hall,FALSE
+200,16357,MIT,MIT Building NW61,TRUE
+201,16357,MITB,MIT Random Hall,TRUE
 202,640,MIT,MIT Building NW62,FALSE
 203,640,MITB,MIT Volvo Garage,FALSE
 204,31033,MIT,MIT Building NW62,FALSE
 205,31033,MITB,MIT Volvo Garage,FALSE
-206,4492,MIT,MIT Building NW62,FALSE
-207,4492,MITB,MIT Volvo Garage,FALSE
-208,28847,MIT,MIT Building NW62,FALSE
-209,28847,MITB,MIT Volvo Garage,FALSE
-210,687,MIT,MIT Building N42,FALSE
-211,687,MITB,MIT Information Systems,FALSE
 212,25670,MIT,MIT Building NW95,FALSE
 213,24250,MIT,MIT Building NW10,FALSE
 214,24250,MITB,MIT Edgerton House,FALSE
@@ -212,12 +185,9 @@
 218,633,MITB,MIT Plasma Science & Fusion Center,FALSE
 219,3689,MIT,MIT Building NW22,FALSE
 220,3689,MITB,MIT Plasma Science & Fusion Center,FALSE
-221,25318,MIT,MIT Building NW22,FALSE
-222,25318,MITB,MIT Plasma Science & Fusion Center,FALSE
 223,2807,MIT,MIT Building NW86,FALSE
-224,2807,MITB,MIT Pacific Street Dormitory,FALSE
-225,725,OFFI,Draper Laboratory,FALSE
-226,721,MIT,MIT Building NE43,FALSE
+224,2807,MITB,MIT Sidney Pacific ,FALSE
+225,725,COMM,Draper Laboratory,FALSE
 227,717,MIT,MIT Building N4,FALSE
 228,717,MITB,MIT Albany Garage,FALSE
 229,29840,MIT,MIT Building N16,FALSE
@@ -237,7 +207,7 @@
 243,684,MIT,MIT Building 42,FALSE
 244,684,MITB,MIT Power Plant,FALSE
 245,30245,MIT,MIT Building 41,FALSE
-246,25345,MITB,MIT Building 68,FALSE
+246,25345,MIT,MIT Building 68,FALSE
 247,25345,MITB,MIT Koch Biology Building,FALSE
 248,26366,MIT,MIT Building 32,FALSE
 249,26366,MITB,MIT Ray and Maria Stata Center,FALSE
@@ -247,7 +217,6 @@
 253,26019,MITB,MIT Pierce Laboratory,FALSE
 254,710,MIT,MIT Building 2,FALSE
 255,31037,MIT,MIT Building 3,FALSE
-259,711,MIT,MIT Building 4A,FALSE
 260,707,MIT,MIT Building 5,FALSE
 261,707,MITB,MIT Pratt School,FALSE
 272,708,MIT,MIT Building 7,FALSE
@@ -255,32 +224,22 @@
 274,708,MIT,MIT Building 7A,FALSE
 275,708,MITB,MIT Rotch Library Extension,FALSE
 276,25343,MIT,MIT Building 8,FALSE
-277,25343,MIT,MIT Building 8A,FALSE
-278,31039,MIT,MIT Building 6B,FALSE
-279,31039,MITB,MIT Solvent Storage,FALSE
 280,704,MIT,MIT Building 9,FALSE
-281,704,MITB,MIT Center For Advanced Educational Services,FALSE
 282,26060,MITB,MIT Building 10,FALSE
 284,31040,MIT,MIT Building 11,FALSE
 285,31040,MITB,MIT Homberg Building,FALSE
 286,711,MIT,MIT Building 12,FALSE
-287,711,MIT,MIT Building 12,FALSE
-288,711,MITB,MIT Waste Chemical Storage,FALSE
-289,704,MIT,MIT Building 13,FALSE
-290,704,MITB,MIT Bush Building,FALSE
 291,27500,MIT,MIT Building 14,FALSE
 292,27500,MITB,MIT Hayden Memorial Library,FALSE
 293,25343,MIT,MIT Building 16,FALSE
 294,25343,MITB,MIT Dorrance Building,FALSE
-295,705,MITB,MIT Building 17,FALSE
+295,705,MIT,MIT Building 17,FALSE
 296,705,MITB,MIT Wright Brothers Wind Tunnel,FALSE
 297,25343,MIT,MIT Building 18,FALSE
 298,25343,MITB,MIT Dreyfus Building,FALSE
 299,711,MIT,MIT Building 24,FALSE
 300,711,MIT,MIT Building 26,FALSE
 301,711,MITB,MIT Compton Laboratories,FALSE
-302,706,MIT,MIT Building 31,FALSE
-303,706,MITB,MIT Sloan Laboratories,FALSE
 304,703,MIT,MIT Building 33,FALSE
 305,703,MITB,MIT Guggenheim Laboratory,FALSE
 306,26367,MIT,MIT Building 34,FALSE
@@ -301,14 +260,13 @@
 321,25343,MIT,MIT Building 56,FALSE
 322,25343,MITB,MIT Whitaker Building,FALSE
 323,31041,MIT,MIT Building 62,FALSE
-324,31041,MITB,MIT Alumni Houses: Munroe Hayden Wood,FALSE
+324,31041,MITB,MIT East Campus,FALSE
 325,24630,MIT,MIT Building 64,FALSE
-326,24630,MITB,MIT Alumni Houses: Walcott Bemis Goodale,FALSE
+326,24630,MITB,MIT East Campus,FALSE
 327,25344,MIT,MIT Building 66,FALSE
 328,25344,MITB,MIT Landau Building,FALSE
 329,31042,MIT,MIT Building N51,FALSE
 330,643,MIT,MIT Building N52,FALSE
-331,643,MITB,MIT Museum,FALSE
 332,29173,MIT,MIT Building E17,FALSE
 333,29173,MITB,MIT Mudd Building,FALSE
 334,29507,MIT,MIT Building E18,FALSE
@@ -321,7 +279,6 @@
 341,25550,MITB,MIT Health Services,FALSE
 342,25342,MIT,MIT Building E15,FALSE
 343,25342,MITB,MIT Wiesner Building,FALSE
-344,735,MIT,MIT Building E28,FALSE
 345,742,MIT,MIT Building E38,FALSE
 346,742,MITB,MIT Suffolk Building,FALSE
 347,29,MIT,MIT Building E39,FALSE
@@ -330,17 +287,13 @@
 350,31043,MIT,MIT Building E34,FALSE
 351,738,MIT,MIT Building E33,FALSE
 352,738,MITB,MIT Rinaldi Tile,FALSE
-353,5,MIT,MIT Building E32,FALSE
 354,5406,MIT,MIT Building E48,FALSE
-355,27736,MIT,MIT Building E42,FALSE
-356,27736,MIT,MIT Hayward Garage,FALSE
 357,26457,MIT,MIT Building E40,FALSE
 358,26457,MIT,MIT Muckley Building,FALSE
 359,25041,MIT,MIT Building E55,FALSE
 360,25041,MITB,MIT Eastgate,FALSE
 361,26368,MIT,MIT Building E53,FALSE
 362,26368,MITB,MIT Hermann Building,FALSE
-363,741,MIT,MIT Building E56,FALSE
 364,6394,MIT,MIT Building E60,FALSE
 365,6394,MITB,MIT Arthur D Little Building,FALSE
 366,740,MIT,MIT Building E52,FALSE
@@ -399,9 +352,8 @@
 419,31044,MITB,MIT Kresge Auditorium,FALSE
 420,31046,MIT,MIT Building W53,FALSE
 421,31046,MITB,MIT Carr Indoor Tennis Facility,FALSE
-422,31046,MIT,MIT Building W53A,FALSE
 423,677,MIT,MIT Building W1,FALSE
-424,677,MITB,MIT Ashdown House,FALSE
+424,677,MITB,MIT Fariborz Maseeh Hall,FALSE
 425,675,MIT,MIT Building W4,FALSE
 426,675,MITB,MIT McCormick Hall,FALSE
 427,14137,MIT,MIT Building W2,FALSE
@@ -414,7 +366,7 @@
 434,671,MIT,MIT Building W8,FALSE
 435,671,MITB,MIT Pierce Boathouse,FALSE
 436,6323,MIT,MIT Building W89,FALSE
-437,6323,MITB,MIT Professional Learning Center,FALSE
+437,6323,MITB,MIT Police,FALSE
 438,587,MIT,MIT Building W91,FALSE
 439,587,MITB,MIT Information Systems Operations,FALSE
 440,29751,MIT,MIT Building W91,FALSE
@@ -441,11 +393,11 @@
 461,27325,MIT,MIT Building W85ABC,FALSE
 462,27325,MITB,MIT Westgate,FALSE
 463,591,MIT,MIT Building W85,FALSE
-464,591,MITB,MIT Westgate,FALSE
+464,591,MITB,MIT Westgate Family Apartments,FALSE
 465,589,MIT,MIT Building W84,FALSE
 466,589,MIT,MIT Tang Hall,FALSE
 467,593,MIT,MIT Building W71,FALSE
-468,593,MITB,MIT 500 Memorial Drive,FALSE
+468,593,MITB,MIT Next House,FALSE
 469,627,MIT,MIT Building W70,FALSE
 470,627,MITB,MIT New House,FALSE
 471,24912,MIT,MIT Building W70,FALSE
@@ -462,31 +414,26 @@
 482,44,MITB,MIT MacGregor House,FALSE
 483,31039,MIT,MIT Building 4,FALSE
 484,31039,MITB,MIT Maclaurin Building,FALSE
-485,31039,MIT,MIT Building 6,FALSE
-486,31039,MIT,MIT Eastman Laboratories,FALSE
-487,31039,MIT,MIT Building 6A,FALSE
-488,31039,MITB,MIT Spectroscopy Laboratory,FALSE
 489,31037,MITB,MIT Maclaurin Building,FALSE
 490,26060,MITB,MIT Maclaurin Building,FALSE
 491,577,MUNI,Lombardi Building,FALSE
-492,864,MUNI,DPW Administration,FALSE
+492,864,MUNI,DPW Fazier Administration Building,FALSE
 493,8684,MUNI,Coffon Building,FALSE
 495,846,MUNI,McCusker Center,FALSE
 496,846,MUNI,City Hall Annex,FALSE
 500,94,MUNI,Cambridge Water Department,FALSE
 511,1181,MUNI,Public Health Department,FALSE
 512,852,CPMPLX,Cambridge Hospital,FALSE
-513,841,CPMPLX,Youville Hospital,FALSE
+513,841,CPMPLX,Spaulding Hospital,FALSE
 514,141,CPMPLX,Mount Auburn Hospital,FALSE
 515,67,ELDER,Sancta Maria Nursing Facility,FALSE
-517,425,CSCHOOL,Baldwin School,FALSE
 518,670,MUNI,Cambridgeport School,FALSE
 519,269,CSCHOOL,Graham and Parks School,FALSE
 520,77,CSCHOOL,Haggerty School,FALSE
 521,736,CSCHOOL,Kennedy/Longfellow School,FALSE
 522,483,CSCHOOL,King School,FALSE
 523,886,CSCHOOL,King Open School,FALSE
-524,690,CSCHOOL,Fletcher/Maynard Academy,FALSE
+524,690,CSCHOOL,Fletcher-Maynard Academy,FALSE
 525,31147,CSCHOOL,Tobin School,FALSE
 526,5436,MUNI,Cambridge Rindge and Latin School,FALSE
 527,26126,ORG,Benjamin Bannaker School,FALSE
@@ -499,7 +446,6 @@
 534,113,MUNI,Fire Station 9,FALSE
 535,11807,MUNI,Fire Station 5,FALSE
 536,119,MUNI,Police Maintenance Garage,FALSE
-537,31144,MUNI,Cambridge Public Library - Boudreau Branch,FALSE
 538,802,MUNI,Cambridge Public Library - Main Library,FALSE
 539,85,MUNI,Cambridge Public Library - Collins Branch,FALSE
 540,601,MUNI,Cambridge Public Library - Central Square Branch,FALSE
@@ -512,11 +458,7 @@
 548,223,MUSE,Longfellow House,FALSE
 549,6024,MUNI,Corporal Burns Shelter,FALSE
 550,517,MUNI,Community Center,FALSE
-551,17168,MUNI,Multi Service Center / Community Learning,FALSE
-552,13778,MUNI,East Cambridge Garage,FALSE
-553,925,MUNI,East Cambridge Garage,FALSE
-554,13779,MUNI,East Cambridge Garage,FALSE
-555,13780,MUNI,East Cambridge Garage,FALSE
+553,925,MUNI,First Street Garage,FALSE
 556,59,MUNI,Cambridge VFW Hall,FALSE
 557,17704,MUNI,Cambridge Rindge and Latin - Auto Shop,FALSE
 558,31150,MUNI,Gately Youth Center,FALSE
@@ -543,8 +485,8 @@
 582,25759,MUNI,Green Street Parking Garage,FALSE
 583,87,ELDER,Neville Center,FALSE
 584,10791,ELDER,Cambridge Rehabilitation and Nursing Center,FALSE
-585,263,HARV,Cabot House,FALSE
-586,31175,HARV,Barnard Building,FALSE
+585,263,HARV,"Briggs Hall, Cabot House",TRUE
+586,31175,HARV,"Barnard Hall, Cabot House",TRUE
 587,31200,CPARK,Lechmere Canal Park,FALSE
 590,31202,CPARK,Front Park,FALSE
 591,31203,CPARK,Costa Lopez Taylor Park,FALSE
@@ -564,13 +506,11 @@
 608,31218,CPARK,Squirrel Brand Park,FALSE
 609,31219,CPARK,Market Street Park,FALSE
 610,31220,CPARK,Callinan Square,FALSE
-611,31221,CPARK,Elm / Hampshire Plaza,FALSE
 612,932,MUNI,Municipal Lot 11,FALSE
 613,31222,MUNI,Municipal Lot 14,FALSE
 615,31224,MUNI,Municipal Lot 4,FALSE
 616,31225,MUNI,Municipal Lot 5,FALSE
 617,31226,MUNI,Municipal Lot 6,FALSE
-618,31227,CPARK,Pacific Street Open Space,FALSE
 619,31228,CPARK,Lopez Street Park,FALSE
 620,31229,CPARK,Fulmore Park,FALSE
 621,31230,CPARK,David Nunes Park,FALSE
@@ -608,8 +548,6 @@
 656,31264,CPARK,Corcoran Field,FALSE
 659,94,CPARK,Fresh Pond Reservation,FALSE
 660,31268,CPARK,Rafferty Park,FALSE
-661,30362,CPARK,Russell Field,FALSE
-662,30362,CPARK,Samp Field,FALSE
 663,31269,CPARK,Comeau Field,FALSE
 664,173,CPARK,Danehy Park,FALSE
 665,31270,CPARK,St Peters Field,FALSE
@@ -628,37 +566,27 @@
 681,31284,CPLAZA,Mt. Auburn Veterans Memorial Plaza,FALSE
 682,31285,CPLAZA,Brattle Square,FALSE
 683,31286,CPLAZA,Harvard Square,FALSE
-684,NULL,STATE,HAMILTON MEMORIAL,TRUE
-685,NULL,STATE,HAMILTON MEM2,TRUE
-686,NULL,STATE,HAMILTON MOM,FALSE
-687,31321,CEM,North Cambridge Catholic Cemetery,FALSE
-688,31321,CEM,St Johns Cemetery,FALSE
-689,23832,HARV,OEB Greenhouse,FALSE
+689,23832,HARV,Biological Laboratory,FALSE
 690,23834,HARV,Farlow Herbarium,FALSE
 691,23837,HARV,Semitic Museum,FALSE
-692,23833,HARV,Yenching Institute,FALSE
-693,31322,HARV,Hicks House,FALSE
+692,23833,HARV,Yenching Library,TRUE
+693,31322,HARV,"Hicks House, Kirkland House",FALSE
 694,26055,PVSCH,Ecole Bilingue,FALSE
-695,7274,CPARK,Donnelly Field,FALSE
 696,13224,CPMPLX,Cadbury Commons,FALSE
 697,24781,CPMPLX,The Cambridge Homes,FALSE
 698,835,CPMPLX,Youville House,FALSE
 699,31636,CSCHOOL,Amigos School,FALSE
 700,31307,HARV,Palfrey House,FALSE
-701,229,HARV,Cronkhite Graduate Center,FALSE
 702,31644,ORG,Cambridge Multicultural Arts Center,FALSE
 704,2221,MUNI,Police Headquarters,FALSE
 773,31658,HARV,Agassiz House,TRUE
-775,31391,MITB,Ashdown House,FALSE
-776,31391,MIT,MW35,FALSE
+775,31391,MITB,MIT Ashdown House,FALSE
+776,31391,MIT,MIT Building MW35,FALSE
 777,31619,CPMPLX,303 Third Street,TRUE
 778,31620,CPMPLX,303 Third Street,TRUE
 779,31621,CPMPLX,303 Third Street,TRUE
 780,31622,CPMPLX,303 Third Street,TRUE
-781,31623,CPMPLX,303 Third Street,TRUE
-782,31617,HARV,Landscape Institute,FALSE
 784,31627,HARV,Engineering Science Lab,FALSE
-787,31618,CPMPLX,Two Cambridge Center,TRUE
 789,31511,CPMPLX,Trolley Square,TRUE
 790,31512,CPMPLX,Trolley Square,TRUE
 791,31513,CPMPLX,Trolley Square,TRUE
@@ -680,32 +608,29 @@
 807,31694,ORG,The Church of Jesus Christ of the Latter Day Saints,FALSE
 808,31696,LESL,White Hall,FALSE
 809,393,LESL,Founders,FALSE
-810,394,LESL,Doble,FALSE
-811,31697,LESL,Wolfard,FALSE
+810,394,LESL,Doble Hall,FALSE
+811,31697,LESL,Wolfard House,FALSE
 812,31698,LESL,MacKenzie,FALSE
-813,31699,LESL,Malloch,FALSE
+813,31699,LESL,Malloch House,FALSE
 814,5942,COMM,Harding House ,FALSE
 815,563,ORG,YMCA,FALSE
-816,568,MUNI,Old Police Station,FALSE
+816,568,MUNI,Multi Service Center / Community Learning,FALSE
 819,378,HARV,Paine Hall,TRUE
 820,31706,MITB,MIT Sloan,FALSE
 821,31706,MIT,MIT Building 62,FALSE
-822,31707,MITB,David H. Koch Institute for Integrative Cancer Research,FALSE
+822,31707,MITB,David H. Koch Institute ,FALSE
 823,31707,MIT,MIT Building 76,FALSE
 825,566,ORG,U.S. Post Office,FALSE
 826,530,PVSCH,Cambridge College,FALSE
 827,26189,HARV,Greenough Hall,TRUE
 828,26191,HARV,Morton Prince House,TRUE
 829,23938,HARV,Fine Arts Library,TRUE
-830,1014,HARV,Harvard University Police,TRUE
+830,1014,HARV,Harvard University Police,FALSE
 831,760,ORG,IKEDA CENTER,FALSE
 832,31473,ORG,JOSE MATEO BALLET THEATRE,FALSE
-833,1703,COMM,The Inn at Harvard,FALSE
+833,1703,HARV,The Inn at Harvard,FALSE
 834,758,ORG,Old Cambridge Baptist Church,FALSE
-835,25364,HARV,Catholic Student Center,FALSE
 836,384,HARV,Harkness Commons,FALSE
-837,31676,HARV,Harkness Commons,FALSE
-838,31777,HARV,Caspersen Student Center,FALSE
 839,31744,ORG,Shady Hill Square Green,FALSE
 841,31802,MUNI,Cambridge Teachers Federal Credit Union,FALSE
 842,31803,LESL,Washburn Hall,TRUE
@@ -726,21 +651,18 @@
 857,25089,LESL,Winthrop Hall,TRUE
 858,31812,LESL,Buildings and Grounds,TRUE
 859,31738,CPARK,North Point Park,TRUE
-860,31424,HARV,CGIS South,FALSE
+860,31424,HARV,CGIS South,TRUE
 861,23821,HARV,1746 Cambridge Street,FALSE
 862,29482,HARV,Broadway Garage,TRUE
 863,804,CSCHOOL,Cambridge Rindge and Latin School,FALSE
 865,31824,CPARK,Bergin Park,FALSE
 866,31825,CPARK,Charles Park,FALSE
-867,31829,CPARK,Franklin Street Park,FALSE
 868,31830,CPARK,Gibbons Park,FALSE
-870,31832,CPARK,Linear Park,FALSE
 871,31833,CPARK,Longfellow Park,FALSE
 872,31834,CPARK,Lowell School Park,TRUE
 873,31260,CPARK,McMath Park,FALSE
 874,31835,CPARK,New Riverside Neighborhood Park,FALSE
 875,31264,CPARK,Raymond Park,FALSE
-876,31836,CPARK,Sennott Park,FALSE
 877,64,CPARK,Thomas P. ONeill Jr. Muncipal Golf Course,FALSE
 878,31272,CPARK,Tobin Field,FALSE
 879,87,CPARK,William G. Maher Park,FALSE
@@ -776,3 +698,409 @@
 912,31613,CGARDN,Moore Street Community Garden,FALSE
 914,31203,CGARDN,Costa Lopez Taylor Park Community Garden,FALSE
 916,31823,CPARK,Alberico Park,FALSE
+917,31242,CPARK,Franklin Street Park,FALSE
+918,12677,CPARK,Sennott Park,TRUE
+919,31276,CPARK,Linear Park,FALSE
+920,31892,CHA,Jackson Gardens,FALSE
+921,31889,CHA,Jackson Gardens,FALSE
+922,31891,CHA,Jackson Gardens,FALSE
+923,31890,CHA,Jackson Gardens,FALSE
+924,31893,CHA,Jackson Gardens,FALSE
+925,31894,CHA,Jackso Gardens,FALSE
+926,14139,MIT,MIT Building W51C,FALSE
+927,9269,MIT,MIT Building W98,FALSE
+928,31906,MITB,MIT - 158 Mass. Ave Lot,FALSE
+929,629,MITB,MIT The Warehouse,FALSE
+930,31907,MITB,MIT 65 Waverly Lot,TRUE
+931,31908,MIT,MIT Building WW25,FALSE
+932,25455,MIT,MIT Building WW15,FALSE
+933,638,MITB,MIT Womens Independent Living Group,FALSE
+934,17572,MITB,MIT Alpha Delta Phi,FALSE
+935,5003,MITB,MIT Zeta Psi,FALSE
+936,31912,MIT,MIT Building 13,FALSE
+937,31912,MITB,MIT Bush Building,FALSE
+938,31039,MIT,MIT Building 6,FALSE
+939,31039,MIT,MIT Building 6B,FALSE
+940,31039,MIT,MIT Building 6C,FALSE
+941,31039,MITB,MIT Eastman Labortories,FALSE
+942,31039,MITB,MIT Building 6B,FALSE
+943,31039,MITB,MIT PDSI,FALSE
+944,31913,MIT,MIT Building Number 31,FALSE
+945,31913,MITB,MIT Sloan Laboratories,FALSE
+946,31289,HARV,Harvard Yacht Club,FALSE
+948,31393,MIT,MIT Building E14,FALSE
+949,29840,MIT,MIT Building N16A,FALSE
+950,29840,MIT,MIT Building N16C,FALSE
+951,743,FEDERAL,Volpe Center,FALSE
+952,31917,CPARK,Elm / Hampshire Plaza,FALSE
+953,31918,CPARK,Pacific Street Open Space,FALSE
+955,30498,COMM,Whitehead Institute,FALSE
+956,25471,COMM,Residence Inn,FALSE
+959,31618,COMM,Marriott Hotel,FALSE
+960,31931,HARV,Rowland Institute,FALSE
+961,31487,COMM,Hotel Marlow,FALSE
+962,31342,COMM,Royal Sonesta Hotel,FALSE
+963,935,COMM,CambridgeSide Galleria Mall,FALSE
+964,25748,STATE,Simoni Memorial Rink,FALSE
+965,31946,HARV,Weld Boat House,FALSE
+966,26502,MITB,MIT Library Storage Annex,FALSE
+967,31042,MITB,MIT Museum,FALSE
+968,31952,STATE,MWRA Prision Point,FALSE
+969,26450,STATE,DCR Lower Basin Operations Yard,FALSE
+970,31604,PVSCH,Cambridge College School of Management,FALSE
+971,5183,COMM,Hampton Inn,FALSE
+972,25780,ORG,Cambridge Family Health,FALSE
+973,3080,ORG,East Cambridge Health Center,FALSE
+974,470,HARV,Peabody Terrace,FALSE
+976,31995,HARV,Eliot House Masters Residence,FALSE
+977,23774,HARV,Masters House Eliot House,FALSE
+979,8163,HARV,Blackstone Steam Plant,FALSE
+980,8163,HARV,Blackstone North,FALSE
+981,8163,HARV,Blackstone West,FALSE
+982,31394,HARV,Oberon,FALSE
+984,371,HARV,DeWolfe Street Housing,FALSE
+985,1221,HARV,DeWolfe Street Housing,FALSE
+986,30892,HARV,Leverett Library Building,FALSE
+987,31457,HARV,Leverett Tower G,TRUE
+988,31352,HARV,5 Cowperthwaite,FALSE
+990,32053,CPMPLX,Thorndike Place,FALSE
+991,4607,CPMPLX,Thorndike Place,FALSE
+995,23828,HARV,Leverett Masters House,FALSE
+996,23767,HARV,Quincy House New Residence Hall,TRUE
+997,23767,HARV,Quincy House Library,FALSE
+998,370,HARV,"Russell Hall, Adams House",TRUE
+1000,23904,HARV,"McKinlock Hall, Leverett House",TRUE
+1002,28824,HARV,"Gore Hall, Winthrop House",TRUE
+1004,15558,HARV,Smith Center Office Tower,FALSE
+1005,15558,HARV,Smith Center Health Services,FALSE
+1006,1331,HARV,Harvard Square Hotel,TRUE
+1007,23976,HARV,Manter Hall,TRUE
+1008,372,HARV,Holyoke Center Garage,FALSE
+1009,1995,HARV,Farkas Hall,TRUE
+1010,1995,HARV,New College Theatre,FALSE
+1011,10,HARV,Maklin Athletic Center,FALSE
+1012,23875,HARV,Lowell Masters House,FALSE
+1013,17,HARV,"53 Dunster Street, Dudley House",FALSE
+1014,301,HARV,"Bryan Hall, Kirkland House",TRUE
+1016,25655,HARV,"Smith Hall, Kirkland House",TRUE
+1018,23745,HARV,"Westmorely Court, Adams House",TRUE
+1019,27329,HARV,"Westmorely Court, Adams House",TRUE
+1021,25296,HARV,"Westmorely Court, Adams House",TRUE
+1023,23810,HARV,"Randolph Hall, Adams House",TRUE
+1025,23882,HARV,Linden Street Studios,FALSE
+1026,23880,HARV,"Apthorp, Adams House",TRUE
+1029,17717,HARV,Hampden Hall,TRUE
+1030,4143,HARV,Hampden Hall,TRUE
+1032,23887,HARV,Wadsworth House,TRUE
+1033,329,HARV,Gannett House,TRUE
+1034,375,HARV,Hemingway Gymnasium,TRUE
+1035,375,HARV,Austin Hall,TRUE
+1036,23891,HARV,Griswold Hall,TRUE
+1037,386,HARV,Hauser Hall,TRUE
+1039,296,HARV,Belfer Center,TRUE
+1040,296,HARV,Littauer Center,TRUE
+1042,297,HARV,Taubman Building,TRUE
+1043,307,HARV,Loeb Drama Center,TRUE
+1044,321,HARV,Putnam House,TRUE
+1045,236,HARV,Greenleaf House,TRUE
+1046,317,HARV,Buckingham House,TRUE
+1047,23814,HARV,Alumnae House,TRUE
+1049,31340,HARV,Cronkhite Center,TRUE
+1050,31331,HARV,Cronkhite Center,TRUE
+1051,23979,HARV,Byerly Hall,TRUE
+1053,310,HARV,Gutman Library,TRUE
+1055,30950,HARV,Nichols House,TRUE
+1056,313,HARV,Read House,TRUE
+1057,324,HARV,Larsen Hall,TRUE
+1058,323,HARV,Longfellow Hall,TRUE
+1059,318,HARV,Radcliff Gymnasium ,TRUE
+1060,23876,HARV,Schlesinger Library,TRUE
+1061,23936,HARV,Loeb,TRUE
+1063,764,HARV,Annenberg Hall,FALSE
+1064,764,HARV,Memorial Hall,FALSE
+1065,764,HARV,Loker Commons,FALSE
+1066,377,HARV,Littauer Center,TRUE
+1067,380,HARV,Science Center,TRUE
+1068,26151,HARV,"McKay Laboratory, Gordon",TRUE
+1069,381,HARV,Lab for Integrated Science and Engineering,TRUE
+1070,379,HARV,Lyman Laboratory,TRUE
+1071,766,HARV,Mallinckrodt Chemistry Lab,TRUE
+1072,766,HARV,Conant Chemistry Lab,TRUE
+1073,766,HARV,Converse Chemistry Lab,TRUE
+1074,766,HARV,Naito,TRUE
+1075,32075,HARV,Mallinckrodt-Hoffman Link,TRUE
+1076,23909,HARV,Hoffman Laboratory,TRUE
+1077,27044,HARV,Bauer Life Sciences Building,TRUE
+1078,23838,HARV,Sherman Fairchild Biochemistry,TRUE
+1079,782,HARV,Geological Museum,TRUE
+1080,26143,HARV,Museum of Comparative Zoology Laboratories,TRUE
+1081,26143,HARV,Harvard Museum of Natural History,TRUE
+1082,391,HARV,Maxwell-Dworkin,TRUE
+1083,32076,HARV,Perkins Hall,TRUE
+1087,31643,HARV,Northwest Building,TRUE
+1088,427,LESL,Reed House,TRUE
+1089,32078,LESL,Oxford House,TRUE
+1090,11980,HARV,Terry Terrace,TRUE
+1091,405,LESL,Residence Life,FALSE
+1092,408,LESL,Dean of Students,FALSE
+1093,409,LESL,Center for the Adult Learner,FALSE
+1095,31601,HARV,Baker Hall,FALSE
+1096,411,LESL,Wilson House,FALSE
+1097,402,HARV,3 Sacramento Street at Dudley House,TRUE
+1098,763,HARV,Lowell Lecture Hall,TRUE
+1099,765,HARV,Sparks House,TRUE
+1100,23960,HARV,Adolphus Busch Hall,TRUE
+1101,770,HARV,William James Hall,TRUE
+1103,23830,HARV,Peabody Museum,TRUE
+1105,25646,HARV,Divinity Hall,TRUE
+1106,23831,HARV,Divinity Hall,TRUE
+1107,23835,HARV,Tozzler Library,TRUE
+1108,778,HARV,Lipmann House,TRUE
+1109,23846,HARV,Shannon Hall,TRUE
+1110,31463,HARV,Vansberg Building,TRUE
+1111,23847,HARV,Center for the Study of World Religions,TRUE
+1112,788,HARV,Andover Hall,TRUE
+1113,788,HARV,Andover Theological Library,TRUE
+1114,789,HARV,Jewett House,TRUE
+1115,791,HARV,Carriage House,TRUE
+1116,824,ORG,American Academy of Arts and Sciences,TRUE
+1117,886,CSCHOOL,Cambridge Street Upper School,FALSE
+1118,736,CSCHOOL,Putnam Avenue Upper School,FALSE
+1119,26247,CSCHOOL,Rindge Avenue Upper School,FALSE
+1120,31147,CSCHOOL,Vassal Lane Upper School,FALSE
+1121,250,HARV,Quadrangle Athletic Facility,TRUE
+1122,207,HARV,Kittredge Hall,TRUE
+1123,207,HARV,Harvard University Press,FALSE
+1124,208,HARV,"Building A, Botanic Gardens",FALSE
+1125,24147,HARV,"Building B, Botanic Gardens",FALSE
+1126,251,HARV,"Building C, Botanic Gardens",FALSE
+1127,24742,HARV,"Building E, Botanic Gardens",FALSE
+1128,260,HARV,"Faculty Row, Pforzheimer House",TRUE
+1129,32082,HARV,Pforzheimer Masters Residence,TRUE
+1130,256,HARV,"Gilbert Hall, Currier House",TRUE
+1131,256,HARV,"Bingham Hall, Currier House",TRUE
+1132,256,HARV,"Tuchman Hall, Currier House",TRUE
+1133,270,HARV,"Eliot hall, Cabot House",TRUE
+1134,267,HARV,"Bertram Hall, Cabot House",TRUE
+1136,268,HARV,"Cabot Hall, Cabot House",TRUE
+1137,342,HARV,"Jordan North, Currier House",TRUE
+1138,271,HARV,"103 Walker Street, Cabot House",TRUE
+1139,272,HARV,"103 Walker Street, Cabot House",TRUE
+1140,341,HARV,"Jordan South, Pforzheimer House",TRUE
+1142,265,HARV,"Wolbach Hall, Pforzheimer House",TRUE
+1143,26366,MIT,MIT Building 32P,FALSE
+1144,25310,HARV,Eliot Kirkland Link,TRUE
+1146,26470,HARV,Quincy House Dining Entrance,FALSE
+1147,25643,HARV,Quincy House Masters Residence,FALSE
+1148,29479,HARV,Quincy House Office,FALSE
+1149,32073,HARV,Byerly Hall,TRUE
+1150,3238,COMM,Sheraton Commander Hotel,FALSE
+1151,23942,HARV,Sanders Theatre,TRUE
+1152,340,LESL,Admissions Building,FALSE
+1153,390,LESL,Mellen House,FALSE
+1154,32105,LESL,Lot B,FALSE
+1155,340,LESL,Lot A,FALSE
+1156,401,LESL,Sacramento House,FALSE
+1157,467,HARV,Blackstone South,TRUE
+1159,31676,HARV,Wasserstein Hall,TRUE
+1160,31457,HARV,Leverett Tower F,TRUE
+1162,31425,HARV,Knafel Building,TRUE
+1163,24659,HARV,"Building C, Botanic Gardens",TRUE
+1165,23845,HARV,"Building F, Botanic Gardens",FALSE
+1166,24266,HARV,"Building G, Botanic Gardens",FALSE
+1167,23844,HARV,"Building A, Botanic Gardens",FALSE
+1168,793,HARV,Doebele House,TRUE
+1169,784,HARV,CEA 38 Oxford Street,TRUE
+1171,16726,HARV,Fairfax Hall,TRUE
+1172,373,HARV,Fairfax Hall,TRUE
+1173,16723,HARV,Fairfax Hall,TRUE
+1174,16731,HARV,Fairfax Hall,TRUE
+1175,25963,HARV,Fairfax Hall,TRUE
+1176,17064,HARV,Division of Continuing Education,FALSE
+1177,32109,HARV,Emerson Hall,TRUE
+1178,31758,HARV,Carpenter Center,TRUE
+1179,32111,HARV,OEC Greenhouse,TRUE
+1180,23836,HARV,University Herbaria,TRUE
+1181,32110,HARV,Robinson Hall,TRUE
+1182,8784,HARV,Division of Continuing Education,FALSE
+1183,23943,HARV,Gund Hall,TRUE
+1186,322,HARV,Fay House,TRUE
+1187,259,HARV,Hilles Library,TRUE
+1188,326,HARV,Westengard House,TRUE
+1189,23932,HARV,Lamont Library,TRUE
+1190,204,HARV,Observatoty,TRUE
+1191,204,HARV,Perkin Labratory,TRUE
+1192,23950,HARV,Advocate Building,TRUE
+1193,403,HARV,"1705 Massachusetts Avenue, Dudley House",TRUE
+1194,23773,HARV,Widener Gate Lodge,TRUE
+1196,369,HARV,Rosovsky Hall,TRUE
+1197,16008,FEDERAL,U. S. Post Office Annex,FALSE
+1198,10142,PVSCH,Fayerweather Street School,FALSE
+1199,32163,MUNI,Cambridge Public Library - Boudreau Branch,FALSE
+1200,31519,ORG,Mt. Auburn Cemetery,FALSE
+1201,32171,CEM,North Cambridge Catholic Cemetery,FALSE
+1202,32212,CHA,Corcoran Park,TRUE
+1203,32214,CHA,Corcoran Park,TRUE
+1204,23458,CHA,Corcoran Park,TRUE
+1205,30719,CHA,Corcoran Park,TRUE
+1206,30720,CHA,Corcoran Park,TRUE
+1207,30721,CGARDN,Corcoran Park,TRUE
+1208,30722,CHA,Corcoran Park,TRUE
+1209,30723,CHA,Corcoran Park,TRUE
+1210,30724,CHA,Corcoran Park,TRUE
+1211,30725,CHA,Corcoran Park,TRUE
+1212,32213,CHA,Corcoran Park,TRUE
+1213,23459,CHA,Corcoran Park,TRUE
+1214,30726,CHA,Corcoran Park,TRUE
+1215,30727,CHA,Corcoran Park,TRUE
+1216,30728,CHA,Corcoran Park,TRUE
+1217,32215,CHA,Corcoran Park,TRUE
+1218,23461,CHA,Corcoran Park,TRUE
+1219,30729,CHA,Corcoran Park,TRUE
+1220,30730,CHA,Corcoran Park,TRUE
+1221,30731,CHA,Corcoran Park,TRUE
+1222,32216,CHA,Corcoran Park,TRUE
+1223,23462,CHA,Corcoran Park,TRUE
+1224,30732,CHA,Corcoran Park,TRUE
+1225,30733,CHA,Corcoran Park,TRUE
+1226,30734,CHA,Corcoran Park,TRUE
+1227,30735,CHA,Corcoran Park,TRUE
+1228,30736,CHA,Corcoran Park,TRUE
+1229,32217,CHA,Corcoran Park,TRUE
+1230,23463,CHA,Corcoran Park,TRUE
+1231,30737,CHA,Corcoran Park,TRUE
+1232,30738,CHA,Corcoran Park,TRUE
+1233,30739,CHA,Corcoran Park,TRUE
+1234,30740,CHA,Corcoran Park,TRUE
+1235,30741,CHA,Corcoran Park,TRUE
+1236,30742,CHA,Corcoran Park,TRUE
+1237,30743,CHA,Corcoran Park,TRUE
+1238,32218,CHA,Corcoran Park,TRUE
+1239,32219,CHA,Corcoran Park,TRUE
+1240,32220,CHA,Corcoran Park,TRUE
+1241,32221,CHA,Corcoran Park,TRUE
+1242,23210,CHA,Corcoran Park,TRUE
+1243,32222,CHA,Corcoran Park,TRUE
+1244,23211,CHA,Corcoran Park,TRUE
+1245,31077,CHA,Corcoran Park,TRUE
+1246,31078,CHA,Corcoran Park,TRUE
+1247,32223,CHA,Corcoran Park,TRUE
+1248,32224,CHA,Corcoran Park,TRUE
+1249,23213,CHA,Corcoran Park,TRUE
+1250,31085,CHA,Corcoran Park,TRUE
+1251,31086,CHA,Corcoran Park,TRUE
+1252,31087,CHA,Corcoran Park,TRUE
+1253,31088,CHA,Corcoran Park,TRUE
+1254,31089,CHA,Corcoran Park,TRUE
+1255,31090,CHA,Corcoran Park,TRUE
+1256,31091,CHA,Corcoran Park,TRUE
+1257,32225,CHA,Corcoran Park,TRUE
+1258,23214,CHA,Corcoran Park,TRUE
+1259,31092,CHA,Corcoran Park,TRUE
+1260,31093,CHA,Corcoran Park,TRUE
+1261,31094,CHA,Corcoran Park,TRUE
+1262,31095,CHA,Corcoran Park,TRUE
+1263,31096,CHA,Corcoran Park,TRUE
+1264,23215,CHA,Corcoran Park,TRUE
+1265,31097,CHA,Corcoran Park,TRUE
+1266,31098,CHA,Corcoran Park,TRUE
+1267,31099,CHA,Corcoran Park,TRUE
+1268,31100,CHA,Corcoran Park,TRUE
+1269,31101,CHA,Corcoran Park,TRUE
+1270,23216,CHA,Corcoran Park,TRUE
+1271,31102,CHA,Corcoran Park,TRUE
+1272,31103,CHA,Corcoran Park,TRUE
+1273,31104,CHA,Corcoran Park,TRUE
+1274,31107,CHA,Corcoran Park,TRUE
+1275,31106,CHA,Corcoran Park,TRUE
+1276,31105,CHA,Corcoran Park,TRUE
+1277,23218,CHA,Corcoran Park,TRUE
+1278,31108,CHA,Corcoran Park,TRUE
+1279,31109,CHA,Corcoran Park,TRUE
+1280,31110,CHA,Corcoran Park,TRUE
+1281,31111,CHA,Corcoran Park,TRUE
+1282,31112,CHA,Corcoran Park,TRUE
+1283,32226,CHA,Corcoran Park,TRUE
+1284,32227,CHA,Corcoran Park,TRUE
+1285,32228,CHA,Corcoran Park,TRUE
+1286,32229,CHA,Corcoran Park,TRUE
+1287,32230,CHA,Corcoran Park,TRUE
+1288,32231,CHA,Corcoran Park,TRUE
+1289,30700,CHA,Corcoran Park,TRUE
+1290,30701,CHA,Corcoran Park,TRUE
+1291,30702,CHA,Corcoran Park,TRUE
+1292,30703,CHA,Corcoran Park,TRUE
+1293,30704,CHA,Corcoran Park,TRUE
+1294,30709,CHA,Corcoran Park,TRUE
+1295,30710,CHA,Corcoran Park,TRUE
+1296,30711,CHA,Corcoran Park,TRUE
+1297,30717,CHA,Corcoran Park,TRUE
+1298,30716,CHA,Corcoran Park,TRUE
+1299,30715,CHA,Corcoran Park,TRUE
+1300,30714,CHA,Corcoran Park,TRUE
+1301,30713,CHA,Corcoran Park,TRUE
+1302,30712,CHA,Corcoran Park,TRUE
+1303,32232,CHA,Corcoran Park,TRUE
+1304,32233,CHA,Corcoran Park,TRUE
+1305,32158,CHA,Corcoran Park,TRUE
+1306,32234,CHA,Corcoran Park,TRUE
+1307,32235,CHA,Corcoran Park,TRUE
+1308,32236,CHA,Corcoran Park,TRUE
+1309,31675,HARV,Everett Street Northwest Corner Garage,FALSE
+1310,32465,HARV,Winthrop House,FALSE
+1311,26381,HARV,"Whitman Hall, Cabot House",TRUE
+1312,25760,ORG,Cambridge Housing Authority,FALSE
+1313,32534,PVOS,Kendall Square,TRUE
+1314,32536,MITB,Hayward Street Lot,TRUE
+1315,32537,MITB,Kendall Square Lot,TRUE
+1316,43,MITB,139 Massachusetts Avenue Visitor Lot,TRUE
+1317,32539,MITB,West Lot,TRUE
+1318,32547,PVOS,University Park,TRUE
+1319,32548,PVOS,University Park Common,TRUE
+1320,32593,PVOS,University Park,TRUE
+1321,32614,LESL,Parking Lot,TRUE
+1322,32617,LESL,Tennis Courts,FALSE
+1323,31946,STATE,John F. Kennedy Memorial Park,TRUE
+1324,32650,PVSCH,Buckingham Browne and Nichols School Field,FALSE
+1325,32662,STATE,MBTA Maintenance Facility,FALSE
+1326,13716,CPARK,Rogers Street Park,TRUE
+1327,32713,MUNI,Pump Station Telemetry Sensor,FALSE
+1328,568,MUNI,Cambridge Housing Authority,FALSE
+1329,568,MUNI,Alice K. Wolf Center,TRUE
+1330,32726,CPMPLX,Fresh Pond Place,TRUE
+1331,32748,ORG,East Cambridge VFW,FALSE
+1332,32749,CPARK,Russell Field,TRUE
+1333,32749,CPARK,Samp Field,TRUE
+1334,32749,MUNI,Russell Field Fieldhouse,TRUE
+1335,32760,MIT,MIT Building NW61,TRUE
+1336,32760,MITB,MIT Random Hall,TRUE
+1337,32762,HARV,Kittredge Hall,TRUE
+1338,32769,MIT,MIT Building NE18,TRUE
+1339,32769,CPMPLX,1 Cambridge Center,TRUE
+1340,31618,CPMPLX,2 Cambridge Center,TRUE
+1341,32724,CPMPLX,3 Cambridge Center,TRUE
+1342,32725,MIT,MIT Building NE25,TRUE
+1343,32725,CPMPLX,5 Cambridge Center,TRUE
+1344,32770,CPMPLX,4 Cambridge Center,TRUE
+1345,31493,CPMPLX,Seven Cambridge Center,TRUE
+1346,31493,ORG,Broad Institute,FALSE
+1347,32771,CPMPLX,8 Cambridge Center,TRUE
+1349,32775,CPMPLX,11 Cambridge Center,TRUE
+1351,32776,CPMPLX,14 Cambridge Center,TRUE
+1353,32805,MUNI,Baldwin School,TRUE
+1355,32819,HARV,"Standish Hall, Winthrop House",TRUE
+1356,32824,CPMPLX,Kendall Center Blue Garage,TRUE
+1357,32774,CPMPLX,15 Cambridge Center,TRUE
+1361,32773,CPMPLX,12 Cambridge Center,TRUE
+1362,32772,CPMPLX,10 Cambridge Center,TRUE
+1363,32834,COMM,Residence Inn,FALSE
+1364,32836,HARV,Gateway Building,FALSE
+1365,32837,MUNI,Water Treatment Facility Vehicle Storage,FALSE
+1366,864,MUNI,DPW Simard Building,FALSE
+1367,864,MUNI,DPW Ryan Garage,FALSE
+1369,23932,HARV,Pusey Library,TRUE
+1370,251,HARV,"Building H, Botanic Gardens",FALSE
+1371,251,HARV,"Building I, Botanic Gardens",FALSE
+1372,32838,MUNI,Gold Star Mothers Swimming Pool,FALSE
+1373,32840,CSCHOOL,King School,FALSE
+1374,32848,MUNI,Portland Loo,TRUE

@@ -93,7 +93,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>19103</ptvctcnt>
+        <ptvctcnt>19105</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -201,7 +201,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150804</metd>
+    <metd>20151010</metd>
     <metc>
       <cntinfo>
         <cntorgp>

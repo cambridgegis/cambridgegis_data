@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Historical Commission</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -75,7 +75,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.HISTORICAL_NhoodConservationDist</enttypl>
+        <enttypl>HISTORICAL_NhoodConservationDist</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -104,10 +104,20 @@
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>SHAPE.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -123,7 +133,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20151011</metd>
     <metc>
       <cntinfo>
         <cntorgp>

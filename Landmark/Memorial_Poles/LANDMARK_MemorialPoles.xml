@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, DPW</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -73,7 +73,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.LANDMARK_MemorialPoles</enttypl>
+        <enttypl>LANDMARK_MemorialPoles</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -153,7 +153,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140701</metd>
+    <metd>20151011</metd>
     <metc>
       <cntinfo>
         <cntorgp>

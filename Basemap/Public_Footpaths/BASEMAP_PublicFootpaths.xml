@@ -50,7 +50,7 @@
     <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -93,7 +93,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>713</ptvctcnt>
+        <ptvctcnt>707</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -131,7 +131,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.BASEMAP_PublicFootpaths</enttypl>
+        <enttypl>BASEMAP_PublicFootpaths</enttypl>
         <enttypd>Impervious surfaces are mainly artificial structures such as paved surfaces that are covered by impenetrable materials such as asphalt, concrete, brick, and stone etc. Features classified in "impervious other" include patio, concrete pads mounted for transformers, transmission towers, plaza, irrigation device and other paved surfaces other than paved roads, driveways, parkinglots, sidewalks and buildings.</enttypd>
       </enttyp>
       <attr>
@@ -158,15 +158,25 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20151011</metd>
     <metc>
       <cntinfo>
         <cntorgp>

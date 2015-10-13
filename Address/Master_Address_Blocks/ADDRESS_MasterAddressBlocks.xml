@@ -21,14 +21,14 @@
     <accconst>None</accconst>
     <useconst>This layer is available for staff and public use without limitations</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>750</ptvctcnt>
+        <ptvctcnt>749</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -66,7 +66,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.ADDRESS_MasterAddressBlocks</enttypl>
+        <enttypl>ADDRESS_MasterAddressBlocks</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -100,10 +100,20 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -119,7 +129,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20151010</metd>
     <metc>
       <cntinfo>
         <cntorgp>
