@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160787</westbc>
-        <eastbc>-71.067051</eastbc>
+        <eastbc>-71.066776</eastbc>
         <northbc>42.403795</northbc>
-        <southbc>42.353136</southbc>
+        <southbc>42.353135</southbc>
       </bounding>
     </spdom>
     <accconst>None</accconst>
@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>8955</ptvctcnt>
+        <ptvctcnt>8988</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -176,7 +176,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20151103</metd>
+    <metd>20151202</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
