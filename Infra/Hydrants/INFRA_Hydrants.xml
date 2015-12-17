@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1874</ptvctcnt>
+        <ptvctcnt>1881</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -87,36 +87,109 @@
       </attr>
       <attr>
         <attrlabl>ANCILLARYROLE</attrlabl>
+        <attrdef>Ancillary role for hydrant.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>None</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Source</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Sink</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>ENABLED</attrlabl>
+        <attrdef>Enabled?</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>False</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>True</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>INSTALLDATE</attrlabl>
+        <attrdef>Installation date.</attrdef>
       </attr>
       <attr>
         <attrlabl>ROTATION</attrlabl>
+        <attrdef>Annotation rotation value.</attrdef>
       </attr>
       <attr>
         <attrlabl>LIFECYCLESTATUS</attrlabl>
+        <attrdef>Lifecycle status.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>ACT</edomv>
+            <edomvd>Active</edomvd>
+          </edom>
+          <edom>
+            <edomv>ABN</edomv>
+            <edomvd>Abandoned</edomvd>
+          </edom>
+          <edom>
+            <edomv>PROP</edomv>
+            <edomvd>Proposed</edomvd>
+          </edom>
+          <edom>
+            <edomv>MITFL</edomv>
+            <edomvd>MIT Fire Loop</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>SUBTYPE</attrlabl>
+        <attrdef>Subtype.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>GateHydrant</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NonGateHydrant</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>LASTEDITOR</attrlabl>
+        <attrdef>Last editor.</attrdef>
       </attr>
       <attr>
         <attrlabl>LASTEDITDATE</attrlabl>
+        <attrdef>Last edit date.</attrdef>
       </attr>
       <attr>
         <attrlabl>LASTSOURCE</attrlabl>
+        <attrdef>Last edit source.</attrdef>
       </attr>
       <attr>
         <attrlabl>HYDRANT_ID</attrlabl>
+        <attrdef>Unique hydrant ID.</attrdef>
       </attr>
       <attr>
         <attrlabl>GATE</attrlabl>
+        <attrdef>Gate?</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>False</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>True</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -128,12 +201,44 @@
       </attr>
       <attr>
         <attrlabl>CONTRACTAUTHORITY</attrlabl>
+        <attrdef>Contract authority</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>MWRA</edomv>
+            <edomvd>MWRA</edomvd>
+          </edom>
+          <edom>
+            <edomv>CAM</edomv>
+            <edomvd>City</edomvd>
+          </edom>
+          <edom>
+            <edomv>PRI</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+          <edom>
+            <edomv>HVDU</edomv>
+            <edomvd>Harvard</edomvd>
+          </edom>
+          <edom>
+            <edomv>MIT</edomv>
+            <edomvd>MIT</edomvd>
+          </edom>
+          <edom>
+            <edomv>UNK</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>HYDRANT_GPM</attrlabl>
+        <attrdef>Gallons per minute.</attrdef>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+        <attrdef>Notes.</attrdef>
       </attr>
     </detailed>
     <detailed>
@@ -164,7 +269,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20150804</metd>
+    <metd>20151217</metd>
     <metc>
       <cntinfo>
         <cntorgp>
