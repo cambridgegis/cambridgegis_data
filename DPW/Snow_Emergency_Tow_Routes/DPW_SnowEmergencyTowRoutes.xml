@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>SnowEmergencyTowRoutes</title>
+        <title>DPW_SnowEmergencyTowRoutes</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3389</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>94</ptvctcnt>
+        <ptvctcnt>95</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -59,8 +59,8 @@
         <planci>
           <plance>coordinate pair</plance>
           <coordrep>
-            <absres>0.000000026758084636924202</absres>
-            <ordres>0.000000026758084636924202</ordres>
+            <absres>0.00032808333333333333</absres>
+            <ordres>0.00032808333333333333</ordres>
           </coordrep>
           <plandu>foot_us</plandu>
         </planci>
@@ -76,10 +76,10 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>SnowEmergencyTowRoutes</enttypl>
+        <enttypl>DPW_SnowEmergencyTowRoutes</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>FID</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
@@ -113,6 +113,17 @@
         <attrdef>Street name</attrdef>
         <attrdefs>City of Cambridge</attrdefs>
       </attr>
+      <attr>
+        <attrlabl>Shape_STLength__</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -124,7 +135,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140102</metd>
+    <metd>20160209</metd>
     <metc>
       <cntinfo>
         <cntorgp>
