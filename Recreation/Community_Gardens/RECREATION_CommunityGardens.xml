@@ -12,9 +12,9 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.149445</westbc>
-        <eastbc>-71.079595</eastbc>
-        <northbc>42.398752</northbc>
+        <westbc>-71.149327</westbc>
+        <eastbc>-71.079653</eastbc>
+        <northbc>42.390004</northbc>
         <southbc>42.359942</southbc>
       </bounding>
     </spdom>
@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -73,7 +73,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.RECREATION_CommunityGardens</enttypl>
+        <enttypl>RECREATION_CommunityGardens</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -123,7 +123,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140930</metd>
+    <metd>20160223</metd>
     <metc>
       <cntinfo>
         <cntorgp>
