@@ -172,10 +172,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 199,16360,MIT BUILDING NAME,MIT Random Hall,FALSE
 200,16357,MIT FACILITY NUMBER,MIT Building NW61,TRUE
 201,16357,MIT BUILDING NAME,MIT Random Hall,TRUE
-202,640,MIT FACILITY NUMBER,MIT Building NW62,FALSE
-203,640,MIT BUILDING NAME,MIT Volvo Garage,FALSE
-204,31033,MIT FACILITY NUMBER,MIT Building NW62,FALSE
-205,31033,MIT BUILDING NAME,MIT Volvo Garage,FALSE
 212,25670,MIT FACILITY NUMBER,MIT Building NW95,FALSE
 213,24250,MIT FACILITY NUMBER,MIT Building NW10,FALSE
 214,24250,MIT BUILDING NAME,MIT Edgerton House,FALSE
@@ -339,13 +335,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 406,672,MIT BUILDING NAME,MIT Johnson Athletics Center,FALSE
 407,46,MIT FACILITY NUMBER,MIT Building W11,FALSE
 408,678,MIT FACILITY NUMBER,MIT Building W13,FALSE
-409,678,MIT BUILDING NAME,MIT Bexley Hall,FALSE
-410,674,MIT FACILITY NUMBER,MIT Building W13,FALSE
-411,674,MIT BUILDING NAME,MIT Bexley Hall,FALSE
-412,14135,MIT FACILITY NUMBER,MIT Building W13,FALSE
-413,14135,MIT BUILDING NAME,MIT Bexley Hall,FALSE
-414,14136,MIT FACILITY NUMBER,MIT Building W13,FALSE
-415,14136,MIT BUILDING NAME,MIT Bexley Hall,FALSE
+409,678,MIT BUILDING NAME,MIT Park (former Bexley Hall),FALSE
 416,31044,MIT BUILDING NAME,MIT Building W15,FALSE
 417,31044,MIT BUILDING NAME,MIT Chapel,FALSE
 418,31044,MIT FACILITY NUMBER,MIT Building W16,FALSE
@@ -437,7 +427,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 525,31147,CITY SCHOOL,Tobin School,FALSE
 526,5436,MUNICIPAL,Cambridge Rindge and Latin School,FALSE
 527,26126,ORGANIZATION,Benjamin Bannaker School,FALSE
-528,844,MUNICIPAL,Old Longfellow School,FALSE
+528,844,MUNICIPAL,King Open School (temp),TRUE
 529,31148,MUNICIPAL,Cemetery Office,FALSE
 530,637,MUNICIPAL,Fire Station 2,FALSE
 531,31149,MUNICIPAL,Fire Station 3,FALSE
@@ -615,7 +605,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 814,5942,COMMERCIAL,Harding House ,FALSE
 815,563,ORGANIZATION,YMCA,FALSE
 816,568,MUNICIPAL,Multi Service Center / Community Learning,FALSE
-819,378,HARVARD UNIV,Paine Hall,TRUE
 820,31706,MIT BUILDING NAME,MIT Sloan,FALSE
 821,31706,MIT FACILITY NUMBER,MIT Building 62,FALSE
 822,31707,MIT BUILDING NAME,David H. Koch Institute ,FALSE
@@ -735,7 +724,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 952,31917,CITY PARK,Elm / Hampshire Plaza,FALSE
 953,31918,CITY PARK,Pacific Street Open Space,FALSE
 955,30498,COMMERCIAL,Whitehead Institute,FALSE
-956,25471,COMMERCIAL,Residence Inn,FALSE
 959,31618,COMMERCIAL,Marriott Hotel,FALSE
 960,31931,HARVARD UNIV,Rowland Institute,FALSE
 961,31487,COMMERCIAL,Hotel Marlow,FALSE
@@ -868,7 +856,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1118,736,CITY SCHOOL,Putnam Avenue Upper School,FALSE
 1119,26247,CITY SCHOOL,Rindge Avenue Upper School,FALSE
 1120,31147,CITY SCHOOL,Vassal Lane Upper School,FALSE
-1121,250,HARVARD UNIV,Quadrangle Athletic Facility,TRUE
 1122,207,HARVARD UNIV,Kittredge Hall,TRUE
 1123,207,HARVARD UNIV,Harvard University Press,FALSE
 1124,208,HARVARD UNIV,"Building A, Botanic Gardens",FALSE
@@ -1072,8 +1059,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1332,32749,CITY PARK,Russell Field,TRUE
 1333,32749,CITY PARK,Samp Field,TRUE
 1334,32749,MUNICIPAL,Russell Field Fieldhouse,TRUE
-1335,32760,MIT FACILITY NUMBER,MIT Building NW61,TRUE
-1336,32760,MIT BUILDING NAME,MIT Random Hall,TRUE
 1337,32762,HARVARD UNIV,Kittredge Hall,TRUE
 1338,32769,MIT FACILITY NUMBER,MIT Building NE18,TRUE
 1339,32769,COMPLEX,1 Cambridge Center,TRUE
@@ -1104,3 +1089,21 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1372,32838,MUNICIPAL,Gold Star Mothers Swimming Pool,FALSE
 1373,32840,CITY SCHOOL,King School,FALSE
 1374,32848,MUNICIPAL,Portland Loo,TRUE
+1375,711,MIT BUILDING NAME,MIT.nanno,FALSE
+1376,32865,MUNICIPAL,Stormwater Telemetry Station,TRUE
+1377,32866,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1378,32869,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1379,32870,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1380,32871,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1381,32872,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1382,32873,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1383,32874,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1384,32875,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1385,32876,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1386,32490,CITY PARK,Triangle Park,TRUE
+1387,32512,CITY PARK,322 Binney Street,TRUE
+1388,736,CITY SCHOOL,Cambridge Street Upper School (temp),FALSE
+1389,28702,HARVARD UNIV,Paine Hall,TRUE
+1390,32914,HARVARD UNIV,Harvard Dance Center,TRUE
+1391,250,HARVARD UNIV,Quadrangle Athletic Facility,TRUE
+1392,32915,ORGANIZATION,MWRA Control Cabinet,TRUE
