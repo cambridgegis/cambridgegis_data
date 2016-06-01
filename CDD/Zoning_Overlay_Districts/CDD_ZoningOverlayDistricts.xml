@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None. For planning purposes only.</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>50</ptvctcnt>
+        <ptvctcnt>51</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -151,7 +151,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20150304</metd>
+    <metd>20160601</metd>
     <metc>
       <cntinfo>
         <cntorgp>
