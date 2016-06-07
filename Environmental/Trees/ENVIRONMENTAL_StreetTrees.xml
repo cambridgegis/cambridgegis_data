@@ -273,10 +273,13 @@
         <attrdef>Indicates if the root flare of the tree is visible.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
+      <attr>
+        <attrlabl>TreeWellID</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20160301</metd>
+    <metd>20160607</metd>
     <metc>
       <cntinfo>
         <cntorgp>
