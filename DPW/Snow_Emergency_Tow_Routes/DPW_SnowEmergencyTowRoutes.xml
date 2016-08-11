@@ -31,7 +31,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -114,9 +114,6 @@
         <attrdefs>City of Cambridge</attrdefs>
       </attr>
       <attr>
-        <attrlabl>Shape_STLength__</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -135,7 +132,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160209</metd>
+    <metd>20160810</metd>
     <metc>
       <cntinfo>
         <cntorgp>

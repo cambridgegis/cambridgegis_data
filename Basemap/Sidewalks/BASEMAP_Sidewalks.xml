@@ -68,7 +68,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -111,7 +111,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>4363</ptvctcnt>
+        <ptvctcnt>4358</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -149,7 +149,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.GISDATA.Sidewalks</enttypl>
+        <enttypl>BASEMAP_Sidewalks</enttypl>
         <enttypd>A sidewalk is asphalt, brick or concrete pedestrian walkway or path along the side of a road network through the neighborhoods which has the passage for all public. Edge of the sidewalk feature is collected as polygon which is normally separated from the vehicular section by a curb or a strip of vegetation, grass or bushes or a combination of these.</enttypd>
       </enttyp>
       <attr>
@@ -176,15 +176,25 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20141015</metd>
+    <metd>20160810</metd>
     <metc>
       <cntinfo>
         <cntorgp>

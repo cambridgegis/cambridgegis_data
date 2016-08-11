@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -74,12 +74,12 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.LANDMARK_YouthCenters</enttypl>
+        <enttypl>LANDMARK_YouthCenters</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>OBJECTID_1</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
@@ -124,7 +124,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20160810</metd>
     <metc>
       <cntinfo>
         <cntorgp>
