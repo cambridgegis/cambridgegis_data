@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains 33 wards and 11 precincts within the City of Cambridge. These were adjusted in 2011 from the 2010 U.S. Census.</abstract>
+      <abstract>This polygon layer contains 11 wards and 33 precincts within the City of Cambridge. These were adjusted in 2011 from the 2010 U.S. Census.</abstract>
       <purpose>This layer was created for general use by the Cambridge Election Commission and for public distribution. Cambridge wards and precincts which designate where voters will vote.</purpose>
     </descript>
     <spdom>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -75,7 +75,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.ELECTIONS_WardsPrecincts</enttypl>
+        <enttypl>ELECTIONS_WardsPrecincts</enttypl>
       </enttyp>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -110,15 +110,25 @@
         <attrdef>Ward</attrdef>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20161004</metd>
     <metc>
       <cntinfo>
         <cntorgp>

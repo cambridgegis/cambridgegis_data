@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>9110</ptvctcnt>
+        <ptvctcnt>9173</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -185,10 +185,13 @@
       <attr>
         <attrlabl>last_edited_date</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>MaintenanceInterval</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20160907</metd>
+    <metd>20161004</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
