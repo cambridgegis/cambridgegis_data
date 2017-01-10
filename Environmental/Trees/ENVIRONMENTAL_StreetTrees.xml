@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30467</ptvctcnt>
+        <ptvctcnt>30498</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -291,10 +291,19 @@
       <attr>
         <attrlabl>Retired</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>CartegraphSpecies</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CommonName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ScientificName</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20161205</metd>
+    <metd>20170109</metd>
     <metc>
       <cntinfo>
         <cntorgp>
