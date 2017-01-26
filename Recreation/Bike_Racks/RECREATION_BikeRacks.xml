@@ -101,13 +101,7 @@
         <attrdef>Owner of the property on which the rack(s) was installed.</attrdef>
       </attr>
       <attr>
-        <attrlabl>RequestNumber</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>Cross_St</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>BizLocator</attrlabl>
       </attr>
       <attr>
         <attrlabl>Latitude</attrlabl>
@@ -119,109 +113,7 @@
         <attrlabl>RackType</attrlabl>
       </attr>
       <attr>
-        <attrlabl>InstallTyp</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Traff_Mgmt</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Meter_Num</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DateInstall</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SurveyDate</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Ref_Number</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Ped_Volume</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SurveyNote</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SQ_VOs_ADA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CornerDist</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>BusLoadADA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>VaultSewer</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ImpedeEntr</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>OutSitPoss</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CurbWall</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PedWalkway</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Orientation</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>MoveObst</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Round</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>Status</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CurbRegs</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Spacing</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>MeterSpace</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Needs_TPT</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Confirmed</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>StatusNotes</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SurfaceTyp</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>InstallPKG</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Priority</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Photo_Num</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Full_Addr</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DigSafeNum</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SpecialCat</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SurveyBy</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>DesignEx</attrlabl>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
@@ -229,7 +121,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170123</metd>
+    <metd>20170126</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
