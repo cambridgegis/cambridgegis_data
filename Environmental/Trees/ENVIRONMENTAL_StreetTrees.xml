@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30498</ptvctcnt>
+        <ptvctcnt>30483</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -284,9 +284,11 @@
       </attr>
       <attr>
         <attrlabl>last_edited_user</attrlabl>
+        <attrdef>Initials of person making most recent edit </attrdef>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
+        <attrdef>Last edit date. </attrdef>
       </attr>
       <attr>
         <attrlabl>Retired</attrlabl>
@@ -303,7 +305,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170109</metd>
+    <metd>20170206</metd>
     <metc>
       <cntinfo>
         <cntorgp>

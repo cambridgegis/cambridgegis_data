@@ -104,15 +104,19 @@
       </attr>
       <attr>
         <attrlabl>LASTEDITOR</attrlabl>
+        <attrdef>Initials of person making most recent edit </attrdef>
       </attr>
       <attr>
         <attrlabl>LASTEDITDATE</attrlabl>
+        <attrdef>Last edit date. </attrdef>
       </attr>
       <attr>
         <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Additional notes and or comments </attrdef>
       </attr>
       <attr>
         <attrlabl>OWNER</attrlabl>
+        <attrdef>Owner of catch basin </attrdef>
       </attr>
       <attr>
         <attrlabl>ARCFMID</attrlabl>
@@ -191,7 +195,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170109</metd>
+    <metd>20170206</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
