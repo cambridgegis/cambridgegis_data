@@ -50,7 +50,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5713</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -300,12 +300,24 @@
         <attrlabl>CommonName</attrlabl>
       </attr>
       <attr>
+        <attrlabl>CartegraphRetireDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CartegraphPlantDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Neighborhood</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>species_old</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>ScientificName</attrlabl>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170206</metd>
+    <metd>20170306</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1863</ptvctcnt>
+        <ptvctcnt>1862</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -130,6 +130,18 @@
         <attrlabl>Street2</attrlabl>
         <attrdef>Unpopulated</attrdef>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -144,7 +156,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160810</metd>
+    <metd>20170306</metd>
     <metc>
       <cntinfo>
         <cntorgp>

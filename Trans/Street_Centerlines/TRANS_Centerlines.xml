@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5713</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>2621</ptvctcnt>
+        <ptvctcnt>2623</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -220,6 +220,18 @@
         <attrdef>Potential range researched and populated</attrdef>
       </attr>
       <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -242,7 +254,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170123</metd>
+    <metd>20170306</metd>
     <metc>
       <cntinfo>
         <cntorgp>
