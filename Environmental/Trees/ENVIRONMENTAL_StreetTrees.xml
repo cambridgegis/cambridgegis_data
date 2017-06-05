@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>30513</ptvctcnt>
+        <ptvctcnt>30602</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -239,11 +239,6 @@
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
-        <attrlabl>SpeciesNotes</attrlabl>
-        <attrdef>Miscellaneous notes about the species of the current tree.</attrdef>
-        <attrdefs>Cambridge DPW</attrdefs>
-      </attr>
-      <attr>
         <attrlabl>TreeWellCover</attrlabl>
         <attrdef>The type of cover, if any that is over the tree well. The two values are Tree Grate or Flexi-Pave.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
@@ -280,7 +275,16 @@
         <attrlabl>created_user</attrlabl>
       </attr>
       <attr>
+        <attrlabl>SiteRetired</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>xCartegraphSpecies</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Genus</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_user</attrlabl>
@@ -291,13 +295,10 @@
         <attrdef>Last edit date. </attrdef>
       </attr>
       <attr>
-        <attrlabl>Retired</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CartegraphSpecies</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>CommonName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>xspecies_old</attrlabl>
       </attr>
       <attr>
         <attrlabl>CartegraphRetireDate</attrlabl>
@@ -309,15 +310,24 @@
         <attrlabl>Neighborhood</attrlabl>
       </attr>
       <attr>
-        <attrlabl>species_old</attrlabl>
+        <attrlabl>ScientificName</attrlabl>
       </attr>
       <attr>
-        <attrlabl>ScientificName</attrlabl>
+        <attrlabl>Order_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PlantingContract</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SourceNursery</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WateringResponsibility</attrlabl>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170508</metd>
+    <metd>20170605</metd>
     <metc>
       <cntinfo>
         <cntorgp>
