@@ -50,7 +50,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -95,7 +95,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.GISDATA.INFRA_StreetLights</enttypl>
+        <enttypl>INFRA_StreetLights</enttypl>
       </enttyp>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -191,7 +191,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150413</metd>
+    <metd>20170729</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>3132</ptvctcnt>
+        <ptvctcnt>3134</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -103,17 +103,28 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>EditDate</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Editor</attrlabl>
-        <attrdef>Last GIS editor</attrdef>
-      </attr>
-      <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>PbyP_Zone</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MaxTime</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MinutesPer</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Rate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EnforcementHours</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SmartMeter</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
@@ -145,7 +156,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170615</metd>
+    <metd>20170729</metd>
     <metc>
       <cntinfo>
         <cntorgp>

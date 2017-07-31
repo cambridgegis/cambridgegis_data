@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>2623</ptvctcnt>
+        <ptvctcnt>2615</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -254,7 +254,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170306</metd>
+    <metd>20170729</metd>
     <metc>
       <cntinfo>
         <cntorgp>

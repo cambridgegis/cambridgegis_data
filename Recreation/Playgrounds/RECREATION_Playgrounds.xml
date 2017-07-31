@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -115,7 +115,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160223</metd>
+    <metd>20170729</metd>
     <metc>
       <cntinfo>
         <cntorgp>

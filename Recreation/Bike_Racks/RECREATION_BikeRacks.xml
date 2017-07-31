@@ -13,22 +13,22 @@
     <spdom>
       <bounding>
         <westbc>-71.155239</westbc>
-        <eastbc>-71.070606</eastbc>
+        <eastbc>-71.069122</eastbc>
         <northbc>42.400562</northbc>
-        <southbc>42.355303</southbc>
+        <southbc>42.355297</southbc>
       </bounding>
     </spdom>
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Community Development Department (CDD)</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5713</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>2456</ptvctcnt>
+        <ptvctcnt>2565</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -105,9 +105,11 @@
       </attr>
       <attr>
         <attrlabl>Latitude</attrlabl>
+        <attrdef>Geographic Latitude </attrdef>
       </attr>
       <attr>
         <attrlabl>Longitude</attrlabl>
+        <attrdef>Geographic Longitude </attrdef>
       </attr>
       <attr>
         <attrlabl>RackType</attrlabl>
@@ -118,10 +120,13 @@
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>RequestNum</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170126</metd>
+    <metd>20170729</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

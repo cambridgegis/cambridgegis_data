@@ -28,14 +28,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, DPW</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>598</ptvctcnt>
+        <ptvctcnt>622</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -153,7 +153,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160810</metd>
+    <metd>20170729</metd>
     <metc>
       <cntinfo>
         <cntorgp>
