@@ -1,4 +1,4 @@
-poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
+﻿poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 5,389,HARVARD UNIV,Ames Hall,TRUE
 7,23747,HARVARD UNIV,Canaday Hall,TRUE
 8,388,HARVARD UNIV,Child Hall,TRUE
@@ -115,8 +115,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 127,25303,HARVARD UNIV,Hastings Hall,TRUE
 128,25970,HARVARD UNIV,Langdell Hall,TRUE
 129,23892,HARVARD UNIV,Lewis International Law Center,TRUE
-130,23907,HARVARD UNIV,Cruft Lab,TRUE
-131,23907,HARVARD UNIV,Jefferson Lab,TRUE
+131,23907,HARVARD UNIV,Jefferson Laboratory,TRUE
 132,23912,HARVARD UNIV,Pierce Hall,TRUE
 133,336,HARVARD UNIV,Pound Hall,TRUE
 134,30744,HARVARD UNIV,Holmes Hall,FALSE
@@ -157,7 +156,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 179,25091,ORGANIZATION,YWCA,FALSE
 180,26388,MUNICIPAL,Pisani Center,FALSE
 181,455,MUNICIPAL,Morse School,FALSE
-182,26064,BOSTON UNIV, DeWolfe Boat House,FALSE
+182,26064,BOSTON UNIV," DeWolfe Boat House",FALSE
 183,1513,MIT FACILITY NUMBER,MIT Building NE125,FALSE
 184,724,MIT FACILITY NUMBER,MIT Building NE80,FALSE
 185,724,MIT BUILDING NAME,MIT Hill Building,FALSE
@@ -172,7 +171,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 199,16360,MIT BUILDING NAME,MIT Random Hall,FALSE
 200,16357,MIT FACILITY NUMBER,MIT Building NW61,TRUE
 201,16357,MIT BUILDING NAME,MIT Random Hall,TRUE
-212,25670,MIT FACILITY NUMBER,MIT Building NW95,FALSE
 213,24250,MIT FACILITY NUMBER,MIT Building NW10,FALSE
 214,24250,MIT BUILDING NAME,MIT Edgerton House,FALSE
 215,634,MIT FACILITY NUMBER,MIT Building NW16,FALSE
@@ -182,7 +180,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 219,3689,MIT FACILITY NUMBER,MIT Building NW22,FALSE
 220,3689,MIT BUILDING NAME,MIT Plasma Science & Fusion Center,FALSE
 223,2807,MIT FACILITY NUMBER,MIT Building NW86,FALSE
-224,2807,MIT BUILDING NAME,MIT Sidney Pacific ,FALSE
+224,2807,MIT BUILDING NAME,"MIT Sidney Pacific ",FALSE
 225,725,COMMERCIAL,Draper Laboratory,FALSE
 227,717,MIT FACILITY NUMBER,MIT Building N4,FALSE
 228,717,MIT BUILDING NAME,MIT Albany Garage,FALSE
@@ -279,10 +277,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 346,742,MIT BUILDING NAME,MIT Suffolk Building,FALSE
 347,29,MIT FACILITY NUMBER,MIT Building E39,FALSE
 348,29,MIT FACILITY NUMBER,MIT Press,FALSE
-349,14130,MIT FACILITY NUMBER,MIT Building E34,FALSE
-350,31043,MIT FACILITY NUMBER,MIT Building E34,FALSE
-351,738,MIT FACILITY NUMBER,MIT Building E33,FALSE
-352,738,MIT BUILDING NAME,MIT Rinaldi Tile,FALSE
 354,5406,MIT FACILITY NUMBER,MIT Building E48,FALSE
 357,26457,MIT FACILITY NUMBER,MIT Building E40,FALSE
 358,26457,MIT FACILITY NUMBER,MIT Muckley Building,FALSE
@@ -602,12 +596,12 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 811,31697,LESLEY UNIVERSITY,Wolfard House,FALSE
 812,31698,LESLEY UNIVERSITY,MacKenzie,FALSE
 813,31699,LESLEY UNIVERSITY,Malloch House,FALSE
-814,5942,COMMERCIAL,Harding House ,FALSE
+814,5942,COMMERCIAL,"Harding House ",FALSE
 815,563,ORGANIZATION,YMCA,FALSE
 816,568,MUNICIPAL,Multi Service Center / Community Learning,FALSE
 820,31706,MIT BUILDING NAME,MIT Sloan,FALSE
 821,31706,MIT FACILITY NUMBER,MIT Building 62,FALSE
-822,31707,MIT BUILDING NAME,David H. Koch Institute ,FALSE
+822,31707,MIT BUILDING NAME,"David H. Koch Institute ",FALSE
 823,31707,MIT FACILITY NUMBER,MIT Building 76,FALSE
 825,566,ORGANIZATION,U.S. Post Office,FALSE
 826,530,PRIVATE SCHOOL,Cambridge College,FALSE
@@ -723,7 +717,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 951,743,FEDERAL OWNED,Volpe Center,FALSE
 952,31917,CITY PARK,Elm / Hampshire Plaza,FALSE
 953,31918,CITY PARK,Pacific Street Open Space,FALSE
-955,30498,COMMERCIAL,Whitehead Institute,FALSE
 959,31618,COMMERCIAL,Marriott Hotel,FALSE
 960,31931,HARVARD UNIV,Rowland Institute,FALSE
 961,31487,COMMERCIAL,Hotel Marlow,FALSE
@@ -733,7 +726,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 965,31946,HARVARD UNIV,Weld Boat House,FALSE
 966,26502,MIT BUILDING NAME,MIT Library Storage Annex,FALSE
 967,31042,MIT BUILDING NAME,MIT Museum,FALSE
-968,31952,STATE OWNED,MWRA Prision Point,FALSE
 969,26450,STATE OWNED,DCR Lower Basin Operations Yard,FALSE
 970,31604,PRIVATE SCHOOL,Cambridge College School of Management,FALSE
 971,5183,COMMERCIAL,Hampton Inn,FALSE
@@ -801,7 +793,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1056,313,HARVARD UNIV,Read House,TRUE
 1057,324,HARVARD UNIV,Larsen Hall,TRUE
 1058,323,HARVARD UNIV,Longfellow Hall,TRUE
-1059,318,HARVARD UNIV,Radcliff Gymnasium ,TRUE
+1059,318,HARVARD UNIV,"Radcliff Gymnasium ",TRUE
 1060,23876,HARVARD UNIV,Schlesinger Library,TRUE
 1061,23936,HARVARD UNIV,Loeb,TRUE
 1063,764,HARVARD UNIV,Annenberg Hall,FALSE
@@ -810,8 +802,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1066,377,HARVARD UNIV,Littauer Center,TRUE
 1067,380,HARVARD UNIV,Science Center,TRUE
 1068,26151,HARVARD UNIV,"McKay Laboratory, Gordon",TRUE
-1069,381,HARVARD UNIV,Lab for Integrated Science and Engineering,TRUE
-1070,379,HARVARD UNIV,Lyman Laboratory,TRUE
 1071,766,HARVARD UNIV,Mallinckrodt Chemistry Lab,TRUE
 1072,766,HARVARD UNIV,Conant Chemistry Lab,TRUE
 1073,766,HARVARD UNIV,Converse Chemistry Lab,TRUE
@@ -915,7 +905,7 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1187,259,HARVARD UNIV,Hilles Library,TRUE
 1188,326,HARVARD UNIV,Westengard House,TRUE
 1189,23932,HARVARD UNIV,Lamont Library,TRUE
-1190,204,HARVARD UNIV,Observatoty,TRUE
+1190,204,HARVARD UNIV,Observatory Building A,TRUE
 1191,204,HARVARD UNIV,Perkin Labratory,TRUE
 1192,23950,HARVARD UNIV,Advocate Building,TRUE
 1193,403,HARVARD UNIV,"1705 Massachusetts Avenue, Dudley House",TRUE
@@ -1038,7 +1028,6 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1311,26381,HARVARD UNIV,"Whitman Hall, Cabot House",TRUE
 1312,25760,ORGANIZATION,Cambridge Housing Authority,FALSE
 1313,32534,PRIVATE OPEN SPACE,Kendall Square,TRUE
-1314,32536,MIT BUILDING NAME,Hayward Street Lot,TRUE
 1315,32537,MIT BUILDING NAME,Kendall Square Lot,TRUE
 1316,43,MIT BUILDING NAME,139 Massachusetts Avenue Visitor Lot,TRUE
 1317,32539,MIT BUILDING NAME,West Lot,TRUE
@@ -1090,20 +1079,52 @@ poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
 1373,32840,CITY SCHOOL,King School,FALSE
 1374,32848,MUNICIPAL,Portland Loo,TRUE
 1375,711,MIT BUILDING NAME,MIT.nanno,FALSE
-1376,32865,MUNICIPAL,Stormwater Telemetry Station,TRUE
-1377,32866,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1378,32869,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1379,32870,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1380,32871,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1381,32872,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1382,32873,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1383,32874,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1384,32875,MUNICIPAL,Stormwater Telemetry Station,FALSE
-1385,32876,MUNICIPAL,Stormwater Telemetry Station,FALSE
+1376,32865,DATA CABINET,Stormwater Telemetry Station,TRUE
+1377,32866,DATA CABINET,Stormwater Telemetry Station,FALSE
+1378,32869,DATA CABINET,Stormwater Telemetry Station,FALSE
+1379,32870,DATA CABINET,Stormwater Telemetry Station,FALSE
+1380,32871,DATA CABINET,Stormwater Telemetry Station,FALSE
+1381,32872,DATA CABINET,Stormwater Telemetry Station,FALSE
+1382,32873,DATA CABINET,Stormwater Telemetry Station,FALSE
+1383,32874,DATA CABINET,Stormwater Telemetry Station,FALSE
+1384,32875,DATA CABINET,Stormwater Telemetry Station,FALSE
+1385,32876,DATA CABINET,Stormwater Telemetry Station,FALSE
 1386,32490,CITY PARK,Triangle Park,TRUE
 1387,32512,CITY PARK,322 Binney Street,TRUE
 1388,736,CITY SCHOOL,Cambridge Street Upper School (temp),FALSE
 1389,28702,HARVARD UNIV,Paine Hall,TRUE
 1390,32914,HARVARD UNIV,Harvard Dance Center,TRUE
 1391,250,HARVARD UNIV,Quadrangle Athletic Facility,TRUE
-1392,32915,ORGANIZATION,MWRA Control Cabinet,TRUE
+1392,32915,DATA CABINET,MWRA Control Cabinet,TRUE
+1393,32912,CITY PLAZA,DeGuglielmo Plaza,TRUE
+1394,32867,DATA CABINET,Stormwater Telemetry Station,TRUE
+1395,32868,DATA CABINET,Stormwater Telemetry Station,FALSE
+1396,32943,MBTA,Lechmere MBTA Station,TRUE
+1397,32944,MBTA,Kendall MBTA Station,TRUE
+1398,32948,MIT BUILDING NAME,Hayward Street Lot,TRUE
+1399,32953,MBTA,Havard Square MBTA Station,TRUE
+1400,25988,MBTA,Porter Square MBTA Station,TRUE
+1401,32955,MBTA,Central Square MBTA Station,TRUE
+1402,25318,MIT FACILITY NUMBER,MIT Building NW23,TRUE
+1403,25318,MIT BUILDING NAME,Office of Campus Planning,TRUE
+1405,32956,COMMERCIAL,Whitehead Institute,FALSE
+1406,32956,COMPLEX,9 Cambridge Center,TRUE
+1407,379,HARVARD UNIV,LISE - Lab for Integrated Science and Engineering,TRUE
+1408,23907,HARVARD UNIV,Lyman Laboratory,TRUE
+1409,32966,HARVARD UNIV,Cruft Laboratory,TRUE
+1410,32969,STATE OWNED,MWRA Prision Point,TRUE
+1411,32930,MIT FACILITY NUMBER,MIT Building W36,TRUE
+1412,32930,MIT BUILDING NAME,Henry Steinbrenner Stadium and Track,TRUE
+1413,32538,MIT FACILITY NUMBER,MIT Building W57,FALSE
+1414,32538,MIT FACILITY NUMBER,MIT Building W56,FALSE
+1415,204,HARVARD UNIV,Observatory Building B,TRUE
+1416,204,HARVARD UNIV,Observatory Building C,TRUE
+1417,204,HARVARD UNIV,Observatory Building D,TRUE
+1418,204,HARVARD UNIV,Observatory Building D,TRUE
+1419,204,HARVARD UNIV,Observatory Rotunda,TRUE
+1420,32986,TELEMETRY STATION,Pump Station Telemetry Sensor,TRUE
+1422,32987,TELEMETRY STATION,Control Panel Telemetry Sensor,TRUE
+1423,32988,TELEMETRY STATION,Control Panel Telemetry Sensor,TRUE
+1424,32802,COMPLEX,4 Cambridge Center,TRUE
+1425,486,STATE OWNED,Cottage Farm CSO Facility,TRUE
+1426,33003,DATA CABINET,Comcast/ Verizon Service,TRUE
