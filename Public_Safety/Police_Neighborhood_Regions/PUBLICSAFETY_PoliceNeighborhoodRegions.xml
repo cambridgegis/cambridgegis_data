@@ -8,7 +8,7 @@
     </citation>
     <descript>
       <abstract>Police Neighborhood Regions are used for response and reporting by Cambridge Public Safety. These are used for reporting, mapping and analysis purposes. The boundaries differ from the Community Development Neighborhoods slightly.</abstract>
-      <purpose>This is a neighborhood map used by  within their computer aided dispatch (CAD) software. </purpose>
+      <purpose>This is a neighborhood map used by Cambridge Public Safety within their computer aided dispatch (CAD) software. </purpose>
     </descript>
     <status>
       <update>As needed</update>
@@ -65,7 +65,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -130,12 +130,8 @@
       </attr>
       <attr>
         <attrlabl>NBHD</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape_STArea__</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape_STLength__</attrlabl>
+        <attrdef>Police designated neighborhood (not CDD neighborhood)
+</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
@@ -156,7 +152,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150403</metd>
+    <metd>20171002</metd>
     <metc>
       <cntinfo>
         <cntorgp>
