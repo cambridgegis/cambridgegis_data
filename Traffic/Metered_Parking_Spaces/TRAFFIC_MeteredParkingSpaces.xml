@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.149779</westbc>
-        <eastbc>-71.068727</eastbc>
-        <northbc>42.399204</northbc>
-        <southbc>42.353450</southbc>
+        <westbc>-71.149777</westbc>
+        <eastbc>-71.068953</eastbc>
+        <northbc>42.399206</northbc>
+        <southbc>42.353451</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>3134</ptvctcnt>
+        <ptvctcnt>3141</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -156,7 +156,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170729</metd>
+    <metd>20171018</metd>
     <metc>
       <cntinfo>
         <cntorgp>
