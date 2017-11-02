@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None. For planning purposes only.</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5713</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>12928</ptvctcnt>
+        <ptvctcnt>12926</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -180,7 +180,7 @@ o State: Properties owned by the State of Massachusetts, including those owned b
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170123</metd>
+    <metd>20171102</metd>
     <metc>
       <cntinfo>
         <cntorgp>
