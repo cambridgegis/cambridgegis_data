@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>31325</ptvctcnt>
+        <ptvctcnt>31481</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -275,9 +275,6 @@
         <attrlabl>created_user</attrlabl>
       </attr>
       <attr>
-        <attrlabl>SiteRetired</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>xCartegraphSpecies</attrlabl>
       </attr>
       <attr>
@@ -324,10 +321,19 @@
       <attr>
         <attrlabl>WateringResponsibility</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>LocationRetired</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SiteReplanted</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SiteRetiredReason</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20171002</metd>
+    <metd>20171113</metd>
     <metc>
       <cntinfo>
         <cntorgp>
