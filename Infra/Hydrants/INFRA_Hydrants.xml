@@ -30,14 +30,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1901</ptvctcnt>
+        <ptvctcnt>1893</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -240,6 +240,30 @@
         <attrlabl>Notes</attrlabl>
         <attrdef>Notes.</attrdef>
       </attr>
+      <attr>
+        <attrlabl>HYDRANT_LOCATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HYDRANT_MANF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HYDRANT_COLOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HYDRANT_OWNER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SWEEPER_HYDRANT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HYDRANT_DRAIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAST_DATE_TESTED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
     </detailed>
     <detailed>
       <enttyp>
@@ -269,7 +293,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170626</metd>
+    <metd>20171205</metd>
     <metc>
       <cntinfo>
         <cntorgp>
