@@ -21,14 +21,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Community Development Department (CDD)</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>2565</ptvctcnt>
+        <ptvctcnt>2611</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -126,7 +126,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20170729</metd>
+    <metd>20180108</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
