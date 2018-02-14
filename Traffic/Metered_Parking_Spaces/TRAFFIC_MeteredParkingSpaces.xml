@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>3141</ptvctcnt>
+        <ptvctcnt>3069</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -87,10 +87,6 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SRC_DATE</attrlabl>
-        <attrdef>Edited source date</attrdef>
-      </attr>
-      <attr>
         <attrlabl>SPACE_ID</attrlabl>
         <attrdef>Parking space unique ID</attrdef>
       </attr>
@@ -118,7 +114,7 @@
         <attrlabl>Rate</attrlabl>
       </attr>
       <attr>
-        <attrlabl>EnforcementHours</attrlabl>
+        <attrlabl>OperationHours</attrlabl>
       </attr>
       <attr>
         <attrlabl>SmartMeter</attrlabl>
@@ -156,7 +152,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20171018</metd>
+    <metd>20180214</metd>
     <metc>
       <cntinfo>
         <cntorgp>
