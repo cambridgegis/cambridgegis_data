@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>31800</ptvctcnt>
+        <ptvctcnt>31831</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -330,10 +330,13 @@
       <attr>
         <attrlabl>SiteRetiredReason</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Biochar_Added</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20180402</metd>
+    <metd>20180514</metd>
     <metc>
       <cntinfo>
         <cntorgp>

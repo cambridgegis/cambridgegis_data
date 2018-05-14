@@ -105,14 +105,6 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>LOCATION_NOTE</attrlabl>
-        <attrdef>Building entrance and room notes</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>SHAPE</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -124,6 +116,14 @@
         <attrlabl>Shape</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION_NOTE</attrlabl>
+        <attrdef>Building entrance and room notes</attrdef>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
@@ -142,7 +142,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20180402</metd>
+    <metd>20180514</metd>
     <metc>
       <cntinfo>
         <cntorgp>
