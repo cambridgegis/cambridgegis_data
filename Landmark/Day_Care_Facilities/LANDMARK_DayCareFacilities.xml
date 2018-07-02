@@ -13,8 +13,8 @@
     <spdom>
       <bounding>
         <westbc>-71.155447</westbc>
-        <eastbc>-71.076983</eastbc>
-        <northbc>42.395166</northbc>
+        <eastbc>-71.076958</eastbc>
+        <northbc>42.398908</northbc>
         <southbc>42.354914</southbc>
       </bounding>
     </spdom>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, Health and Human Services (DHSP), DPW</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>73</ptvctcnt>
+        <ptvctcnt>74</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -86,7 +86,7 @@
       </attr>
       <attr>
         <attrlabl>PUBLICPRIV</attrlabl>
-        <attrdef>Private of public facility</attrdef>
+        <attrdef>Private or public facility</attrdef>
       </attr>
       <attr>
         <attrlabl>OWNER</attrlabl>
@@ -140,7 +140,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170729</metd>
+    <metd>20180702</metd>
     <metc>
       <cntinfo>
         <cntorgp>
