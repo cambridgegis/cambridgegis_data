@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>9460</ptvctcnt>
+        <ptvctcnt>9542</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -192,10 +192,16 @@
       <attr>
         <attrlabl>MaintenanceInterval</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Vactor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Jetter</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20181002</metd>
+    <metd>20181105</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
