@@ -107,15 +107,15 @@
         <attrdomv>
           <edom>
             <edomv>0</edomv>
-            <edomvd>Null (indicates that there is a planned bike facility for the line segment)</edomvd>
+            <edomvd>No existing facility; see PBIKE_FAC for planned facility</edomvd>
           </edom>
           <edom>
             <edomv>1</edomv>
-            <edomvd>Bike lane</edomvd>
+            <edomvd>Bike Lane on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>2</edomv>
-            <edomvd>Edge line</edomvd>
+            <edomvd>Edge Line on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>3</edomv>
@@ -123,19 +123,83 @@
           </edom>
           <edom>
             <edomv>4</edomv>
-            <edomvd>Cycle track</edomvd>
+            <edomvd>Grade-Separated Bike Lane on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>5</edomv>
-            <edomvd>Bike path/multi-use path</edomvd>
+            <edomvd>Bike Path/Multi-Use Path</edomvd>
           </edom>
           <edom>
             <edomv>6</edomv>
-            <edomvd>Shared lane pavement marking</edomvd>
+            <edomvd>Shared Lane Pavement Marking on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>7</edomv>
-            <edomvd>Shared street</edomvd>
+            <edomvd>Shared Street on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Separated Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Buffered Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Bus/Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Edge Line on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Grade-Separated Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Grade-Separated Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Shared Lane Pavement Marking on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Shared Lane Pavement Marking on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>Shared Street on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Separated Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Separated Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Separated Bike Lane with Contra-flow</edomvd>
+          </edom>
+          <edom>
+            <edomv>91</edomv>
+            <edomvd>Buffered Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>101</edomv>
+            <edomvd>Bus/Bike Lane on one side of a two-way street</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -145,31 +209,99 @@
         <attrdomv>
           <edom>
             <edomv>0</edomv>
-            <edomvd>Null (indicates that the the line segment already has a bike facility)</edomvd>
+            <edomvd>No existing facility</edomvd>
           </edom>
           <edom>
             <edomv>1</edomv>
-            <edomvd>Planned bike lane</edomvd>
+            <edomvd>Planned Bike Lane on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>2</edomv>
-            <edomvd>Planned edge line</edomvd>
+            <edomvd>Planned Edge Line on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Planned Contra-flow</edomvd>
           </edom>
           <edom>
             <edomv>4</edomv>
-            <edomvd>Planned cycle track</edomvd>
+            <edomvd>Planned Grade-Separated Bike Lane on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>5</edomv>
-            <edomvd>Planned bike path/multi-use path</edomvd>
+            <edomvd>Planned Bike Path/Multi-Use Path</edomvd>
           </edom>
           <edom>
             <edomv>6</edomv>
-            <edomvd>Planned shared lane pavement marking</edomvd>
+            <edomvd>Planned Shared Lane Pavement Marking on both sides of a two-way street</edomvd>
           </edom>
           <edom>
             <edomv>7</edomv>
-            <edomvd>Planned shared street</edomvd>
+            <edomvd>Planned Shared Street on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Planned Separated Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Planned Buffered Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Planned Bus/Bike Lane on both sides of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Planned Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Planned Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Planned Edge Line on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Planned Grade-Separated Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Planned Grade-Separated Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Planned Shared Lane Pavement Marking on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Planned Shared Lane Pavement Marking on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>Planned Shared Street on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Planned Separated Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Planned Separated Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Planned Separated Bike Lane with Contra-flow</edomvd>
+          </edom>
+          <edom>
+            <edomv>91</edomv>
+            <edomvd>Planned Buffered Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>101</edomv>
+            <edomvd>Planned Bus/Bike Lane on one side of a two-way street</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -213,7 +345,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20180702</metd>
+    <metd>20181203</metd>
     <metc>
       <cntinfo>
         <cntorgp>
