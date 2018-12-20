@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>374</ptvctcnt>
+        <ptvctcnt>274</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -150,16 +150,16 @@
             <edomvd>Publicly accessible rooftop garden</edomvd>
           </edom>
           <edom>
+            <edomv>44</edomv>
+            <edomvd>Privately-Owned, Publicly Accessible Walkway</edomvd>
+          </edom>
+          <edom>
             <edomv>49</edomv>
             <edomvd>Private school sports field</edomvd>
           </edom>
           <edom>
             <edomv>99</edomv>
             <edomvd>Other</edomvd>
-          </edom>
-          <edom>
-            <edomv>44</edomv>
-            <edomvd>Privately-Owned, Publicly Accessible Walkway</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -223,7 +223,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20171211</metd>
+    <metd>20181220</metd>
     <metc>
       <cntinfo>
         <cntorgp>
