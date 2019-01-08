@@ -7,15 +7,15 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains the twp elective districts for congressmen in Cambridge in the United State Congress.</abstract>
+      <abstract>This polygon layer contains the two elective districts for congressmen in Cambridge in the United State Congress.</abstract>
       <purpose>This layer was created for general use by the Cambridge Election Commission and for public distribution. There are two congressional districts in Cambridge, one of which is in the middle of another one.</purpose>
     </descript>
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063810</eastbc>
+        <eastbc>-71.063932</eastbc>
         <northbc>42.403841</northbc>
-        <southbc>42.352358</southbc>
+        <southbc>42.352359</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -74,7 +74,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.ELECTIONS_CongressionalDistricts</enttypl>
+        <enttypl>ELECTIONS_CongressionalDistricts</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -113,15 +113,25 @@
         <attrdef>Date of last edit</attrdef>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20190107</metd>
     <metc>
       <cntinfo>
         <cntorgp>

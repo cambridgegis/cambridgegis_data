@@ -14,8 +14,8 @@
       <bounding>
         <westbc>-71.160581</westbc>
         <eastbc>-71.063810</eastbc>
-        <northbc>42.403841</northbc>
-        <southbc>42.352358</southbc>
+        <northbc>42.403842</northbc>
+        <southbc>42.352359</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -126,7 +126,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160810</metd>
+    <metd>20190107</metd>
     <metc>
       <cntinfo>
         <cntorgp>

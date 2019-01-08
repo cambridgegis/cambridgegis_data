@@ -28,7 +28,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>2727</ptvctcnt>
+        <ptvctcnt>2733</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -126,7 +126,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20181220</metd>
+    <metd>20190107</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
