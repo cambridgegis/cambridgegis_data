@@ -13,8 +13,8 @@
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063810</eastbc>
-        <northbc>42.403841</northbc>
+        <eastbc>-71.063805</eastbc>
+        <northbc>42.403845</northbc>
         <southbc>42.352358</southbc>
       </bounding>
     </spdom>
@@ -101,8 +101,8 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrlabl>PARTY</attrlabl>
+        <attrdef>This field is not used</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -117,8 +117,8 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PARTY</attrlabl>
-        <attrdef>This field is not used</attrdef>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -146,7 +146,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20190107</metd>
+    <metd>20190204</metd>
     <metc>
       <cntinfo>
         <cntorgp>

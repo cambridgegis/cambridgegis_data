@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063932</eastbc>
+        <eastbc>-71.063805</eastbc>
         <northbc>42.403841</northbc>
-        <southbc>42.352359</southbc>
+        <southbc>42.352358</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -102,8 +102,8 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PARTY</attrlabl>
-        <attrdef>This field not used</attrdef>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -118,8 +118,8 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrlabl>PARTY</attrlabl>
+        <attrdef>This field not used</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -147,7 +147,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160810</metd>
+    <metd>20190204</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>32699</ptvctcnt>
+        <ptvctcnt>32803</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -337,10 +337,13 @@
         <attrlabl>SolarRating</attrlabl>
         <attrdef>Solar radiation rating between 1 and 5, where 1 is the lowest score and 5 is the highest (receives the most light). Pictometry 2014 DSM and DEM were used to determine tree height and measure shadows from 2014 3D buildings. SolarRating is the average of the solar radiation for both the DSM and DEM results for June, July, August, and September. </attrdef>
       </attr>
+      <attr>
+        <attrlabl>PruningZone</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20190107</metd>
+    <metd>20190204</metd>
     <metc>
       <cntinfo>
         <cntorgp>

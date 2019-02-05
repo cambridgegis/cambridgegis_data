@@ -27,7 +27,7 @@
     </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -72,7 +72,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>dpw.gisdata.StSweepDistricts</enttypl>
+        <enttypl>DPW_StreetSweepingDistricts</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -84,6 +84,7 @@
       </attr>
       <attr>
         <attrlabl>District</attrlabl>
+        <attrdef>District name </attrdef>
       </attr>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -94,15 +95,25 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.STArea()</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.STLength()</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20190204</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

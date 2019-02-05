@@ -13,7 +13,7 @@
     <spdom>
       <bounding>
         <westbc>-71.160575</westbc>
-        <eastbc>-71.063810</eastbc>
+        <eastbc>-71.063805</eastbc>
         <northbc>42.403841</northbc>
         <southbc>42.352775</southbc>
       </bounding>
@@ -129,7 +129,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20190107</metd>
+    <metd>20190204</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160579</westbc>
-        <eastbc>-71.064242</eastbc>
+        <eastbc>-71.063805</eastbc>
         <northbc>42.403835</northbc>
-        <southbc>42.352913</southbc>
+        <southbc>42.352912</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -86,11 +86,11 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>last_edited_user</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>Esri</attrdefs>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
         <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+          <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -110,15 +110,15 @@
         <attrlabl>created_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
+        <attrlabl>last_edited_user</attrlabl>
         <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape</attrlabl>
+        <attrlabl>SHAPE</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
@@ -147,7 +147,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20190107</metd>
+    <metd>20190204</metd>
     <metc>
       <cntinfo>
         <cntorgp>
