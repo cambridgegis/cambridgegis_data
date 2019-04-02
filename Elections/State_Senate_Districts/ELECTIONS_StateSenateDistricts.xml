@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160581</westbc>
-        <eastbc>-71.063805</eastbc>
-        <northbc>42.403841</northbc>
-        <southbc>42.352358</southbc>
+        <westbc>-71.160396</westbc>
+        <eastbc>-71.064040</eastbc>
+        <northbc>42.403773</northbc>
+        <southbc>42.352535</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -43,32 +43,16 @@
   </spdoinfo>
   <spref>
     <horizsys>
-      <planar>
-        <mapproj>
-          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
-          <lambertc>
-            <stdparll>41.71666666666667</stdparll>
-            <stdparll>42.68333333333333</stdparll>
-            <longcm>-71.5</longcm>
-            <latprjo>41.0</latprjo>
-            <feast>656166.6666666665</feast>
-            <fnorth>2460625.0</fnorth>
-          </lambertc>
-        </mapproj>
-        <planci>
-          <plance>coordinate pair</plance>
-          <coordrep>
-            <absres>0.0003125</absres>
-            <ordres>0.0003125</ordres>
-          </coordrep>
-          <plandu>foot_us</plandu>
-        </planci>
-      </planar>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
       <geodetic>
-        <horizdn>D North American 1983</horizdn>
-        <ellips>GRS 1980</ellips>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
         <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257222101</denflat>
+        <denflat>298.257223563</denflat>
       </geodetic>
     </horizsys>
   </spref>
@@ -147,7 +131,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20190204</metd>
+    <metd>20190402</metd>
     <metc>
       <cntinfo>
         <cntorgp>

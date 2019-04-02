@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>21112</ptvctcnt>
+        <ptvctcnt>21123</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -150,10 +150,16 @@
       <attr>
         <attrlabl>last_edited_date</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>lon</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20190204</metd>
+    <metd>20190402</metd>
     <metc>
       <cntinfo>
         <cntorgp>
