@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>9740</ptvctcnt>
+        <ptvctcnt>9752</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -198,10 +198,13 @@
       <attr>
         <attrlabl>Jetter</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>SumpDepth</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20190611</metd>
+    <metd>20190701</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

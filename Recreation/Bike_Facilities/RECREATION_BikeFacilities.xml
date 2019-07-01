@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>511</ptvctcnt>
+        <ptvctcnt>517</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -345,7 +345,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20181220</metd>
+    <metd>20190701</metd>
     <metc>
       <cntinfo>
         <cntorgp>
