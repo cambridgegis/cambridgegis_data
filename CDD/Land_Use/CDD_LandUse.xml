@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>12913</ptvctcnt>
+        <ptvctcnt>12911</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -180,7 +180,7 @@ o State: Properties owned by the State of Massachusetts, including those owned b
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20181203</metd>
+    <metd>20190814</metd>
     <metc>
       <cntinfo>
         <cntorgp>
