@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>274</ptvctcnt>
+        <ptvctcnt>249</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -161,6 +161,14 @@
             <edomv>99</edomv>
             <edomvd>Other</edomvd>
           </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Pocket Parks</edomvd>
+          </edom>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Skating Rink</edomvd>
+          </edom>
         </attrdomv>
       </attr>
       <attr>
@@ -223,7 +231,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20181220</metd>
+    <metd>20191202</metd>
     <metc>
       <cntinfo>
         <cntorgp>
