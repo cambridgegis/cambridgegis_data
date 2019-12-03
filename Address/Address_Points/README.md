@@ -1,4 +1,4 @@
-The Cambridge Master Address data is current as of October 9, 2015.
+The Cambridge Master Address data is current as of December 2, 2019.
 
 This data is an export from the Cambridge Master address Database.
 
