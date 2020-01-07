@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <pubdate>20151222</pubdate>
-        <title>DPW_Salt_Barrels</title>
+        <title>DPW_SaltBarrels</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -13,10 +13,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.147635</westbc>
-        <eastbc>-71.083037</eastbc>
+        <westbc>-71.147610</westbc>
+        <eastbc>-71.084817</eastbc>
         <northbc>42.395479</northbc>
-        <southbc>42.363659</southbc>
+        <southbc>42.368055</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>26</ptvctcnt>
+        <ptvctcnt>11</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -92,6 +92,7 @@
       </attr>
       <attr>
         <attrlabl>Street</attrlabl>
+        <attrdef>Street name </attrdef>
       </attr>
       <attr>
         <attrlabl>Label</attrlabl>
@@ -108,7 +109,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20160209</metd>
+    <metd>20200106</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

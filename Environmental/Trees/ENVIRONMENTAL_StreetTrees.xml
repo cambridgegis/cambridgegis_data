@@ -349,10 +349,13 @@
       <attr>
         <attrlabl>RemovalReason</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>PB</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20191202</metd>
+    <metd>20200106</metd>
     <metc>
       <cntinfo>
         <cntorgp>
