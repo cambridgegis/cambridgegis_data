@@ -2,7 +2,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>FireRescueDistricts</title>
+        <title>PUBLICSAFETY_FireRescueDistricts</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
@@ -16,7 +16,7 @@
     <spdom>
       <bounding>
         <westbc>-71.160595</westbc>
-        <eastbc>-71.063838</eastbc>
+        <eastbc>-71.063802</eastbc>
         <northbc>42.403843</northbc>
         <southbc>42.352385</southbc>
       </bounding>
@@ -48,14 +48,14 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>2</ptvctcnt>
+        <ptvctcnt>1</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -115,12 +115,6 @@
         <attrlabl>DIVISION</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape_STArea__</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape_STLength__</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -139,7 +133,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20150403</metd>
+    <metd>20200203</metd>
     <metc>
       <cntinfo>
         <cntorgp>

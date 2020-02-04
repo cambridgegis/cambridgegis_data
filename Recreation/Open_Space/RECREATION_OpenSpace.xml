@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>249</ptvctcnt>
+        <ptvctcnt>247</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -202,6 +202,18 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -231,7 +243,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20191202</metd>
+    <metd>20200203</metd>
     <metc>
       <cntinfo>
         <cntorgp>
