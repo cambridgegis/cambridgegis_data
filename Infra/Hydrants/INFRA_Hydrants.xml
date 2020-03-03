@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1912</ptvctcnt>
+        <ptvctcnt>1910</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -264,6 +264,18 @@
       <attr>
         <attrlabl>COMMENTS</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
     </detailed>
     <detailed>
       <enttyp>
@@ -293,7 +305,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20191104</metd>
+    <metd>20200302</metd>
     <metc>
       <cntinfo>
         <cntorgp>
