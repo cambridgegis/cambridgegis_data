@@ -1,4 +1,5 @@
-﻿5,389,HARVARD UNIV,Ames Hall,TRUE
+﻿poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
+5,389,HARVARD UNIV,Ames Hall,TRUE
 7,23747,HARVARD UNIV,Canaday Hall,TRUE
 8,388,HARVARD UNIV,Child Hall,TRUE
 9,23748,HARVARD UNIV,Claverly Hall,TRUE
@@ -1047,7 +1048,6 @@
 1345,31493,COMPLEX,Seven Cambridge Center,TRUE
 1346,31493,ORGANIZATION,Broad Institute,FALSE
 1347,32771,COMPLEX,8 Cambridge Center,TRUE
-1349,32775,COMPLEX,11 Cambridge Center,TRUE
 1351,32776,COMPLEX,14 Cambridge Center,TRUE
 1353,32805,MUNICIPAL,Baldwin School,TRUE
 1355,32819,HARVARD UNIV,"Standish Hall, Winthrop House",TRUE
@@ -1148,3 +1148,4 @@
 1460,33179,MUNICIPAL,Box 50,TRUE
 1461,13351,PRIVATE SCHOOL,Community Charter School of Cambridge,FALSE
 1462,33201,MUNICIPAL,King Open School Community Entry,FALSE
+1463,7951,ORGANIZATION,Eversource Energy Brookford Gate Station,FALSE

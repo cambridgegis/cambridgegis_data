@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>34192</ptvctcnt>
+        <ptvctcnt>34228</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -352,10 +352,13 @@
       <attr>
         <attrlabl>PB</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>PlantingSeason</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200302</metd>
+    <metd>20200413</metd>
     <metc>
       <cntinfo>
         <cntorgp>
