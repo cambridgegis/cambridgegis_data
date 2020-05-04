@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>34228</ptvctcnt>
+        <ptvctcnt>34237</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -104,11 +104,6 @@
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>created</attrlabl>
-        <attrdef>Date the record was created.</attrdef>
-        <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
         <attrlabl>creator</attrlabl>
@@ -358,7 +353,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200413</metd>
+    <metd>20200504</metd>
     <metc>
       <cntinfo>
         <cntorgp>
