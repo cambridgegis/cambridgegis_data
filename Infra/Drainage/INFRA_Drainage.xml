@@ -2,19 +2,22 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>City of Cambridge, MA</origin>
+        <origin>WSP, Photogrammetrist</origin>
+        <pubdate>20200415</pubdate>
         <title>INFRA_Drainage</title>
+        <edition>2018</edition>
         <geoform>vector digital data</geoform>
         <pubinfo>
-          <pubplace>Cambridge, MA, USA</pubplace>
-          <publish>City of Cambridge IT Department</publish>
+          <pubplace>831 Massachusetts Ave, Cambridge, MA, 02139, US</pubplace>
+          <publish>Cambridge GIS</publish>
         </pubinfo>
         <onlink>Default value.</onlink>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>City of Cambridge, MA GIS basemap development project encompasses the land area of City of Cambridge with a 200 foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale.</abstract>
-      <purpose>City of Cambridge 1" - 40' base map layers from an April 14, 2010 flyover. Basemap layers created by Infotech America.</purpose>
+      <abstract>City of Cambridge, MA, GIS basemap development project encompasses the land area of City of Cambridge with a 200-foot fringe surrounding the area and Charles River shoreline towards Boston. The basemap data was developed at 1" = 40' mapping scale using digital photogrammetric techniques. Planimetric features; both man-made and natural features like vegetation, rivers have been depicted. These features are important to all GIS/mapping applications and publication. A set of data layers such as Buildings, Roads, Rivers, Utility structures, 1 ft interval contours are developed and represented in the geodatabase. The features are labeled and coded in order to represent specific feature class for thematic representation and topology between the features is maintained for an accurate representation at the 1:40 mapping scale for both publication and analysis. The basemap data has been developed using procedures designed to produce data to the National Standard for Spatial Data Accuracy (NSSDA) and is intended for use at 1" = 40 ' mapping scale. Where applicable, the vertical datum is NAVD1988.</abstract>
+      <purpose>City of Cambridge 1" - 40' base map layers from an April 12 &amp; April 22, 2018 flyover. Basemap layers created by WSP.</purpose>
+      <supplinf>Aerial Triangulation was completed using Hexgaon Geospatial ISAT v16.5. Data stereo compilation was completed using KLT Associates DSP v1.15.004. Data conversion and GIS layer preparation was done using ESRI ArcGIS for Desktop v10.6.</supplinf>
     </descript>
     <status>
       <progress>Complete</progress>
@@ -22,24 +25,19 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-71.158477</westbc>
-        <eastbc>-71.071092</eastbc>
-        <northbc>42.402100</northbc>
-        <southbc>42.364414</southbc>
+        <westbc>-71.156349</westbc>
+        <eastbc>-71.070644</eastbc>
+        <northbc>42.402094</northbc>
+        <southbc>42.365016</southbc>
       </bounding>
     </spdom>
     <keywords>
       <theme>
         <themekt>None</themekt>
-        <themekey>Planimetric Data</themekey>
-        <themekey>Contour</themekey>
+        <themekey>GIS</themekey>
+        <themekey>Planimetric</themekey>
+        <themekey>Topographic</themekey>
         <themekey>Digital Terrain Model (DTM)</themekey>
-      </theme>
-      <theme>
-        <themekt>National Park Service Theme Category Thesaurus</themekt>
-      </theme>
-      <theme>
-        <themekt>ISO 19115 Topic Category</themekt>
       </theme>
       <place>
         <placekt>None</placekt>
@@ -47,13 +45,33 @@
         <placekey>USA</placekey>
       </place>
     </keywords>
-    <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
+    <accconst>None</accconst>
     <useconst>None</useconst>
-    <datacred>City of Cambridge GIS, Infotech America</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Cambridge</cntorg>
+          <cntper>Cambridge GIS</cntper>
+        </cntorgp>
+        <cntpos>GIS Data</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>831 Massachusetts Ave</address>
+          <city>Cambridge</city>
+          <state>Massachusetts</state>
+          <postal>02139</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>617-349-4140</cntvoice>
+        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Cambridge GIS, WSP</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
+    <complete>Any data outside of the Cambridge City boundary may not be updated</complete>
     <posacc>
       <horizpa>
         <horizpar>Compiled to meet horizontal and vertical accuracy at 95% confidence level in accordance with ASPRS Class 1 standards.</horizpar>
@@ -64,25 +82,117 @@
     </posacc>
     <lineage>
       <procstep>
-        <procdesc>Digital aerial photography was acquired using Microsoft-Vexcel UltraCAMX on April 14, 2010 on a clear day with onboard airborne GPS and IMU parameters. Digital Aerial Triangulation (DAT) was performed, primarily, using softcopy workstations and Intergraph's ISPM / ISAT software or BINGO where applicable. Image tie points were collected using automatic correlation. The correlated points were triangulated and blunders were rectified with manual edits until the desired accuracy levels were achieved. Well distributed 21 ground control points surveyed in the year 2010, 6 controls from 2006_Harvard, 6 controls form 2003_CambridgeGIS and 5 vertical controls from 1995_CambridgeGIS were used to achieve the absolute accuracy within the defined residual limits. Geodatabase schema was developed for the Planimetric features to create the required basemap data. The planimetric features were compiled using standard pothogrammetric collection techniques on Intergraph's SSK softcopy workstations. The features were post processed in ESRI's ArcGIS and topology validation was performed. The dataset comprises of 35 feature classes with 142 attribute domains. Feature specific description is provided in the attributes section of this metadata. Appropriate attributes for the hydro features, buildings, etc were conflated from the Cambridge, MA existing GIS database. Digital Terrain Model (DTM) was developed using softcopy photogrammetry for the purposes of ortho rectification and 1 ft contour generation. Elevation point (masspoint) data was collected at 20ft grid and supplemented with breaklines. Breaklines were collected at significant breaks in the terrain to support the generation of 1 ft interval contours. DTM data was enhanced with the contour interpolate (CIP) 3d geometry features include Curb, Road Paved &amp; Unpaved, Road-Traffic-Island, Alley, Trail Paved &amp; Unpaved, Driveway Paved &amp; Unpaved, Parking lot Paved and Unpaved, Sidewalk, Public Footpath, Impervious features, Concrete Pad, Patio, Plaza and other impervious features, Rail road - Abandon, Active, Elevated, Floodwall, Wet area, Open channel, River / stream, Pond, In ground pool, Retention Pond, Retaining Wall, etc) to generate accurate 1ft contours. Also, spot elevations were collected at street intersections, depression areas, saddles and peaks. These DTM features include elevation points, breaklines, CIP features and spot elevations were interpolated using Maps 3D software and 1 ft contours were generated. Contours were coded for Index (every 5th contour), intermediate, depression, hidden and obscured according to the specification. Index contours were labeled with the contour value. Spot elevations placed at the intersections of streets, ridges, saddles, depressions were labeled with one decimal precision for cartographic representation. DTM data was supplemented with building polygons and used for true ortho generation for the project area. All the Planimetric features, DTM points and Contour data was loaded to Geodabase schema and annotation layers were created for Streets (Roads), Spot Elevations, Cemeteries, Hydro and Index Contours from the respective attribute fields.Topology has been validated for all features.</procdesc>
+        <procdesc>Aerial Image Acquisition: On 4/12 and 4/22 2018, Keystone Aerial Surveys collected 9 flight lines of photos totaling 478 exposures using an UltraCam Falcon Prime frame digital sensor at an average altitude of 3900' above sea level. The photo mission was flown with 80% forward overlap and 60% sidelap to reduce building lean to facilitate feature compilation. The image dataset was delivered to WSP who performed aerial triangulation using existing ground control and stereo compilation using Hexagon ISAT and KLT DSP software packages. The final GIS dataset was delivered to the City of Cambridge as a City-wide seamless ESRI File Geodatabase which meets ASPRS Class 1 accuracy standards.</procdesc>
+        <procdate>20180412</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
-              <cntorg>Infotech Enterprises America, Inc</cntorg>
-              <cntper>Srinu Ratnala</cntper>
+              <cntorg>Keystone Aerial Surveys</cntorg>
             </cntorgp>
-            <cntpos>Project Manager</cntpos>
             <cntaddr>
-              <addrtype>mailing and physical</addrtype>
-              <address>100 Carpenter Dr, STE 200</address>
-              <city>Sterling</city>
-              <state>Virginia</state>
-              <postal>20164</postal>
-              <country>United States of America</country>
+              <addrtype>physical</addrtype>
+              <address>Northeast Philadelphia Airport - Grant Ave. and Ashton Road</address>
+              <city>Philadelphia</city>
+              <state>PA</state>
+              <postal>19114</postal>
+              <country>US</country>
             </cntaddr>
-            <cntvoice>(571) 313-1065 ext 129</cntvoice>
-            <cntfax>(571) 313-1071</cntfax>
-            <cntemail>Srinu.Ratnala@infotech-enterprises.com</cntemail>
+            <cntvoice>12156773119</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Aerial Triangulation: WSP triangulated the image dataset using Hexagon ISAT v16.5. Inputs included the raw aerial imagery, airborne GPS and ground control.</procdesc>
+        <procdate>20180521</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>WSP</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>100 North Parkway, Suite 110</address>
+              <city>Worcester</city>
+              <state>MA</state>
+              <postal>01605</postal>
+            </cntaddr>
+            <cntvoice>15082481970</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data Compilation: WSP used the triangulated imagery to collect features as outlined in the geodatabase design provided by the City of Cambridge. Features were collected using digital stereo compilation in x, y and z coordinate space.</procdesc>
+        <procdate>20181105</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>WSP</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>100 North Parkway, Suite 110</address>
+              <city>Worcester</city>
+              <state>MA</state>
+              <postal>01605</postal>
+            </cntaddr>
+            <cntvoice>15082481970</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data conversion: The stereo compiled data was converted from native CAD format to ESRI data layers using ESRI ArcGIS for desktop v10.6. Polygon features were constructed using associated line layers that bound the feature.</procdesc>
+        <procdate>20181203</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>WSP</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>100 North Parkway, Suite 110</address>
+              <city>Worcester</city>
+              <state>MA</state>
+              <postal>01605</postal>
+            </cntaddr>
+            <cntvoice>15082481970</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data QC: All data layers were checked visually for completeness and compared with existing 2010 data. Topology checks were run to eliminate overlaps, duplicate features and features that did not meet expected tolerances.</procdesc>
+        <procdate>20181220</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>WSP</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>100 North Parkway, Suite 110</address>
+              <city>Worcester</city>
+              <state>MA</state>
+              <postal>01605</postal>
+            </cntaddr>
+            <cntvoice>15082481970</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Delivery: Data was delivered to the City of Cambridge in an ESRI File Geodatabase v10.6</procdesc>
+        <procdate>20181221</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>WSP</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>100 North Parkway, Suite 110</address>
+              <city>Worcester</city>
+              <state>MA</state>
+              <postal>01605</postal>
+            </cntaddr>
+            <cntvoice>15082481970</cntvoice>
           </cntinfo>
         </proccont>
       </procstep>
@@ -93,7 +203,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>101</ptvctcnt>
+        <ptvctcnt>137</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -131,7 +241,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.INFRA_Drainage</enttypl>
+        <enttypl>INFRA_Drainage</enttypl>
         <enttypd>Approximate centerlines for the purpose of connectivity between streamlines include open channel, culvert and connector. The centerlines are attributed with appropriate name of river/stream.</enttypd>
       </enttyp>
       <attr>
@@ -159,12 +269,17 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20200501</metd>
     <metc>
       <cntinfo>
         <cntorgp>
