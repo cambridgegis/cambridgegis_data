@@ -743,11 +743,9 @@
 998,370,HARVARD UNIV,"Russell Hall, Adams House",TRUE
 1000,23904,HARVARD UNIV,"McKinlock Hall, Leverett House",TRUE
 1002,28824,HARVARD UNIV,"Gore Hall, Winthrop House",TRUE
-1004,15558,HARVARD UNIV,Smith Center Office Tower,FALSE
 1005,15558,HARVARD UNIV,Smith Center Health Services,FALSE
 1006,1331,HARVARD UNIV,Harvard Square Hotel,TRUE
 1007,23976,HARVARD UNIV,Manter Hall,TRUE
-1008,372,HARVARD UNIV,Holyoke Center Garage,FALSE
 1009,1995,HARVARD UNIV,Farkas Hall,TRUE
 1010,1995,HARVARD UNIV,New College Theatre,FALSE
 1011,10,HARVARD UNIV,Maklin Athletic Center,FALSE
@@ -1149,3 +1147,6 @@
 1461,13351,PRIVATE SCHOOL,Community Charter School of Cambridge,FALSE
 1462,33201,MUNICIPAL,King Open School Community Entry,FALSE
 1463,7951,ORGANIZATION,Eversource Energy Brookford Gate Station,FALSE
+1465,15521,HARVARD UNIV,Smith Campus Center Garage,FALSE
+1466,15561,HARVARD UNIV,Smith Campus Center,TRUE
+1468,15561,HARVARD UNIV,Smith Center Office Tower,TRUE
