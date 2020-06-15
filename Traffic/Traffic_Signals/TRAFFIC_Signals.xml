@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.157512</westbc>
-        <eastbc>-71.072128</eastbc>
-        <northbc>42.402678</northbc>
-        <southbc>42.353443</southbc>
+        <westbc>-71.157604</westbc>
+        <eastbc>-71.069376</eastbc>
+        <northbc>42.404545</northbc>
+        <southbc>42.353398</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -27,17 +27,17 @@
         <themekey>lights</themekey>
       </theme>
     </keywords>
-    <accconst>None</accconst>
+    <accconst>The project data is the property of City of Cambridge, MA and collaborating institutions and licensed with all rights. Distribution of any of these data to anyone not licensed by the by the City of Cambridge, MA is strictly prohibited.</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Traffic Department</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3574</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>175</ptvctcnt>
+        <ptvctcnt>785</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -103,6 +103,7 @@
       </attr>
       <attr>
         <attrlabl>Jurisdiction</attrlabl>
+        <attrdef>Agency responsible for maintenance</attrdef>
       </attr>
       <attr>
         <attrlabl>Location</attrlabl>
@@ -118,7 +119,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20141209</metd>
+    <metd>20200613</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

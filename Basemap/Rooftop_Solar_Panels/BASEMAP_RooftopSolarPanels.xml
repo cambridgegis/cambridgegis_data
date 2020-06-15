@@ -26,8 +26,8 @@
     <spdom>
       <bounding>
         <westbc>-71.159854</westbc>
-        <eastbc>-71.071272</eastbc>
-        <northbc>42.403032</northbc>
+        <eastbc>-71.071279</eastbc>
+        <northbc>42.401996</northbc>
         <southbc>42.355562</southbc>
       </bounding>
     </spdom>
@@ -203,7 +203,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>2203</ptvctcnt>
+        <ptvctcnt>2111</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -285,6 +285,18 @@
         <attrdef>Elevation of solar panel edge above sea level (NAVD88)</attrdef>
       </attr>
       <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -303,7 +315,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200501</metd>
+    <metd>20200613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

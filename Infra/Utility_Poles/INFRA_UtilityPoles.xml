@@ -25,10 +25,10 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-71.160229</westbc>
-        <eastbc>-71.065943</eastbc>
-        <northbc>42.402620</northbc>
-        <southbc>42.353629</southbc>
+        <westbc>-71.160023</westbc>
+        <eastbc>-71.068023</eastbc>
+        <northbc>42.402619</northbc>
+        <southbc>42.353637</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -221,7 +221,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>2605</ptvctcnt>
+        <ptvctcnt>2457</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -288,7 +288,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200501</metd>
+    <metd>20200613</metd>
     <metc>
       <cntinfo>
         <cntorgp>

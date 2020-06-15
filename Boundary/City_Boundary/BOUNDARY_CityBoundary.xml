@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160581</westbc>
-        <eastbc>-71.063810</eastbc>
-        <northbc>42.403842</northbc>
-        <southbc>42.352359</southbc>
+        <westbc>-71.160577</westbc>
+        <eastbc>-71.063802</eastbc>
+        <northbc>42.403845</northbc>
+        <southbc>42.352362</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -97,6 +97,18 @@
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -126,7 +138,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20190107</metd>
+    <metd>20200613</metd>
     <metc>
       <cntinfo>
         <cntorgp>
