@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.152455</westbc>
-        <eastbc>-71.086479</eastbc>
-        <northbc>42.394450</northbc>
-        <southbc>42.355498</southbc>
+        <westbc>-71.153657</westbc>
+        <eastbc>-71.084635</eastbc>
+        <northbc>42.400632</northbc>
+        <southbc>42.355492</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -159,7 +159,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20200812</metd>
+    <metd>20200824</metd>
     <metc>
       <cntinfo>
         <cntorgp>
