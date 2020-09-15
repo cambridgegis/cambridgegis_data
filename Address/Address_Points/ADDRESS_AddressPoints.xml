@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>21080</ptvctcnt>
+        <ptvctcnt>21086</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -139,13 +139,7 @@
         <attrdefs>Cambridge GIS</attrdefs>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
@@ -159,7 +153,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200803</metd>
+    <metd>20200914</metd>
     <metc>
       <cntinfo>
         <cntorgp>
