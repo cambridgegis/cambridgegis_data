@@ -1,4 +1,5 @@
-﻿5,389,HARVARD UNIV,Ames Hall,TRUE
+﻿poi_id,address_id,poi_type_desc,Point_of_interest_name,named_address
+5,389,HARVARD UNIV,Ames Hall,TRUE
 7,23747,HARVARD UNIV,Canaday Hall,TRUE
 8,388,HARVARD UNIV,Child Hall,TRUE
 9,23748,HARVARD UNIV,Claverly Hall,TRUE
@@ -442,10 +443,10 @@
 556,59,MUNICIPAL,Cambridge VFW Hall,FALSE
 557,17704,MUNICIPAL,Cambridge Rindge and Latin - Auto Shop,FALSE
 558,31150,MUNICIPAL,Gately Youth Center,FALSE
-559,31645,MUNICIPAL,West Cambridge Youth Center,FALSE
+559,31645,MUNICIPAL,Russell Youth Center,FALSE
 560,25741,MUNICIPAL,Willis D. Moore Youth Center,FALSE
 561,26435,MUNICIPAL,Frisoli Youth Center,FALSE
-562,660,MUNICIPAL,Area 4 Youth Center,FALSE
+562,660,MUNICIPAL,Moses Youth Center,FALSE
 563,564,MUNICIPAL,Senior Center,FALSE
 564,357,MUNICIPAL,North Cambridge Senior Center,FALSE
 565,213,PRIVATE SCHOOL,North Cambridge Catholic High School,FALSE
@@ -1150,3 +1151,4 @@
 1468,15561,HARVARD UNIV,Smith Center Office Tower,TRUE
 1469,33523,MBTA,Former Lechmere MBTA Station,FALSE
 1470,34269,MUNICIPAL,Municipal Lot 5,TRUE
+1471,8684,MUNICIPAL,Middle School Activities Club,TRUE

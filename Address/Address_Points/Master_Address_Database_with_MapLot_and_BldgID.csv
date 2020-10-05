@@ -1,4 +1,5 @@
-﻿14754,14,,ABERDEEN,AVE,,14 Aberdeen Ave,,,252-140,274-45
+﻿address_id,street_number,street_number_suffix,street_name,street_suffix,dir_suffix,full_address,poi_name,poi_type_desc,MapLot,BldgID
+14754,14,,ABERDEEN,AVE,,14 Aberdeen Ave,,,252-140,274-45
 3185,16,,ABERDEEN,AVE,,16 Aberdeen Ave,,,252-140,274-45
 4367,20,,ABERDEEN,AVE,,20 Aberdeen Ave,,,252-139,274-42
 14756,22,,ABERDEEN,AVE,,22 Aberdeen Ave,,,252-139,274-42
@@ -10004,7 +10005,7 @@
 33809,233,,HARVARD,ST,,233 Harvard St,,,88-13,
 661,239,,HARVARD,ST,,239 Harvard St,,,88-12,520-2
 33824,241,,HARVARD,ST,,241 Harvard St,,,88-12,
-660,243,,HARVARD,ST,,243 Harvard St,Area 4 Youth Center,MUNICIPAL,88-11,520-1
+660,243,,HARVARD,ST,,243 Harvard St,Moses Youth Center,MUNICIPAL,88-11,520-1
 5377,252,,HARVARD,ST,,252 Harvard St,,,90-21,542-3
 33845,254,,HARVARD,ST,,254 Harvard St,,,90-20,
 11530,258,,HARVARD,ST,,258 Harvard St,,,107-121,523-9
@@ -11570,7 +11571,7 @@
 33350,676,,HURON,AVE,,676 Huron Ave,,,257-47,245-66
 33350,676,,HURON,AVE,,676 Huron Ave,,,257-47,245-8
 33350,676,,HURON,AVE,,676 Huron Ave,,,257-47,245-9
-31645,680,,HURON,AVE,,680 Huron Ave,West Cambridge Youth Center,MUNICIPAL,257-42,245-25
+31645,680,,HURON,AVE,,680 Huron Ave,Russell Youth Center,MUNICIPAL,257-42,245-25
 59,688,,HURON,AVE,,688 Huron Ave,Cambridge VFW Hall,MUNICIPAL,257-42,245-25
 64,691,,HURON,AVE,,691 Huron Ave,Thomas P. ONeill Jr. Muncipal Golf Course,CITY PARK,266-32,236-1
 64,691,,HURON,AVE,,691 Huron Ave,Thomas P. ONeill Jr. Muncipal Golf Course,MUNICIPAL,266-32,236-1
@@ -11697,6 +11698,7 @@
 11600,49,,INMAN,ST,,49 Inman St,,,108-94,485-7
 8620,50,,INMAN,ST,,50 Inman St,,,108-78,488-5
 8684,51,,INMAN,ST,,51 Inman St,Coffon Building,MUNICIPAL,108-18,494-1
+8684,51,,INMAN,ST,,51 Inman St,Middle School Activities Club,MUNICIPAL,108-18,494-1
 34076,55,,INMAN,ST,,55 Inman St,,,108-15,
 845,57,,INMAN,ST,,57 Inman St,,,,
 9475,63,,INMAN,ST,,63 Inman St,,,114-94,368-73

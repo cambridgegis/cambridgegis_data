@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>34708</ptvctcnt>
+        <ptvctcnt>34747</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -353,7 +353,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200914</metd>
+    <metd>20201005</metd>
     <metc>
       <cntinfo>
         <cntorgp>
