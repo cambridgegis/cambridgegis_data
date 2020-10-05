@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.153657</westbc>
-        <eastbc>-71.084635</eastbc>
-        <northbc>42.400632</northbc>
-        <southbc>42.355492</southbc>
+        <westbc>-71.152455</westbc>
+        <eastbc>-71.086479</eastbc>
+        <northbc>42.394450</northbc>
+        <southbc>42.355498</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -86,10 +86,6 @@
       </attr>
       <attr>
         <attrlabl>Address</attrlabl>
-        <attrdef>Address of polling location</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>ADDRESS</attrlabl>
         <attrdef>Polling location street address or intersection</attrdef>
       </attr>
       <attr>
@@ -105,42 +101,34 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrlabl>LOCATION_NOTE</attrlabl>
+        <attrdef>Building entrance and room notes</attrdef>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
+        <attrlabl>EditDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>created_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>last_edited_user</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrlabl>last_edited_date</attrlabl>
+        <attrdef />
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>last_edited_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape</attrlabl>
+        <attrlabl>SHAPE</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>LOCATION_NOTE</attrlabl>
-        <attrdef>Building entrance and room notes</attrdef>
-        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
@@ -159,7 +147,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20200824</metd>
+    <metd>20201005</metd>
     <metc>
       <cntinfo>
         <cntorgp>
