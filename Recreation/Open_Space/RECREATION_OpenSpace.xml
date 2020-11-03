@@ -202,13 +202,7 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
@@ -243,7 +237,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20200803</metd>
+    <metd>20201102</metd>
     <metc>
       <cntinfo>
         <cntorgp>

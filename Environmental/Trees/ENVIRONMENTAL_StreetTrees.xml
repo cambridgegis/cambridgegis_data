@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>34747</ptvctcnt>
+        <ptvctcnt>34807</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -127,7 +127,7 @@
       </attr>
       <attr>
         <attrlabl>diameter</attrlabl>
-        <attrdef>Tree diameter in inches taken at approximately 4.5 feet above ground (DBH). If the diameter point falls on a swelling in the trunk it is customary to measure below the swelling at the point where the diameter is smallest. Note: an average diameter should be calculated for trees with multiple trunks (see the Trunks field); an online calculator for multi-stemmed trees may be found at http://www.treetec.net.au/TPZ_SRZ_DBH_calculator.php.</attrdef>
+        <attrdef>Tree diameter in inches taken at approximately 4.5 feet above ground (DBH). If the diameter point falls on a swelling in the trunk it is customary to measure below the swelling at the point where the diameter is smallest. Note: an average diameter should be calculated for trees with multiple trunks (see the Trunks field); an online calculator for multi-stemmed trees may be found at https://www.treetec.net.au/TPZ_SRZ_DBH_calculator.php.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
@@ -353,7 +353,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20201005</metd>
+    <metd>20201102</metd>
     <metc>
       <cntinfo>
         <cntorgp>
