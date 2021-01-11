@@ -16,10 +16,10 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-71.153989</westbc>
-        <eastbc>-71.074797</eastbc>
-        <northbc>42.399739</northbc>
-        <southbc>42.356004</southbc>
+        <westbc>-71.154161</westbc>
+        <eastbc>-71.074589</eastbc>
+        <northbc>42.399796</northbc>
+        <southbc>42.355864</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>370</ptvctcnt>
+        <ptvctcnt>399</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -46,25 +46,30 @@
     <horizsys>
       <planar>
         <mapproj>
-          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
-          <mapprojp>
-            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
-          </mapprojp>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
         </mapproj>
         <planci>
           <plance>coordinate pair</plance>
           <coordrep>
-            <absres>0.0001</absres>
-            <ordres>0.0001</ordres>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
           </coordrep>
-          <plandu>meter</plandu>
+          <plandu>foot_us</plandu>
         </planci>
       </planar>
       <geodetic>
-        <horizdn>D WGS 1984</horizdn>
-        <ellips>WGS 1984</ellips>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
         <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257223563</denflat>
+        <denflat>298.257222101</denflat>
       </geodetic>
     </horizsys>
   </spref>
@@ -224,7 +229,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20201207</metd>
+    <metd>20210111</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
