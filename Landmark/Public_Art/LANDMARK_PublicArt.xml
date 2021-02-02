@@ -226,10 +226,40 @@
       <attr>
         <attrlabl>last_edited_date</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Artist_Full_Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>List_Title</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Short_Description</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Tour_Card_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Fact_Sheet_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Photo_Quality</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Video_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Google_Map_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210111</metd>
+    <metd>20210202</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

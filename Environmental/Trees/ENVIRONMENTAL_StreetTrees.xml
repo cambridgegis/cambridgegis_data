@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>35015</ptvctcnt>
+        <ptvctcnt>35079</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -111,11 +111,6 @@
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
-        <attrlabl>modified</attrlabl>
-        <attrdef>Date the record was last modified.</attrdef>
-        <attrdefs>Cambridge DPW</attrdefs>
-      </attr>
-      <attr>
         <attrlabl>inspectr</attrlabl>
         <attrdef>Name of the tree inspector.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
@@ -163,11 +158,6 @@
       <attr>
         <attrlabl>TreeID</attrlabl>
         <attrdef>Unique identifier for the record.</attrdef>
-        <attrdefs>Cambridge DPW</attrdefs>
-      </attr>
-      <attr>
-        <attrlabl>TreeCondition</attrlabl>
-        <attrdef>Current condition of the tree as determined by the City Arborist.</attrdef>
         <attrdefs>Cambridge DPW</attrdefs>
       </attr>
       <attr>
@@ -270,9 +260,6 @@
         <attrlabl>created_user</attrlabl>
       </attr>
       <attr>
-        <attrlabl>xCartegraphSpecies</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
       </attr>
       <attr>
@@ -290,16 +277,10 @@
         <attrlabl>CommonName</attrlabl>
       </attr>
       <attr>
-        <attrlabl>xspecies_old</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>CartegraphRetireDate</attrlabl>
       </attr>
       <attr>
         <attrlabl>CartegraphPlantDate</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Neighborhood</attrlabl>
       </attr>
       <attr>
         <attrlabl>ScientificName</attrlabl>
@@ -309,9 +290,6 @@
       </attr>
       <attr>
         <attrlabl>PlantingContract</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SourceNursery</attrlabl>
       </attr>
       <attr>
         <attrlabl>WateringResponsibility</attrlabl>
@@ -333,9 +311,6 @@
         <attrdef>Solar radiation rating between 1 and 5, where 1 is the lowest score and 5 is the highest (receives the most light). Pictometry 2014 DSM and DEM were used to determine tree height and measure shadows from 2014 3D buildings. SolarRating is the average of the solar radiation for both the DSM and DEM results for June, July, August, and September. </attrdef>
       </attr>
       <attr>
-        <attrlabl>PruningZone</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>TreeWellDepth</attrlabl>
       </attr>
       <attr>
@@ -350,10 +325,16 @@
       <attr>
         <attrlabl>PlantingSeason</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>StTreePruningZone</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OffStTreePruningZone</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210104</metd>
+    <metd>20210202</metd>
     <metc>
       <cntinfo>
         <cntorgp>
