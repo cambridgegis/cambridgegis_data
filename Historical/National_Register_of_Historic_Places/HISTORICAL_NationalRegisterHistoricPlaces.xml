@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Historical Commission</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -74,7 +74,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.HISTORICAL_NationalRegisterHistoricPlaces</enttypl>
+        <enttypl>HISTORICAL_NationalRegisterHistoricPlaces</enttypl>
       </enttyp>
       <attr>
         <attrlabl>Shape</attrlabl>
@@ -130,6 +130,7 @@
       </attr>
       <attr>
         <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Length of feature in internal units. </attrdef>
       </attr>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -146,10 +147,20 @@
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Shape.len</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -166,7 +177,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20210301</metd>
     <metc>
       <cntinfo>
         <cntorgp>

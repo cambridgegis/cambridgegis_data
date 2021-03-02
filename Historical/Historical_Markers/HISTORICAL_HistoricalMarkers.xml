@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge Historical Commission</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>153</ptvctcnt>
+        <ptvctcnt>155</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -74,7 +74,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.HISTORICAL_HistoricalMarkers</enttypl>
+        <enttypl>HISTORICAL_HistoricalMarkers</enttypl>
       </enttyp>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -119,6 +119,18 @@
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -133,7 +145,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20210301</metd>
     <metc>
       <cntinfo>
         <cntorgp>
