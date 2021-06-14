@@ -101,8 +101,8 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PARTY</attrlabl>
-        <attrdef>This field is not used</attrdef>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -117,8 +117,11 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PARTY</attrlabl>
+        <attrdef>This field is not used</attrdef>
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
@@ -132,13 +135,10 @@
       </attr>
       <attr>
         <attrlabl>last_edited_user</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_date</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
+        <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
-          <udom>Coordinates defining the features.</udom>
+          <udom>Positive real numbers that are automatically generated.</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -163,7 +163,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20210106</metd>
+    <metd>20210612</metd>
     <metc>
       <cntinfo>
         <cntorgp>
