@@ -1,0 +1,260 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jarlath O'Neil-Dunne, University of Vermont Spatial Analysis Laboratory, Director</origin>
+        <pubdate>20191121</pubdate>
+        <title>ENVIRONMENTAL_TreeCanopy2018</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer is a high-resolution tree canopy change-detection layer for Cambridge, Massachusetts. It contains three tree-canopy classes for the period 2014-2018: (1) No Change; (2) Gain; and (3) Loss. It was created by extracting tree canopy from existing high-resolution land-cover maps for 2014 and 2018 and then comparing the mapped trees directly. Tree canopy that existed during both time periods was assigned to the No Change category while trees removed by development, storms, or disease were assigned to the Loss class. Trees planted during the interval were assigned to the Gain category, as were the edges of existing trees that expanded noticeably. Direct comparison was possible because both the 2014 and 2018 maps were created using object-based image analysis (OBIA) and included similar source datasets (LiDAR-derived surface models, multispectral imagery, and thematic GIS inputs). OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. No accuracy assessment was conducted, but the dataset will be subjected to manual review and correction.</abstract>
+      <purpose>This dataset was developed as part of an Urban Tree Canopy (UTC) assessment for Cambridge, Massachusetts. It shows how tree canopy changed during the period 2014-2018, highlighting trees that were gained or lost during the 4-year period.  It is intended for use in monitoring patterns of change in Cambridge, Massachusetts tree canopy.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20190102</begdate>
+          <enddate>20191121</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>This layer includes all trees mapped during the period 2014-2018 and occurring within the political boundary of Cambridge, Massachusetts.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.160949</westbc>
+        <eastbc>-71.062023</eastbc>
+        <northbc>42.405660</northbc>
+        <southbc>42.352781</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>tree canopy</themekey>
+        <themekey>change detection</themekey>
+        <themekey>urban</themekey>
+        <themekey>Middlesex County</themekey>
+        <themekey>Massachusetts</themekey>
+        <themekey>Cambridge</themekey>
+        <themekey>2014-2018</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>The University of Vermont Spatial Analysis Laboratory created this map.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+  </idinfo>
+  <dataqual>
+    <logic>No accuracy assessment was conducted but the change-detection map will be reviewed and edited as necessary to eliminate non-systematic errors</logic>
+    <complete>This layer includes all trees mapped during the period of 2014-2018 and occurring within the political boundary of the Cambridge, Massachusetts.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model (nDSM), 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>Normalized Digital Surface Model (nDSM), 2018</srccitea>
+        <srccontr>Normalized Digital Surface Model (nDSM) derived from LiDAR acquired in 2018.  Processed by the University of Vermont Spatial Analysis Laboratory</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Terrain Model (nDTM), 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>Normalized Digital Terrain Model (nDTM), 2018</srccitea>
+        <srccontr>Normalized Digital Terrain Model (nDTM) derived from LiDAR acquired in 2018.  Processed by University of Vermont Spatial Analysis Laboratory</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>LiDAR Intensity, 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>LiDAR Intensity, 2018</srccitea>
+        <srccontr>LiDAR Intensity layer derived from LiDAR acquired in 2018.  Processed by University of Vermont Spatial Analysis Laboratory</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>4-band NAIP imagery, 0.25 feet, 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>4-band NAIP imagery, 0.25 feet, 2018</srccitea>
+        <srccontr>4-band National Imagery Program (NAIP) imagery, 0.25 feet, leaf on, acquired in 2018.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Boundary for Cambridge, Massachusetts, 2011</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>Boundary for Cambridge, Massachusetts, 2011</srccitea>
+        <srccontr>Boundary for Cambridge, Massachusetts, 2011. Source: Cambridge, Massachusetts</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Building Footprints, 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>Building Footprints, 2018</srccitea>
+        <srccontr>Planimetric polygon layer for building footprints, 2018. Source: Cambridge, Massachusetts</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Estimated Buildings Missing from the 2018 Building Footprints Layer, 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>Estimated Buildings Missing from the 2018 Building Footprints Layer, 2018</srccitea>
+        <srccontr>Estimated building footprints for structures not represented in the 2018 building footprints layer (i.e., buildings constructed during the period 2014-2018).  These buildings were modeled using the input nDSM, nDTM, the original LiDAR point cloud, and the 2018 NAIP imagery.  Source:  University of Vermont Spatial Analysis Laboratory.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>3-band orthoimagery, 0.25 feet, 2018</title>
+          </citeinfo>
+        </srccite>
+        <typesrc />
+        <srccitea>3-band orthoimagery, 0.25 feet, 2018</srccitea>
+        <srccontr>3-band orthoimagery, 0.25 feet, leaf off, acquired in 2018.  Source: Cambridge, Massachusetts</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Manual corrections.  The draft change-detection map from eCognition will be reviewed and corrected as necessary to eliminate non-systematic errors.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Automated feature extraction using eCognition.  The 2018 tree-canopy map was compared directly to the existing map for 2014, identifying tree canopy that did not change during the 4-year period, new trees that were gained through planting or existing trees that exhibited noticeable growth, and trees that were lost to natural and anthropogenic forces.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>36266</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>[ROW COUNT]</rowcount>
+      <colcount>[COLUMN COUNT]</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.667</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00032808333333333333</absres>
+            <ordres>0.00032808333333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ENVIRONMENTAL_TreeCanopy2018</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20210623</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Rubenstein School of Environment and Natural  Resources</address>
+          <address>Aiken Center</address>
+          <address>81 Carrigan Dr.</address>
+          <city>Burlington</city>
+          <state>Vermont</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>Jarlath.ONeil-Dunne@uvm.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
