@@ -67,7 +67,7 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge GIS, WSP</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <dataqual>
     <logic>The dataset contains vector (planimetric, Topography and Contours) files and raster (Ortho imagery) and LiDAR. The file naming convention of the datasets is based on a Basic Modular Unit of tile grid adopted by the City of Cambridge, MA based on the NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet, and vertical datum is NAVD 1988. The neat area is bounded by the state plane grid whose easting and northing are evenly divisible by 2640 x 2640 feet. Each Basic Modular Unit map is identified by a map number derived from grid naming convention with alphanumeric values. The rows are numbered from South to North and the Columns named with A, B, C, from West to East. E.g. A1, A2, etc.</logic>
@@ -287,7 +287,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200501</metd>
+    <metd>20210802</metd>
     <metc>
       <cntinfo>
         <cntorgp>
