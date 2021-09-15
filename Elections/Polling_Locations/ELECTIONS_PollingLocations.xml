@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.152455</westbc>
-        <eastbc>-71.086479</eastbc>
-        <northbc>42.394450</northbc>
-        <southbc>42.355498</southbc>
+        <westbc>-71.153976</westbc>
+        <eastbc>-71.084968</eastbc>
+        <northbc>42.400508</northbc>
+        <southbc>42.355493</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -101,6 +101,9 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>LOCATION_NOTE</attrlabl>
         <attrdef>Building entrance and room notes</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -110,9 +113,6 @@
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
         <attrlabl>created_date</attrlabl>
@@ -147,7 +147,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20201005</metd>
+    <metd>20210915</metd>
     <metc>
       <cntinfo>
         <cntorgp>

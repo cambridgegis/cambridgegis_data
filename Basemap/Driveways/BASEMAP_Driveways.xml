@@ -203,7 +203,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>8406</ptvctcnt>
+        <ptvctcnt>8405</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -283,7 +283,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210612</metd>
+    <metd>20210915</metd>
     <metc>
       <cntinfo>
         <cntorgp>

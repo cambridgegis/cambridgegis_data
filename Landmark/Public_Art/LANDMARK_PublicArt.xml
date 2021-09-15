@@ -163,6 +163,27 @@
         <attrdef>Details describing the art location.</attrdef>
       </attr>
       <attr>
+        <attrlabl>Photo_Caption</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Photo_Alt_Text</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>More_Info_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Related_Project_URL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Current_Interest</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Special_Interest</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Nearest_Point_of_Interest</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Actual_Address</attrlabl>
         <attrdef>Street address of art location, when applicable.</attrdef>
       </attr>
@@ -259,7 +280,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210503</metd>
+    <metd>20210915</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
