@@ -282,7 +282,7 @@
       </attr>
       <attr>
         <attrlabl>BldgID</attrlabl>
-        <attrdef>Unique building ID in master address block</attrdef>
+        <attrdef>Unique building ID in master address block. BLDGID values with a 999- prefix are non addressable buildings - often small garages, storage sheds, outbuildings, etc.</attrdef>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
@@ -323,7 +323,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210802</metd>
+    <metd>20211101</metd>
     <metc>
       <cntinfo>
         <cntorgp>
