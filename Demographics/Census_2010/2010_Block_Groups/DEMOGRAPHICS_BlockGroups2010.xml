@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063810</eastbc>
+        <eastbc>-71.063932</eastbc>
         <northbc>42.403841</northbc>
-        <southbc>42.352358</southbc>
+        <southbc>42.352359</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -29,14 +29,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>88</ptvctcnt>
+        <ptvctcnt>113</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -85,22 +85,24 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.len</attrlabl>
+        <attrlabl>NAMELSAD10</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape.area</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape.len</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>BLKGRPCE10</attrlabl>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>GEOID10</attrlabl>
       </attr>
       <attr>
-        <attrlabl>NAMELSAD10</attrlabl>
+        <attrlabl>COUNTYFP10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRACTCE10</attrlabl>
       </attr>
       <attr>
         <attrlabl>MTFCC10</attrlabl>
@@ -134,14 +136,6 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.area</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>Shape</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>ESRI</attrdefs>
@@ -149,10 +143,26 @@
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
+      <attr>
+        <attrlabl>BLKGRPCE10</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20211207</metd>
     <metc>
       <cntinfo>
         <cntorgp>

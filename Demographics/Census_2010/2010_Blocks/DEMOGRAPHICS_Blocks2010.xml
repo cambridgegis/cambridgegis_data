@@ -14,9 +14,9 @@ Development Department.</purpose>
     <spdom>
       <bounding>
         <westbc>-71.160581</westbc>
-        <eastbc>-71.063810</eastbc>
+        <eastbc>-71.063932</eastbc>
         <northbc>42.403841</northbc>
-        <southbc>42.352358</southbc>
+        <southbc>42.352359</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -29,14 +29,14 @@ Development Department.</purpose>
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>1109</ptvctcnt>
+        <ptvctcnt>1201</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -85,21 +85,34 @@ Development Department.</purpose>
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>Complete</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYFP10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRACTCE10</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>FollowUp</attrlabl>
       </attr>
       <attr>
         <attrlabl>Comments</attrlabl>
+        <attrdef>Additional notes and or comments </attrdef>
       </attr>
       <attr>
         <attrlabl>TOTALPOP</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE.len</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
@@ -121,20 +134,6 @@ Development Department.</purpose>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape.area</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE.area</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Shape.len</attrlabl>
       </attr>
       <attr>
         <attrlabl>BLOCKCE10</attrlabl>
@@ -165,17 +164,24 @@ Development Department.</purpose>
       </attr>
       <attr>
         <attrlabl>INTPTLAT10</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
       <attr>
-        <attrlabl>INTPTLON10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Complete</attrlabl>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20211207</metd>
     <metc>
       <cntinfo>
         <cntorgp>
