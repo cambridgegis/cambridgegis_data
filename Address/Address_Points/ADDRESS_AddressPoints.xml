@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This project was done in house as part of the Master Address Project. Thorough field checks have been carried out to ensure accuracy. Crosschecks have been made with various departments, including Assessing, Community Development, Elections, Emergency Communications, Inspectional Services, and Public Works. Each address point has attribute information including addresses, unique tax parcel ID and building ID which is useful for many different city departments for their respective systems and tools. Aside from housing and business addresses the following have also been included in this layer:Empty lots for potential addressesParks and open space addressesCall box locations</abstract>
+      <abstract>This project was done in-house as part of the Master Address Project. Thorough field checks have been carried out to ensure accuracy. Crosschecks have been made with various departments, including Assessing, Community Development, Elections, Emergency Communications, Inspectional Services, and Public Works. Each address point has attribute information including addresses, unique tax parcel ID and building ID which is useful for many different city departments for their respective systems and tools. Aside from housing and business addresses the following have also been included in this layer: Empty lots for potential addresses; Parks and open space addresses; Call box locations.</abstract>
       <purpose>This point layer includes all address points in the City of Cambridge. These are mapped to the doorway location of the building whenever possible</purpose>
     </descript>
     <status>
@@ -17,9 +17,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160170</westbc>
-        <eastbc>-71.067549</eastbc>
+        <eastbc>-71.068209</eastbc>
         <northbc>42.403595</northbc>
-        <southbc>42.353197</southbc>
+        <southbc>42.353200</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>21063</ptvctcnt>
+        <ptvctcnt>21061</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -153,7 +153,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20220103</metd>
+    <metd>20220208</metd>
     <metc>
       <cntinfo>
         <cntorgp>
