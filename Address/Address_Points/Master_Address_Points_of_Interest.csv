@@ -1127,7 +1127,6 @@
 1445,33077,CITY PARK,Squirrel Brand Park,TRUE
 1446,33078,CITY PARK,Lopez Street Park,TRUE
 1449,33140,MBTA,New Lechmere Station South Headhouse Entrance,FALSE
-1450,33141,MBTA,New Lechmere Station North Headhouse Entrance,FALSE
 1451,23755,HARVARD UNIV,"Holmes Hall, Pforzheimer House",TRUE
 1452,33144,HARVARD UNIV,Quincy House Stone Hall,TRUE
 1453,33143,HARVARD UNIV,Leverett Tower G,TRUE
@@ -1181,3 +1180,6 @@
 1503,32379,MIT BUILDING NAME,MIT Central Utilities Plant,TRUE
 1504,32379,MIT FACILITY NUMBER,MIT Building 42C,TRUE
 1505,23456,CAMBRIDGE HOUSING,Millers River Apartments,TRUE
+1506,34107,CITY PARK,Veterans of Foreign Wars Memorial Park,TRUE
+1507,33167,STATE OWNED,DCR North Point Maintenance Facility,TRUE
+1508,33139,MBTA,New Lechmere Station North Headhouse Entrance,TRUE

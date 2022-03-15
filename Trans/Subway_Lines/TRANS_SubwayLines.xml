@@ -29,7 +29,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -74,12 +74,12 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.TRANS_SubwayLines</enttypl>
+        <enttypl>TRANS_SubwayLines</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>OBJECTID_1</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
@@ -107,7 +107,24 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE.len</attrlabl>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
       </attr>
     </detailed>
   </eainfo>
@@ -123,7 +140,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20220314</metd>
     <metc>
       <cntinfo>
         <cntorgp>
