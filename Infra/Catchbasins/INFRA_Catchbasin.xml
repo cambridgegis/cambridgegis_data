@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>10049</ptvctcnt>
+        <ptvctcnt>10047</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -201,10 +201,13 @@
       <attr>
         <attrlabl>SumpDepth</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Separated</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20220404</metd>
+    <metd>20220503</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

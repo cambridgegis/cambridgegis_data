@@ -7,8 +7,8 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains the six elective districts for state legislators who represent Cambridge in the Massachusetts House of Representatives.</abstract>
-      <purpose>This layer was created for general use by the Cambridge Election Commission and for public distribution. Cambridge wards and precincts can be overlaid on district boundaries to designate which voters fall into each district.</purpose>
+      <abstract>This layer was created for general use by the Cambridge Election Commission and for public distribution. Cambridge wards and precincts can be overlaid on district boundaries to designate which voters fall into each district.</abstract>
+      <purpose>This polygon layer contains the six elective districts for state legislators who represent Cambridge in the Massachusetts House of Representatives, effective for elections occurring on or after January 1, 2022.</purpose>
     </descript>
     <spdom>
       <bounding>
@@ -28,7 +28,6 @@
     </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <datacred>City of Cambridge</datacred>
     <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
@@ -36,7 +35,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>5</ptvctcnt>
+        <ptvctcnt>6</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -57,8 +56,8 @@
         <planci>
           <plance>coordinate pair</plance>
           <coordrep>
-            <absres>0.0003125</absres>
-            <ordres>0.0003125</ordres>
+            <absres>0.00032808333333333333</absres>
+            <ordres>0.00032808333333333333</ordres>
           </coordrep>
           <plandu>foot_us</plandu>
         </planci>
@@ -79,33 +78,49 @@
       <attr>
         <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>DISTRICT</attrlabl>
-        <attrdef>State Representative district name</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>REP</attrlabl>
-        <attrdef>Name of current state representative for the district</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>Party</attrlabl>
-        <attrdef>Party affiliation of current representative</attrdef>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrlabl>Name</attrlabl>
+        <attrdef>State Representative district name
+</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>REP</attrlabl>
+        <attrdef>Name of current state representative for the district
+</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EditDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Party</attrlabl>
+        <attrdef>Party affiliation of current representative
+</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
-          <udom>Coordinates defining the features.</udom>
+          <udom>Positive real numbers that are automatically generated.</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -116,73 +131,10 @@
           <udom>Positive real numbers that are automatically generated.</udom>
         </attrdomv>
       </attr>
-      <attr>
-        <attrlabl>last_edited_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PARTY</attrlabl>
-        <attrdef>This field is not used</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
-        <attrdef>Length of feature in internal units.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Positive real numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape_Length</attrlabl>
-        <attrdef>Length of feature in internal units.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Positive real numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
     </detailed>
   </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>SDE Feature Class</formname>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
   <metainfo>
-    <metd>20210612</metd>
-    <metc>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>Massachusetts</state>
-          <postal>02139</postal>
-          <country>US</country>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </metc>
+    <metd>20220503</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

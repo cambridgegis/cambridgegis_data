@@ -7,15 +7,15 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains 11 wards and 33 precincts within the City of Cambridge. These were adjusted in 2011 from the 2010 U.S. Census.</abstract>
+      <abstract>This polygon layer contains 11 wards and 33 precincts within the City of Cambridge. These were adjusted in 2021 from the 2020 U.S. Census.The Massachusetts Legislative boundaries do not follow these Cambridge Ward and Precinct boundaries in several areas. In part, this was because of the compressed timeline due to the Covid-19 pandemic during the 2020 US Census. Municipalities and the State were unable to coordinate precincts and legislative districts, and as a result sub-precincts within 9 precincts were unavoidable. Voters in a sub-precinct are listed on a separate voting list and have different ballots from other voters in the precinct during State Elections.Please see the ELECTIONS_WardsSubPrecincts layer for the divided precincts.</abstract>
       <purpose>This layer was created for general use by the Cambridge Election Commission and for public distribution. Cambridge wards and precincts which designate where voters will vote.</purpose>
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160577</westbc>
-        <eastbc>-71.063802</eastbc>
-        <northbc>42.403845</northbc>
-        <southbc>42.352362</southbc>
+        <westbc>-71.160514</westbc>
+        <eastbc>-71.063743</eastbc>
+        <northbc>42.404246</northbc>
+        <southbc>42.352258</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>35</ptvctcnt>
+        <ptvctcnt>33</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -110,16 +110,13 @@
         <attrdef>Ward</attrdef>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>last_edited_user</attrlabl>
+        <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>last_edited_date</attrlabl>
+        <attrlabl>Sort</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
@@ -140,7 +137,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20210612</metd>
+    <metd>20220503</metd>
     <metc>
       <cntinfo>
         <cntorgp>
