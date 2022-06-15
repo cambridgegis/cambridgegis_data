@@ -38,7 +38,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>409</ptvctcnt>
+        <ptvctcnt>410</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -236,13 +236,7 @@
         <attrdef>Link to a picture of the art </attrdef>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
@@ -280,7 +274,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20211101</metd>
+    <metd>20220615</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

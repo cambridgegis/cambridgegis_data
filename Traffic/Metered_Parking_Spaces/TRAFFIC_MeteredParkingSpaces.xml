@@ -13,8 +13,8 @@
     <spdom>
       <bounding>
         <westbc>-71.149777</westbc>
-        <eastbc>-71.068953</eastbc>
-        <northbc>42.399206</northbc>
+        <eastbc>-71.068945</eastbc>
+        <northbc>42.400408</northbc>
         <southbc>42.353451</southbc>
       </bounding>
     </spdom>
@@ -31,14 +31,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge </datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>3086</ptvctcnt>
+        <ptvctcnt>3162</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -123,6 +123,9 @@
         <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
+        <attrlabl>Status</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -152,7 +155,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20210612</metd>
+    <metd>20220615</metd>
     <metc>
       <cntinfo>
         <cntorgp>
