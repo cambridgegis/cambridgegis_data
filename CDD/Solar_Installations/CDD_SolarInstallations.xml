@@ -1,0 +1,150 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>CDD_SolarInstallations</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This point layer identifies parcels with known solar installations. It includes both photovoltaic (PV) and solar hot water installations. The point may not fall in the exact location of the solar equipment, especially on larger parcels, or parcels with equipment in multiple locations. This dataset will be updated regularly with new installations.</abstract>
+      <purpose>To provide information on the quantity, location, and capacity of solar PV and hot water installations in Cambridge.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.159783</westbc>
+        <eastbc>-71.078165</eastbc>
+        <northbc>42.401987</northbc>
+        <southbc>42.355493</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>CDD</themekey>
+        <themekey>Solar Installations</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>668</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CDD_SolarInstallations</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SystemID</attrlabl>
+        <attrdef>Internal randomly-generated identifier of the system</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SystemStatus</attrlabl>
+        <attrdef>Status of system (active, retired, etc.)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SystemType</attrlabl>
+        <attrdef>PV (photovoltaic) or Solar Hot Water</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FullStreetAddress</attrlabl>
+        <attrdef>Street address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BuildingType</attrlabl>
+        <attrdef>Building type for this installation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteCategory</attrlabl>
+        <attrdef>Site category for this installation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>KW</attrlabl>
+        <attrdef>If the record is a PV system, the rated capacity of the system in KW.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SolarHotWaterSystemArea</attrlabl>
+        <attrdef>If the record is a solar hot water system, the area of the collector in square feet.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PermitIssueDate</attrlabl>
+        <attrdef>Date the solar permit was issued for this installation.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20221003</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
