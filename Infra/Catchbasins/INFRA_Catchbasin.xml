@@ -27,7 +27,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>10100</ptvctcnt>
+        <ptvctcnt>10103</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -119,9 +119,6 @@
         <attrdef>Owner of catch basin </attrdef>
       </attr>
       <attr>
-        <attrlabl>ARCFMID</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>HISTORICALID</attrlabl>
       </attr>
       <attr>
@@ -159,9 +156,6 @@
       </attr>
       <attr>
         <attrlabl>SOURCE1</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LastCleanDate</attrlabl>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
@@ -204,10 +198,13 @@
       <attr>
         <attrlabl>Separated</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Watershed</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20221003</metd>
+    <metd>20221205</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

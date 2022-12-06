@@ -1,0 +1,57 @@
+Zone_Type,District_Name,District_Description
+A-1,Residence A-1 District,Single-family dwellings
+A-2,Residence A-2 District,Single-family dwellings
+ASD,Ames Street District (within MXD),Various uses governed by the requirements of Article 14.000
+B,Residence B District,Two family or semi-detached dwellings
+BA,Business A District,Local and drive in retail business Offices and multifamily dwellings
+BA-1,Business A-1 District,Local business
+BA-2,Business A-2 District,Local business
+BA-3,Business A-3 District,Neighborhood business
+BA-4,Business A-4 District,Local business
+BB,Business B District,General business
+BB-1,Business B-1 District,"General business, business and professional Offices, and multifamily dwellings"
+BB-2,Business B-2 District,"General business, business and professional Offices and multifamily dwellings"
+BC,Business C District,"General business, professional Offices, multifamily dwellings."
+C,Residence C District,Multifamily dwellings
+C-1,Residence C-1 District,Multifamily dwellings
+C-1A,Residence C-1A District,Multifamily dwellings
+C-2,Residence C-2 District,Multifamily dwellings
+C-2A,Residence C-2A District,Multifamily dwellings
+C-2B,Residence C-2B District,Multifamily dwellings
+C-3,Residence C-3 District,Multifamily dwellings
+C-3A,Residence C-3A District,Multifamily dwellings and limited Office
+C-3B,Residence C-3B District,Multifamily dwellings
+CRDD,Cambridgeport Revitalization Development District,Various uses governed by the requirements of Article 15.000
+IA,Industry A District,"Warehouse, storage and light manufacturing"
+IA-1,Industry A-1 District,Limited impact business and industry
+IA-2,Industry A-2 District,Limited impact business and industry
+IB,Industry B District,Heavy Industry
+IB-1,Industry B-1 District,"Heavy manufacturing, warehouses, and Offices"
+IB-2,Industry B-2 District,"Office, warehouse and light manufacturing"
+MXD,Mixed Use Development (MXD) District: Kendall Center,Various uses governed by the requirements of Article 14.000
+NP,"North Point Residence, Office and Business District",Various uses governed by the requirements of Article 16.000
+O-1,Office 1 District,"Business and professional Office and multifamily dwellings (Apartment house, hotel, dormitory)"
+O-2,Office 2 District,"Business, research and professional Offices, limited research oriented manufacturing"
+O-2A,Office 2A District,"Business, research and professional Offices, limited research oriented manufacturing"
+O-3,Office 3 District,Business and professional Offices and multifamily dwellings
+O-3A,Office 3A District,Business and professional Offices and multifamily dwellings
+OS,Open Space District,Public parks and recreation facilities and other public facilities
+SD-1,"Special Business, Office and Industrial District 1",Various Uses governed by the requirements of Article 17.000
+SD-10(F),"Special Business, Office and Industrial District 10(F)",Various Uses governed by the requirements of Article 17.000
+SD-10(H),"Special Business, Office and Industrial District 10(H)",Various Uses governed by the requirements of Article 17.000
+SD-11,"Special Business, Office and Industrial District 11",Various Uses governed by the requirements of Article 17.000
+SD-12,"Special Business, Office and Industrial District 12",Various Uses governed by the requirements of Article 17.000
+SD-13,"Special Business, Office and Industrial District 13",Various Uses governed by the requirements of Article 17.000
+SD-14,"Special Business, Office and Industrial District 14",Various Uses governed by the requirements of Article 17.000
+SD-15,"Special Business, Office and Industrial District 15",Various Uses governed by the requirements of Article 17.000
+SD-2,"Special Business, Office and Industrial District 2",Various Uses governed by the requirements of Article 17.000
+SD-3,"Special Business, Office and Industrial District 3",Various Uses governed by the requirements of Article 17.000
+SD-4,"Special Business, Office and Industrial District 4",Various Uses governed by the requirements of Article 17.000
+SD-4A,"Special Business, Office and Industrial District 4A",Various Uses governed by the requirements of Article 17.000
+SD-5,"Special Business, Office and Industrial District 5",Various Uses governed by the requirements of Article 17.000
+SD-6,"Special Business, Office and Industrial District 6",Various Uses governed by the requirements of Article 17.000
+SD-7,"Special Business, Office and Industrial District 7",Various Uses governed by the requirements of Article 17.000
+SD-8,"Special Business, Office and Industrial District 8",Various Uses governed by the requirements of Article 17.000
+SD-8A,"Special Business, Office and Industrial District 8A",Various Uses governed by the requirements of Article 17.000
+SD-9,"Special Business, Office and Industrial District 9",Various Uses governed by the requirements of Article 17.000
+,,
