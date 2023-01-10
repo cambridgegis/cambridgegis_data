@@ -97,8 +97,7 @@
 </attrdef>
       </attr>
       <attr>
-        <attrlabl>Councillor</attrlabl>
-        <attrdef>Name of current councilor for the district</attrdef>
+        <attrlabl>Councilor</attrlabl>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
@@ -128,7 +127,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20220913</metd>
+    <metd>20230109</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
