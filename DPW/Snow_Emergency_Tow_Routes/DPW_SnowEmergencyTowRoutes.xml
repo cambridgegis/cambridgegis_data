@@ -10,6 +10,9 @@
       <abstract>The information on this map is for general informational purposes only and the actually SNOW emergency signs posted on street are the legal Traffic Regulations and for updated information please contact the Traffic, Parking and Transportation.</abstract>
       <purpose>City Snow Emergency Tow Routes. This layer is maintained by Cambridge Public Works.</purpose>
     </descript>
+    <status>
+      <update>As needed</update>
+    </status>
     <spdom>
       <bounding>
         <westbc>-71.248940</westbc>
@@ -31,14 +34,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>96</ptvctcnt>
+        <ptvctcnt>97</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -132,7 +135,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20170729</metd>
+    <metd>20230206</metd>
     <metc>
       <cntinfo>
         <cntorgp>
