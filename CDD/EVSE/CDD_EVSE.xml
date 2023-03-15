@@ -56,14 +56,14 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge, MA, Chargepoint, Blink, Plugshare, Cambridge electrical permit query, DOE Alternative Fueling Station Map</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>95</ptvctcnt>
+        <ptvctcnt>98</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -222,7 +222,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20221205</metd>
+    <metd>20230314</metd>
     <metc>
       <cntinfo>
         <cntorgp>

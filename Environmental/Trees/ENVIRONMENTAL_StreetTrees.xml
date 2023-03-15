@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>37897</ptvctcnt>
+        <ptvctcnt>37982</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -334,10 +334,13 @@
       <attr>
         <attrlabl>PendingSiteReview</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>TreeWellStatus</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20230206</metd>
+    <metd>20230314</metd>
     <metc>
       <cntinfo>
         <cntorgp>
