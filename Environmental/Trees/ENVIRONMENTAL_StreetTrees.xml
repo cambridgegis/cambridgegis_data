@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>38550</ptvctcnt>
+        <ptvctcnt>39099</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -337,10 +337,13 @@
       <attr>
         <attrlabl>TreeWellStatus</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>TreeWellExpansionRequired</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20230711</metd>
+    <metd>20230807</metd>
     <metc>
       <cntinfo>
         <cntorgp>
