@@ -7,7 +7,7 @@ CDD_LandUse
 ## Purpose
 Updated parcel layer with the latest available land use data.
 ## Last Modified
-08-01-2022
+09-11-2023
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

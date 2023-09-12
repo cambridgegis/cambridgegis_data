@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>39099</ptvctcnt>
+        <ptvctcnt>39808</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -340,10 +340,13 @@
       <attr>
         <attrlabl>TreeWellExpansionRequired</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>NurseryStockType</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20230807</metd>
+    <metd>20230912</metd>
     <metc>
       <cntinfo>
         <cntorgp>
