@@ -1,185 +1,186 @@
-﻿<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>cambridge.GISDATA.CDD_ParkDetails</title>
-        <geoform>tabular digital data</geoform>
-      </citeinfo>
-    </citation>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
-  </idinfo>
-  <eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>cambridge.GISDATA.CDD_ParkDetails</enttypl>
-      </enttyp>
-      <attr>
-        <attrlabl>OBJECTID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Parks_Map_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Passive_Use_Only</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Playground</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Water_Play</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Paths</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Baseball_LL</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Baseball_HS</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Basketball</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Football</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Golf</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Ice_Skating</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Soccer</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Softball</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Street_Hockey</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Swimming</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Tennis</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Track</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Community_Garden</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Off_Leash_Dog_Use</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Name</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Location</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Neighborhood</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Hours</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Acres</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Kid_Play</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Athletics</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Owner</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Managed_by</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Information</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Information_Web</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Field_Permits</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Field_Permits_Web</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Event_Permits</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Community_Garden_Plots</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Community_Gardens_Phone</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Community_Gardens_Web</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Off_Leash_Dog_Use_1</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Off_Leash_Use_Phone</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Off_Leash_Use_Web</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Established</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Last_Renovation</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Renovation_Web</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>GIS_JOIN_ID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ShowMoreInfoOnWeb</attrlabl>
-      </attr>
-    </detailed>
-  </eainfo>
-  <metainfo>
-    <metd>20220615</metd>
-    <metc>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>Massachusetts</state>
-          <postal>02139</postal>
-          <country>US</country>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </metc>
-    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
-    <mettc>local time</mettc>
-  </metainfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>CDD_ParkDetails</title>
+<geoform>tabular digital data</geoform>
+</citeinfo>
+</citation>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+</idinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>cambridge.GISDATA.CDD_ParkDetails</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Parks_Map_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>Passive_Use_Only</attrlabl>
+</attr>
+<attr>
+<attrlabl>Playground</attrlabl>
+</attr>
+<attr>
+<attrlabl>Water_Play</attrlabl>
+</attr>
+<attr>
+<attrlabl>Paths</attrlabl>
+</attr>
+<attr>
+<attrlabl>Baseball_LL</attrlabl>
+</attr>
+<attr>
+<attrlabl>Baseball_HS</attrlabl>
+</attr>
+<attr>
+<attrlabl>Basketball</attrlabl>
+</attr>
+<attr>
+<attrlabl>Football</attrlabl>
+</attr>
+<attr>
+<attrlabl>Golf</attrlabl>
+</attr>
+<attr>
+<attrlabl>Ice_Skating</attrlabl>
+</attr>
+<attr>
+<attrlabl>Soccer</attrlabl>
+</attr>
+<attr>
+<attrlabl>Softball</attrlabl>
+</attr>
+<attr>
+<attrlabl>Street_Hockey</attrlabl>
+</attr>
+<attr>
+<attrlabl>Swimming</attrlabl>
+</attr>
+<attr>
+<attrlabl>Tennis</attrlabl>
+</attr>
+<attr>
+<attrlabl>Track</attrlabl>
+</attr>
+<attr>
+<attrlabl>Community_Garden</attrlabl>
+</attr>
+<attr>
+<attrlabl>Off_Leash_Dog_Use</attrlabl>
+</attr>
+<attr>
+<attrlabl>Name</attrlabl>
+</attr>
+<attr>
+<attrlabl>Location</attrlabl>
+</attr>
+<attr>
+<attrlabl>Neighborhood</attrlabl>
+</attr>
+<attr>
+<attrlabl>Hours</attrlabl>
+</attr>
+<attr>
+<attrlabl>Acres</attrlabl>
+</attr>
+<attr>
+<attrlabl>Kid_Play</attrlabl>
+</attr>
+<attr>
+<attrlabl>Athletics</attrlabl>
+</attr>
+<attr>
+<attrlabl>Owner</attrlabl>
+</attr>
+<attr>
+<attrlabl>Managed_by</attrlabl>
+</attr>
+<attr>
+<attrlabl>Information</attrlabl>
+</attr>
+<attr>
+<attrlabl>Information_Web</attrlabl>
+</attr>
+<attr>
+<attrlabl>Field_Permits</attrlabl>
+</attr>
+<attr>
+<attrlabl>Field_Permits_Web</attrlabl>
+</attr>
+<attr>
+<attrlabl>Event_Permits</attrlabl>
+</attr>
+<attr>
+<attrlabl>Community_Garden_Plots</attrlabl>
+</attr>
+<attr>
+<attrlabl>Community_Gardens_Phone</attrlabl>
+</attr>
+<attr>
+<attrlabl>Community_Gardens_Web</attrlabl>
+</attr>
+<attr>
+<attrlabl>Off_Leash_Dog_Use_1</attrlabl>
+</attr>
+<attr>
+<attrlabl>Off_Leash_Use_Phone</attrlabl>
+</attr>
+<attr>
+<attrlabl>Off_Leash_Use_Web</attrlabl>
+</attr>
+<attr>
+<attrlabl>Established</attrlabl>
+</attr>
+<attr>
+<attrlabl>Last_Renovation</attrlabl>
+</attr>
+<attr>
+<attrlabl>Renovation_Web</attrlabl>
+</attr>
+<attr>
+<attrlabl>GIS_JOIN_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>ShowMoreInfoOnWeb</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<metainfo>
+<metd>20231106</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Cambridge</cntorg>
+<cntper>Cambridge GIS</cntper>
+</cntorgp>
+<cntpos>GIS Data</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>831 Massachusetts Ave</address>
+<city>Cambridge</city>
+<state>Massachusetts</state>
+<postal>02139</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>617-349-4140</cntvoice>
+<cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
 </metadata>

@@ -162,6 +162,9 @@ o State: Properties owned by the State of Massachusetts, including those owned b
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>GeneralCategory</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -180,7 +183,7 @@ o State: Properties owned by the State of Massachusetts, including those owned b
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20230912</metd>
+    <metd>20231106</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -7,7 +7,7 @@ RECREATION_OpenSpace
 ## Purpose
 Created for planning purposes, mapping, analysis, and public information.
 ## Last Modified
-02-27-2023
+11-06-2023
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -20,3 +20,4 @@ Created for planning purposes, mapping, analysis, and public information.
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
+|Acres|type: Double<br/>width: 8<br/>precision: 7||

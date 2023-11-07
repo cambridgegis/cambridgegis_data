@@ -7,7 +7,7 @@ CDD_LandUse
 ## Purpose
 Updated parcel layer with the latest available land use data.
 ## Last Modified
-09-11-2023
+11-06-2023
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -37,3 +37,4 @@ o Other: Nontaxable properties owned by a nonprofit organization and not falling
 o Religious: Properties owned by religious organizations.  Parochial schools located on separate parcels from other uses are included in the Educ Nontax category.
 o State: Properties owned by the State of Massachusetts, including those owned by the MBTA, Middlesex County and DCR parklands.
 |
+|GeneralCategory|type: String<br/>width: 254<br/>precision: 0||

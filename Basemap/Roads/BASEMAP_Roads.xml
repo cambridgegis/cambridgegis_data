@@ -289,13 +289,7 @@
         <attrlabl>GRADE</attrlabl>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
@@ -319,7 +313,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20220103</metd>
+    <metd>20231106</metd>
     <metc>
       <cntinfo>
         <cntorgp>
