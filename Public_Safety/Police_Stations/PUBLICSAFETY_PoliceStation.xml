@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.086120</westbc>
+        <westbc>-71.103674</westbc>
         <eastbc>-71.086120</eastbc>
-        <northbc>42.367211</northbc>
-        <southbc>42.367211</southbc>
+        <northbc>42.367273</northbc>
+        <southbc>42.365050</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -28,14 +28,14 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1</ptvctcnt>
+        <ptvctcnt>2</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -73,12 +73,12 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.PUBLICSAFETY_PoliceStation</enttypl>
+        <enttypl>PUBLICSAFETY_PoliceStation</enttypl>
       </enttyp>
       <attr>
-        <attrlabl>OBJECTID_1</attrlabl>
+        <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
@@ -106,6 +106,18 @@
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -120,7 +132,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20231204</metd>
     <metc>
       <cntinfo>
         <cntorgp>
