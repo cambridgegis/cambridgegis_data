@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>298</ptvctcnt>
+        <ptvctcnt>296</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -141,7 +141,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20230606</metd>
+    <metd>20240205</metd>
     <metc>
       <cntinfo>
         <cntorgp>
