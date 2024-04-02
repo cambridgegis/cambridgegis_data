@@ -7,7 +7,7 @@ ELECTIONS_GovernorsCouncilDistricts
 ## Purpose
 This polygon layer contains the six elective districts for councilor's who represent Cambridge in the Massachusetts Governor's Council, effective for elections occurring on or after January 1, 2022.
 ## Last Modified
-01-10-2023
+04-01-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

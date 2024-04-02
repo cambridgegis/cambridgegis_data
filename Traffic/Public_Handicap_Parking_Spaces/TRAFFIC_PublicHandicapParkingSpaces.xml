@@ -52,14 +52,14 @@
       </cntinfo>
     </ptcontac>
     <datacred>City of Cambridge Traffic Department</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>153</ptvctcnt>
+        <ptvctcnt>154</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -143,10 +143,28 @@
         <attrlabl>InstallRegulationNumber</attrlabl>
         <attrdef>The number associated with the space’s HP designation, in the Cambridge Traffic Regulations.</attrdef>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CartegraphID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20160519</metd>
+    <metd>20240401</metd>
     <metc>
       <cntinfo>
         <cntorgp>
