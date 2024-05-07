@@ -7,7 +7,7 @@ LANDMARK_MemorialPoles
 ## Purpose
 Created in response to a 2004 City Council order to inventory existing memorial poles, to better manage their number and distribution.
 ## Last Modified
-06-07-2022
+04-22-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

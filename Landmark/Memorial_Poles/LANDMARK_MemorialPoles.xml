@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS, DPW</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -93,27 +93,35 @@
         <attrdomv>
           <edom>
             <edomv>Bench</edomv>
+            <edomvd>Bench</edomvd>
           </edom>
           <edom>
             <edomv>Flag pole</edomv>
+            <edomvd>Flag pole</edomvd>
           </edom>
           <edom>
             <edomv>Historical marker</edomv>
+            <edomvd>Historical marker</edomvd>
           </edom>
           <edom>
             <edomv>Kiosk</edomv>
+            <edomvd>Kiosk</edomvd>
           </edom>
           <edom>
             <edomv>Memorial marker</edomv>
+            <edomvd>Memorial marker</edomvd>
           </edom>
           <edom>
             <edomv>Monument</edomv>
+            <edomvd>Monument</edomvd>
           </edom>
           <edom>
             <edomv>Plaque</edomv>
+            <edomvd>Plaque</edomvd>
           </edom>
           <edom>
             <edomv>Pole</edomv>
+            <edomvd>Pole</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -159,7 +167,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20220606</metd>
+    <metd>20240506</metd>
     <metc>
       <cntinfo>
         <cntorgp>
