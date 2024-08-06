@@ -121,11 +121,21 @@
         <attrlabl>EditDate</attrlabl>
       </attr>
       <attr>
-        <attrlabl>PropertyType</attrlabl>
-        <attrdef>Type of protection on the property</attrdef>
+        <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>GlobalID</attrlabl>
+        <attrlabl>ORIGINALUSE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Report</attrlabl>
+        <attrdef>A link to a .pdf report of the landmark.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>picURL</attrlabl>
+        <attrdefs>URL to a photo of the landmark.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONSTRUCTEDDATE</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
@@ -157,7 +167,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20230807</metd>
+    <metd>20240805</metd>
     <metc>
       <cntinfo>
         <cntorgp>
