@@ -132,7 +132,7 @@
       </attr>
       <attr>
         <attrlabl>picURL</attrlabl>
-        <attrdefs>URL to a photo of the landmark.</attrdefs>
+        <attrdef>URL to a photo of the landmark.</attrdef>
       </attr>
       <attr>
         <attrlabl>CONSTRUCTEDDATE</attrlabl>
@@ -167,7 +167,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20240805</metd>
+    <metd>20240912</metd>
     <metc>
       <cntinfo>
         <cntorgp>

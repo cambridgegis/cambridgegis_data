@@ -194,12 +194,24 @@
             <edomvd>Separated Bike Lane with Contra-flow</edomvd>
           </edom>
           <edom>
+            <edomv>84</edomv>
+            <edomvd>Separated Bike Lane with Contra-flow in one direction</edomvd>
+          </edom>
+          <edom>
             <edomv>91</edomv>
             <edomvd>Buffered Bike Lane on one side of a two-way street</edomvd>
           </edom>
           <edom>
+            <edomv>92</edomv>
+            <edomvd>Buffered Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
             <edomv>101</edomv>
             <edomvd>Bus/Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>102</edomv>
+            <edomvd>Bus/Bike Lane on a one-way street</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -296,12 +308,24 @@
             <edomvd>Planned Separated Bike Lane with Contra-flow</edomvd>
           </edom>
           <edom>
+            <edomv>84</edomv>
+            <edomvd>Separated Bike Lane with Contra-flow in one direction</edomvd>
+          </edom>
+          <edom>
             <edomv>91</edomv>
             <edomvd>Planned Buffered Bike Lane on one side of a two-way street</edomvd>
           </edom>
           <edom>
+            <edomv>92</edomv>
+            <edomvd>Buffered Bike Lane on a one-way street</edomvd>
+          </edom>
+          <edom>
             <edomv>101</edomv>
-            <edomvd>Planned Bus/Bike Lane on one side of a two-way street</edomvd>
+            <edomvd>Bus/Bike Lane on one side of a two-way street</edomvd>
+          </edom>
+          <edom>
+            <edomv>102</edomv>
+            <edomvd>Bus/Bike Lane on a one-way street</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -345,7 +369,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20231106</metd>
+    <metd>20240912</metd>
     <metc>
       <cntinfo>
         <cntorgp>

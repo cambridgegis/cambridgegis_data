@@ -12,7 +12,7 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.160574</westbc>
+        <westbc>-71.160554</westbc>
         <eastbc>-71.063802</eastbc>
         <northbc>42.403845</northbc>
         <southbc>42.352912</southbc>
@@ -30,7 +30,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -98,21 +98,20 @@
         <attrdef>5-digit ZIP code</attrdef>
       </attr>
       <attr>
-        <attrlabl>last_edited_user</attrlabl>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE</attrlabl>
         <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
@@ -147,7 +146,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20200613</metd>
+    <metd>20240912</metd>
     <metc>
       <cntinfo>
         <cntorgp>

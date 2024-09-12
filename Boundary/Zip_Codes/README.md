@@ -7,10 +7,10 @@ BOUNDARY_Zipcodes
 ## Purpose
 Created for informational purposes only. Official zip code information should be verified at the U.S. Postal Service website.
 ## Last Modified
-04-06-2022
+08-09-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
 |ZIP_CODE|type: String<br/>width: 32<br/>precision: 0|5-digit ZIP code|
+|SHAPE|type: String<br/>width: 255<br/>precision: 0|Feature geometry.|
 |Shape|type: String<br/>width: 255<br/>precision: 0|Feature geometry.|
-|last_edited_date|type: Date<br/>width: 8<br/>precision: 0|Feature geometry.|

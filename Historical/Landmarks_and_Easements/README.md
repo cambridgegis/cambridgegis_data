@@ -7,7 +7,7 @@ HISTORICAL_LandmarksEasements
 ## Purpose
 The Historical_LandmarksEasements layer contains individual parcels and buildings that are designated by the City Council as Cambridge Landmarks or that are protected by way of a voluntary donation of a preservation easement (aka preservation restriction) by a property owner to the City’s Historical Commission. Changes to the layer come about a few times a year as new landmarks and easements are so designated.
 ## Last Modified
-08-06-2024
+08-15-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
