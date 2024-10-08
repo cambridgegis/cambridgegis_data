@@ -7,7 +7,7 @@ LANDMARK_PublicLibraries
 ## Purpose
 Created for general use by City staff. Used for both mapping and specific identification of buildings with a similar use.
 ## Last Modified
-07-09-2018
+09-12-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -15,3 +15,7 @@ Created for general use by City staff. Used for both mapping and specific identi
 |ADDRESS|type: String<br/>width: 40<br/>precision: 0|Library address|
 |PHONE|type: String<br/>width: 16<br/>precision: 0|Library phone number|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||

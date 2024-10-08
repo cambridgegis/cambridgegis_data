@@ -7,7 +7,7 @@ HEALTH_HealthClinics
 ## Purpose
 City of Cambridge Health Alliance health clinic locations, for general map-making purposes, and for public distribution.
 ## Last Modified
-10-23-2017
+10-07-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

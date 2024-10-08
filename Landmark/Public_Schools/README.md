@@ -7,7 +7,7 @@ LANDMARK_PublicSchools
 ## Purpose
 Created for general use by City staff. Used for both mapping and specific identification of buildings with a similar use. Also used by emergency responders for evacuation and if the school is a designated shelter.
 ## Last Modified
-11-01-2021
+09-13-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

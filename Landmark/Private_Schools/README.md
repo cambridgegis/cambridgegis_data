@@ -7,7 +7,7 @@ LANDMARK_PrivateSchools
 ## Purpose
 Created for general use for City staff. Used for both mapping and specific identification of buildings with a similar use.
 ## Last Modified
-04-13-2020
+09-13-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.122906</westbc>
-        <eastbc>-71.080821</eastbc>
+        <eastbc>-71.077525</eastbc>
         <northbc>42.390002</northbc>
-        <southbc>42.358930</southbc>
+        <southbc>42.358918</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -28,7 +28,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -73,7 +73,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>cambridge.gisdata.LANDMARK_PostOffices</enttypl>
+        <enttypl>LANDMARK_PostOffices</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>
@@ -120,7 +120,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20140613</metd>
+    <metd>20241007</metd>
     <metc>
       <cntinfo>
         <cntorgp>

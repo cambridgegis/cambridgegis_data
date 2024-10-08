@@ -7,7 +7,7 @@ LANDMARK_DayCareFacilities
 ## Purpose
 Created for use by DPW and Emergency responders. Used for both mapping and specific identification of buildings with a similar use.
 ## Last Modified
-06-06-2022
+09-13-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
