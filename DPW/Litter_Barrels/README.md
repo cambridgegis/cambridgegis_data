@@ -7,7 +7,7 @@ DPW_LitterBarrels
 ## Purpose
 City owned and maintained litter barrels
 ## Last Modified
-02-01-2021
+11-04-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

@@ -12,9 +12,9 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.209145</westbc>
-        <eastbc>-71.063349</eastbc>
-        <northbc>42.435689</northbc>
+        <westbc>-71.160500</westbc>
+        <eastbc>-71.063588</eastbc>
+        <northbc>42.401012</northbc>
         <southbc>42.351651</southbc>
       </bounding>
     </spdom>
@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>560</ptvctcnt>
+        <ptvctcnt>553</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -80,276 +80,61 @@
       <attr>
         <attrlabl>OBJECTID</attrlabl>
         <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>LENGTH</attrlabl>
-        <attrdef>Length of feature in internal units. </attrdef>
-      </attr>
-      <attr>
-        <attrlabl>STREET</attrlabl>
-        <attrdef>Street name</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>ST_TYPE</attrlabl>
-        <attrdef>Street type</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>COMMENTS</attrlabl>
-        <attrdef>Comments</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>BIKE_FAC</attrlabl>
-        <attrdef>Bicycle facility code</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>0</edomv>
-            <edomvd>No existing facility; see PBIKE_FAC for planned facility</edomvd>
-          </edom>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>2</edomv>
-            <edomvd>Edge Line on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>3</edomv>
-            <edomvd>Contra-flow</edomvd>
-          </edom>
-          <edom>
-            <edomv>4</edomv>
-            <edomvd>Grade-Separated Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>5</edomv>
-            <edomvd>Bike Path/Multi-Use Path</edomvd>
-          </edom>
-          <edom>
-            <edomv>6</edomv>
-            <edomvd>Shared Lane Pavement Marking on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>7</edomv>
-            <edomvd>Shared Street on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>8</edomv>
-            <edomvd>Separated Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>9</edomv>
-            <edomvd>Buffered Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>10</edomv>
-            <edomvd>Bus/Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>11</edomv>
-            <edomvd>Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>12</edomv>
-            <edomvd>Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>22</edomv>
-            <edomvd>Edge Line on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>41</edomv>
-            <edomvd>Grade-Separated Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>42</edomv>
-            <edomvd>Grade-Separated Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>61</edomv>
-            <edomvd>Shared Lane Pavement Marking on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>62</edomv>
-            <edomvd>Shared Lane Pavement Marking on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>72</edomv>
-            <edomvd>Shared Street on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>81</edomv>
-            <edomvd>Separated Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>82</edomv>
-            <edomvd>Separated Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>83</edomv>
-            <edomvd>Separated Bike Lane with Contra-flow</edomvd>
-          </edom>
-          <edom>
-            <edomv>84</edomv>
-            <edomvd>Separated Bike Lane with Contra-flow in one direction</edomvd>
-          </edom>
-          <edom>
-            <edomv>91</edomv>
-            <edomvd>Buffered Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>92</edomv>
-            <edomvd>Buffered Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>101</edomv>
-            <edomvd>Bus/Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>102</edomv>
-            <edomvd>Bus/Bike Lane on a one-way street</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>PBIKE_FAC</attrlabl>
-        <attrdef>Planned bicycle facility code</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>0</edomv>
-            <edomvd>No existing facility</edomvd>
-          </edom>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>Planned Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>2</edomv>
-            <edomvd>Planned Edge Line on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>3</edomv>
-            <edomvd>Planned Contra-flow</edomvd>
-          </edom>
-          <edom>
-            <edomv>4</edomv>
-            <edomvd>Planned Grade-Separated Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>5</edomv>
-            <edomvd>Planned Bike Path/Multi-Use Path</edomvd>
-          </edom>
-          <edom>
-            <edomv>6</edomv>
-            <edomvd>Planned Shared Lane Pavement Marking on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>7</edomv>
-            <edomvd>Planned Shared Street on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>8</edomv>
-            <edomvd>Planned Separated Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>9</edomv>
-            <edomvd>Planned Buffered Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>10</edomv>
-            <edomvd>Planned Bus/Bike Lane on both sides of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>11</edomv>
-            <edomvd>Planned Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>12</edomv>
-            <edomvd>Planned Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>22</edomv>
-            <edomvd>Planned Edge Line on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>41</edomv>
-            <edomvd>Planned Grade-Separated Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>42</edomv>
-            <edomvd>Planned Grade-Separated Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>61</edomv>
-            <edomvd>Planned Shared Lane Pavement Marking on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>62</edomv>
-            <edomvd>Planned Shared Lane Pavement Marking on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>72</edomv>
-            <edomvd>Planned Shared Street on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>81</edomv>
-            <edomvd>Planned Separated Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>82</edomv>
-            <edomvd>Planned Separated Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>83</edomv>
-            <edomvd>Planned Separated Bike Lane with Contra-flow</edomvd>
-          </edom>
-          <edom>
-            <edomv>84</edomv>
-            <edomvd>Separated Bike Lane with Contra-flow in one direction</edomvd>
-          </edom>
-          <edom>
-            <edomv>91</edomv>
-            <edomvd>Planned Buffered Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>92</edomv>
-            <edomvd>Buffered Bike Lane on a one-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>101</edomv>
-            <edomvd>Bus/Bike Lane on one side of a two-way street</edomvd>
-          </edom>
-          <edom>
-            <edomv>102</edomv>
-            <edomvd>Bus/Bike Lane on a one-way street</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>Shape</attrlabl>
         <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
+        <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>EditDate</attrlabl>
+        <attrlabl>Street</attrlabl>
+        <attrdef>Same as "STREET" field from RoadCenterline layer, or name of mutli-use path entered manually
+</attrdef>
       </attr>
       <attr>
-        <attrlabl>Editor</attrlabl>
-        <attrdef>GIS editor</attrdef>
+        <attrlabl>ExistingFacility</attrlabl>
+        <attrdef>3- or 4-digit code that corresonds to a bicycle facility type for existing facilities.  Value is NULL if the segment is a PlannedFacility</attrdef>
       </attr>
       <attr>
-        <attrlabl>GlobalID</attrlabl>
+        <attrlabl>PlannedFacility</attrlabl>
+        <attrdef>4- or 5-digit code beginning with "9" that corresonds to a bicycle facility type for planned facilities.  Value is NULL if the segment is an ExistingFacility</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FacilityType</attrlabl>
+        <attrdef>The type of bicycle facility by category</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FacilityDetails</attrlabl>
+        <attrdef>Further details about the bicycle facility type on this segment, such as direction of travel, number of lanes, whether street is one-way or two-way street</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LaneMultiplier</attrlabl>
+        <attrdef>The number of travel lanes along the bicycle facility line segment (1 or 2) to be used as a multiplier to arrive at a number for lane length</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LaneLengthFeet</attrlabl>
+        <attrdef>Length in feet of all lanes of travel along the segment of the bicycle facility.  Calculated by multiplying  Shape_Length by LaneMultiplier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>YearAdded</attrlabl>
+        <attrdef>The year the facility was built</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
-        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdef>Length in feet of the line segment, generated automatically</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Positive real numbers that are automatically generated.</udom>
@@ -357,37 +142,8 @@
       </attr>
     </detailed>
   </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>SDE Feature Class</formname>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
   <metainfo>
-    <metd>20240912</metd>
-    <metc>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>MA</state>
-          <postal>02139</postal>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </metc>
+    <metd>20241104</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

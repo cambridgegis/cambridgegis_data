@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains boundaries for twelve commercial districts across the City of Cambridge. The Commercial Districts are:Central SquareConcord Alewife/Fresh PondEast CambridgeHarvard Square Huron Village/Observatory HillInman SquareKendall SquareLower CambridgeportLower Mass. Ave.North PointOsborn TrianglePorter Square/North Mass. Ave.</abstract>
+      <abstract>This polygon layer contains boundaries for nine commercial districts across the City of Cambridge. The Commercial Districts are:AlewifeCentral SquareEast CambridgeHarvard Square Huron Village/Observatory HillInman SquareKendall SquareLower Massachusetts AvePorter Square/North Massachusetts Ave</abstract>
       <purpose>Boundaries were determined by the Economic Development Division of the Community Development Department and are used in their work with local retailers, restaurants, and service providers.  For more information on Cambridge commercial districts, see https://www.cambridgema.gov/CDD/econdev/aboutcambridge.</purpose>
     </descript>
     <spdom>
@@ -27,7 +27,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge GIS</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -100,7 +100,7 @@
       </attr>
       <attr>
         <attrlabl>Webpage</attrlabl>
-        <attrdef>URL to relevant page on CDD Economic Development website</attrdef>
+        <attrdef>URL to relevant page on the CDD Economic Opportunity and Development website</attrdef>
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
@@ -132,7 +132,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20200803</metd>
+    <metd>20241104</metd>
     <metc>
       <cntinfo>
         <cntorgp>
