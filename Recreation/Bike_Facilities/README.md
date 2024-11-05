@@ -7,12 +7,11 @@ RECREATION_BikeFacilities
 ## Purpose
 Created for planning purposes, map making, and for public distribution.
 ## Last Modified
-10-07-2024
+11-05-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|Street|type: String<br/>width: 40<br/>precision: 0|Same as "STREET" field from RoadCenterline layer, or name of mutli-use path entered manually
-|
+|Street|type: String<br/>width: 40<br/>precision: 0|Same as "STREET" field from RoadCenterline layer, or name of mutli-use path entered manually|
 |ExistingFacility|type: Double<br/>width: 8<br/>precision: 0|3- or 4-digit code that corresonds to a bicycle facility type for existing facilities.  Value is NULL if the segment is a PlannedFacility|
 |PlannedFacility|type: Double<br/>width: 8<br/>precision: 0|4- or 5-digit code beginning with "9" that corresonds to a bicycle facility type for planned facilities.  Value is NULL if the segment is an ExistingFacility|
 |FacilityType|type: String<br/>width: 255<br/>precision: 0|The type of bicycle facility by category|
