@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>553</ptvctcnt>
+        <ptvctcnt>635</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -95,16 +95,15 @@
       </attr>
       <attr>
         <attrlabl>Street</attrlabl>
-        <attrdef>Same as "STREET" field from RoadCenterline layer, or name of mutli-use path entered manually
-</attrdef>
+        <attrdef>Same as "STREET" field from RoadCenterline layer, or name of mutli-use path entered manually</attrdef>
       </attr>
       <attr>
         <attrlabl>ExistingFacility</attrlabl>
-        <attrdef>3- or 4-digit code that corresonds to a bicycle facility type for existing facilities.  Value is NULL if the segment is a PlannedFacility</attrdef>
+        <attrdef>3- or 4-digit code that corresponds to a bicycle facility type for existing facilities.  Value is NULL if the segment is a PlannedFacility</attrdef>
       </attr>
       <attr>
         <attrlabl>PlannedFacility</attrlabl>
-        <attrdef>4- or 5-digit code beginning with "9" that corresonds to a bicycle facility type for planned facilities.  Value is NULL if the segment is an ExistingFacility</attrdef>
+        <attrdef>4- or 5-digit code beginning with "9" that corresponds to a bicycle facility type for planned facilities.  Value is NULL if the segment is an ExistingFacility</attrdef>
       </attr>
       <attr>
         <attrlabl>FacilityType</attrlabl>
@@ -143,7 +142,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20241104</metd>
+    <metd>20241202</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

@@ -7,7 +7,7 @@ TRAFFIC_SnowEmergencyParking
 ## Purpose
 Snow Emergency Off Street Parking for Residents 
 ## Last Modified
-01-06-2021
+11-26-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

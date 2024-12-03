@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains the 886 census blocks that make up the City of Cambridge for the 2010 Census.</abstract>
+      <abstract>This polygon layer contains the 1109 census blocks that make up the City of Cambridge for the 2010 Census.</abstract>
       <purpose>Created for spatial analysis of associated Census 2010 demographic data. Used for planning, mapping, and Community Development Block Grant (CBDG) purposes by the Community 
 Development Department.</purpose>
     </descript>
@@ -181,7 +181,7 @@ Development Department.</purpose>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20211207</metd>
+    <metd>20241202</metd>
     <metc>
       <cntinfo>
         <cntorgp>

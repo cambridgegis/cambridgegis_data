@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains the boundaries of the 30 census tracts that make up the City of Cambridge for the 2010 Census.</abstract>
+      <abstract>This polygon layer contains the boundaries of the 32 census tracts that make up the City of Cambridge for the 2010 Census.</abstract>
       <purpose>Created for spatial analysis of associated Census 2010 demographic data. Used for planning, mapping, and Community Development Block Grant (CBDG) purposes by the Community Development Department.</purpose>
     </descript>
     <spdom>
@@ -87,8 +87,8 @@
         <attrlabl>INTPTLON10</attrlabl>
       </attr>
       <attr>
-        <attrlabl>Shape_Area</attrlabl>
-        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrlabl>INTPTLON10</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Positive real numbers that are automatically generated.</udom>
@@ -102,6 +102,11 @@
       </attr>
       <attr>
         <attrlabl>TRACTCE10</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -138,6 +143,14 @@
         <attrlabl>ALAND10</attrlabl>
       </attr>
       <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
         <attrlabl>AWATER10</attrlabl>
         <attrdef>Feature geometry.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -145,18 +158,10 @@
           <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
-      <attr>
-        <attrlabl>Shape_Length</attrlabl>
-        <attrdef>Length of feature in internal units.</attrdef>
-        <attrdefs>Esri</attrdefs>
-        <attrdomv>
-          <udom>Positive real numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20211207</metd>
+    <metd>20241202</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This polygon layer contains the 886 census blocks that make up the City of Cambridge for the 2010 Census. Where appropriate, the boundary lines provided by the U.S. Census were adjusted by City staff to match those lines to such features as the City boundary, street centerlines, and parcel lines.</abstract>
+      <abstract>This polygon layer contains the 1109 census blocks that make up the City of Cambridge for the 2010 Census. Where appropriate, the boundary lines provided by the U.S. Census were adjusted by City staff to match those lines to such features as the City boundary, street centerlines, and parcel lines.</abstract>
       <purpose>Created for spatial analysis of associated Census 2010 demographic data. Used for planning, mapping, and Community Development Block Grant (CBDG) purposes by the Community 
 Development Department.</purpose>
     </descript>
@@ -85,7 +85,7 @@ Development Department.</purpose>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>FollowUp</attrlabl>
+        <attrlabl>FUNCSTAT10</attrlabl>
       </attr>
       <attr>
         <attrlabl>Shape_Area</attrlabl>
@@ -96,13 +96,31 @@ Development Department.</purpose>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Complete</attrlabl>
+        <attrlabl>UACE10</attrlabl>
       </attr>
       <attr>
         <attrlabl>COUNTYFP10</attrlabl>
       </attr>
       <attr>
         <attrlabl>TRACTCE10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALAND10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AWATER10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Complete</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FollowUp</attrlabl>
       </attr>
       <attr>
         <attrlabl>Comments</attrlabl>
@@ -146,24 +164,6 @@ Development Department.</purpose>
       </attr>
       <attr>
         <attrlabl>UR10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>UACE10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FUNCSTAT10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>ALAND10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>AWATER10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>INTPTLAT10</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>INTPTLON10</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
@@ -181,7 +181,7 @@ Development Department.</purpose>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20211207</metd>
+    <metd>20241202</metd>
     <metc>
       <cntinfo>
         <cntorgp>
