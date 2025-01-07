@@ -7,7 +7,7 @@ TRAFFIC_PublicHandicapParkingSpaces
 ## Purpose
 This layer contains point features of curbside, designated handicapped parking spaces located in commercial areas. 
 ## Last Modified
-12-02-2024
+01-06-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

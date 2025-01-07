@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>76</ptvctcnt>
+        <ptvctcnt>87</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -140,7 +140,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20241007</metd>
+    <metd>20250107</metd>
     <metc>
       <cntinfo>
         <cntorgp>

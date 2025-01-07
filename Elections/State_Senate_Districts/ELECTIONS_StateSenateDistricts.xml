@@ -29,7 +29,7 @@
     </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -117,6 +117,9 @@
         <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
+        <attrlabl>Senator_URL</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -135,7 +138,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20230109</metd>
+    <metd>20250107</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

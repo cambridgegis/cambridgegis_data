@@ -7,10 +7,12 @@ BASEMAP_Roads
 ## Purpose
 City of Cambridge 1" - 40' base map layers from an April 12 & April 22, 2018 flyover. Basemap layers created by WSP.
 ## Last Modified
-09-12-2024
+01-06-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
 |TYPE|type: String<br/>width: 50<br/>precision: 0|Type of road (paved, unpaved, alley, traffic island, ect)|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
 |GRADE|type: String<br/>width: 50<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
