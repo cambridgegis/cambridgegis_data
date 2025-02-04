@@ -92,12 +92,12 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>Councilor</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Name</attrlabl>
         <attrdef>Governor's Council district name
 </attrdef>
-      </attr>
-      <attr>
-        <attrlabl>Councilor</attrlabl>
       </attr>
       <attr>
         <attrlabl>EditDate</attrlabl>
@@ -127,7 +127,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20240401</metd>
+    <metd>20250203</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
