@@ -11,15 +11,9 @@ Police Response Districts are computer aided dispatch (CAD) reporting areas whic
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|CADRA|type: SmallInteger<br/>width: 2<br/>precision: 5|Computer Aided Dispatch reporting district
-|
-|SECTOR|type: SmallInteger<br/>width: 2<br/>precision: 5|Police sector
-|
-|CAR_RTE|type: String<br/>width: 3<br/>precision: 0|Police car route
-|
-|WALK_RTE|type: String<br/>width: 3<br/>precision: 0|Police walking route
-|
-|NBHD|type: SmallInteger<br/>width: 2<br/>precision: 5|Police designated neighborhood (not CDD neighborhood)
-|
-|BUSNSS|type: SmallInteger<br/>width: 2<br/>precision: 5|Business district
-|
+|CADRA|type: SmallInteger<br/>width: 2<br/>precision: 5|Computer Aided Dispatch reporting district|
+|SECTOR|type: SmallInteger<br/>width: 2<br/>precision: 5|Police sector|
+|CAR_RTE|type: String<br/>width: 3<br/>precision: 0|Police car route|
+|WALK_RTE|type: String<br/>width: 3<br/>precision: 0|Police walking route|
+|NBHD|type: SmallInteger<br/>width: 2<br/>precision: 5|Police designated neighborhood (not CDD neighborhood)|
+|BUSNSS|type: SmallInteger<br/>width: 2<br/>precision: 5|Business district|

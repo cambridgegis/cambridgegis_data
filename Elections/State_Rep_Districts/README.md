@@ -11,10 +11,7 @@ This polygon layer contains the six elective districts for state legislators who
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|Name|type: String<br/>width: 43<br/>precision: 0|State Representative district name
-|
-|REP|type: String<br/>width: 50<br/>precision: 0|Name of current state representative for the district
-|
+|Name|type: String<br/>width: 43<br/>precision: 0|State Representative district name|
+|REP|type: String<br/>width: 50<br/>precision: 0|Name of current state representative for the district|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
-|Party|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current representative
-|
+|Party|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current representative|

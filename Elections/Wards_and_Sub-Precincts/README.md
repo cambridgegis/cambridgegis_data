@@ -15,8 +15,7 @@ This layer was created for general use by the Cambridge Election Commission and 
 |WardPrecinctSubPrecinct|type: String<br/>width: 10<br/>precision: 0|Ward and Precinct, with Sub-Precinct where applicable|
 |Sort|type: SmallInteger<br/>width: 2<br/>precision: 5|For sorting by Ward, Precinct, and Sub-Precinct where applicable|
 |PrecinctSubPrecinct|type: String<br/>width: 5<br/>precision: 0|Precinct, with Sub-Precinct where applicable|
-|TOTALPOP|type: Double<br/>width: 8<br/>precision: 38|Total population of covered area from 2020 US Census
-|
+|TOTALPOP|type: Double<br/>width: 8<br/>precision: 38|Total population of covered area from 2020 US Census|
 |Ward|type: String<br/>width: 4<br/>precision: 0|Ward|
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |last_edited_date|type: Date<br/>width: 8<br/>precision: 0||

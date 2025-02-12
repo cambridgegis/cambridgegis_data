@@ -12,9 +12,8 @@ Created for reference purposes for the Assessing Department to group contiguous 
 |Name|Type Details|Description|
 |----|------------|-----------|
 |PCIX_NO|type: String<br/>width: 6<br/>precision: 0|Block number|
-|BSIZE_MAP_SCALE|type: Integer<br/>width: 4<br/>precision: 10|Scaling for 11 x 17 maps
-|
-|BSIZE_INCH_TO_FOOT|type: Integer<br/>width: 4<br/>precision: 10|Scaling for 11 x 17 maps |
-|DSIZE_MAP_SCALE|type: Integer<br/>width: 4<br/>precision: 10|Scaling for D size maps |
-|DSIZE_INCH_TO_FOOT|type: Integer<br/>width: 4<br/>precision: 10|Scaling for D size maps |
-|ROTATION|type: Double<br/>width: 8<br/>precision: 38|Rotation angle for 11" x 17" map set |
+|BSIZE_MAP_SCALE|type: Integer<br/>width: 4<br/>precision: 10|Scaling for 11 x 17 maps|
+|BSIZE_INCH_TO_FOOT|type: Integer<br/>width: 4<br/>precision: 10|Scaling for 11 x 17 maps|
+|DSIZE_MAP_SCALE|type: Integer<br/>width: 4<br/>precision: 10|Scaling for D size maps|
+|DSIZE_INCH_TO_FOOT|type: Integer<br/>width: 4<br/>precision: 10|Scaling for D size maps|
+|ROTATION|type: Double<br/>width: 8<br/>precision: 38|Rotation angle for 11" x 17" map set|

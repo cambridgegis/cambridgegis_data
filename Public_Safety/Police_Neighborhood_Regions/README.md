@@ -11,5 +11,4 @@ This is a neighborhood map used by Cambridge Public Safety within their computer
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|NBHD|type: SmallInteger<br/>width: 2<br/>precision: 5|Police designated neighborhood (not CDD neighborhood)
-|
+|NBHD|type: SmallInteger<br/>width: 2<br/>precision: 5|Police designated neighborhood (not CDD neighborhood)|

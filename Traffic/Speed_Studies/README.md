@@ -13,10 +13,7 @@ Created bt the Traffic, Parking and Transportation Department for analysis and m
 |----|------------|-----------|
 |DATE|type: Date<br/>width: 36<br/>precision: 0|Date of study.|
 |STREET|type: String<br/>width: 255<br/>precision: 0|Name of street being studied|
-|CROSSING_STREET|type: String<br/>width: 255<br/>precision: 0|Name of nearest crossing street at observation area OR street number.
-
-
-|
+|CROSSING_STREET|type: String<br/>width: 255<br/>precision: 0|Name of nearest crossing street at observation area OR street number.|
 |DIRECTION|type: String<br/>width: 255<br/>precision: 0|Direction of flow of traffic|
 |SPEED_85TH|type: Double<br/>width: 8<br/>precision: 38|The speed at which 85% of the traffic was clocked slower than.|
 |XCoord|type: Double<br/>width: 8<br/>precision: 38|Approximate X coordinate of study|

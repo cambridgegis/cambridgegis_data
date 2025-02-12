@@ -7,13 +7,10 @@ TRAFFIC_Signals
 ## Purpose
 Created by the Traffic and Parking Department Transportation Engineer for analysis and mapping. Also used within the traffic modeling software, Synchro.
 ## Last Modified
-11-21-2022
+08-28-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
 |Jurisdiction|type: String<br/>width: 254<br/>precision: 0|Agency responsible for maintenance|
-|Location|type: String<br/>width: 254<br/>precision: 0|Location of intersection, in terms of intersecting streets
-
-
-|
+|Location|type: String<br/>width: 254<br/>precision: 0|Location of intersection, in terms of intersecting streets|
 |Contact|type: String<br/>width: 254<br/>precision: 0|Email contact for agency responsible for maintenance|

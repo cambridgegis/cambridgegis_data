@@ -11,10 +11,7 @@ This polygon layer contains the three elective districts for state legislators w
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|Name|type: String<br/>width: 50<br/>precision: 0|State Senate district name
-|
-|Senator|type: String<br/>width: 35<br/>precision: 0|Name of current state senator for the district
-|
+|Name|type: String<br/>width: 50<br/>precision: 0|State Senate district name|
+|Senator|type: String<br/>width: 35<br/>precision: 0|Name of current state senator for the district|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
-|Party|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current senator
-|
+|Party|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current senator|

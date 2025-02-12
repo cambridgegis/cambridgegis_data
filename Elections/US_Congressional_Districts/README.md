@@ -14,6 +14,5 @@ This polygon layer contains the two elective districts in Cambridge for legislat
 |DISTRICT|type: Integer<br/>width: 0<br/>precision: 0|District number|
 |NAME|type: String<br/>width: 43<br/>precision: 0|District Name|
 |CONGRESSPERSON|type: String<br/>width: 35<br/>precision: 0|Name of current US representative for the district|
-|PARTY|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current representative
-|
+|PARTY|type: String<br/>width: 8<br/>precision: 0|Party affiliation of current representative|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||

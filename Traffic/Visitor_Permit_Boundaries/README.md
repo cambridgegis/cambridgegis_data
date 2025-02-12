@@ -12,7 +12,5 @@ Created to assist the residents of Cambridge in determining where their guests c
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|N_HOOD|type: String<br/>width: 3<br/>precision: 0|Numerical value of specified neighborhood.
-|
-|NAME|type: String<br/>width: 30<br/>precision: 0|Name of neighborhood
-|
+|N_HOOD|type: String<br/>width: 3<br/>precision: 0|Numerical value of specified neighborhood.|
+|NAME|type: String<br/>width: 30<br/>precision: 0|Name of neighborhood|

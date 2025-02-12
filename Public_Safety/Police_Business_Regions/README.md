@@ -11,5 +11,4 @@ This is a police business map used by within their computer aided dispatch (CAD)
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|BUSNSS|type: SmallInteger<br/>width: 2<br/>precision: 5|Business district
-|
+|BUSNSS|type: SmallInteger<br/>width: 2<br/>precision: 5|Business district|

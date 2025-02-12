@@ -12,8 +12,7 @@ This polygon layer contains the six elective districts for councilor's who repre
 |Name|Type Details|Description|
 |----|------------|-----------|
 |Councilor|type: String<br/>width: 50<br/>precision: 0||
-|Name|type: String<br/>width: 50<br/>precision: 0|Governor's Council district name
-|
+|Name|type: String<br/>width: 50<br/>precision: 0|Governor's Council district name|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
