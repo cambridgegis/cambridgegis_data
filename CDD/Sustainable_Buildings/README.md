@@ -1,27 +1,22 @@
-# OBSOLETE Sustainable Buildings
+# Sustainable Buildings
 ## GIS File Name
 CDD_SustainableBuildings
 ## Description
-<div style="text-align:Left;"><p style="margin:0 0 0 0;">This dataset is OBSOLETE as of 11/18/2024 and will be removed from GitHub on 11/18/2025.</p><p style="margin:0 0 0 0;"><br /></p><p style="margin:0 0 0 0;">An updated version of this dataset is available atÂ <a href="https://data.cambridgema.gov/Energy-and-the-Environment/Certified-Sustainable-Buildings/4wmm-yatk/about_data">Certified Sustainable Buildings | Open Data Portal | City of Cambridge</a>.</p><p style="margin:0 0 0 0;"><br /></p><p style="margin:0 0 0 0;">A map of the updated data can be found in two places:</p><p style="margin:0 0 0 0;"></p><ul><li><a href="https://data.cambridgema.gov/Energy-and-the-Environment/Certified-Sustainable-Buildings-Map/kuj7-awvi">Certified Sustainable Buildings Map | Open Data Portal | City of Cambridge</a></li><li><a href="https://www.cambridgema.gov/Departments/communitydevelopment/sustainablebuildingsmap">Sustainable Buildings Map - City of Cambridge, MA</a></li></ul><p></p><p style="margin:0 0 0 0;"></p><hr />
-<DIV STYLE="text-align:Left;"><DIV><DIV><P STYLE="margin:0 0 0 0;"><SPAN><SPAN>This point layer shows the location of sustainable buildings in Cambridge. For inclusion in this layer, a building must do at least one of the following: qualify for the Cityï¿½s Article 22 regulatory process; be certified by Passive House; be certified by Enterprise Green Communities; or be certified by LEED</SPAN></SPAN><SPAN /><SPAN /><SPAN><SPAN>under a LEED version that requires the whole building to meet sustainability standards. Some buildings meet two or more of these criteria. Additionally, this layer contains information about other certifications (Energy Star, Fitwel, and WELL) that may apply to the included buildings. If an included building participates in the Cityï¿½s BEUDO regulatory process, this layer provides two key emissions figures for the building. Information provided about the applicable sustainable building programs for qualifying buildings includes certification levels, certification types, ratings, or scores. This layer includes data from City and non-City sources.</SPAN></SPAN></P></DIV></DIV></DIV>
+<DIV STYLE="text-align:Left;"><DIV><DIV><P STYLE="margin:0 0 0 0;"><SPAN><SPAN>This point layer shows the location of sustainable buildings in Cambridge. For inclusion in this layer, a building must do at least one of the following: qualify for the City’s Article 22 regulatory process; be certified by Passive House; be certified by Enterprise Green Communities; or be certified by LEED</SPAN></SPAN><SPAN /><SPAN /><SPAN><SPAN>under a LEED version that requires the whole building to meet sustainability standards. Some buildings meet two or more of these criteria. Additionally, this layer contains information about other certifications (Energy Star, Fitwel, and WELL) that may apply to the included buildings. If an included building participates in the City’s BEUDO regulatory process, this layer provides two key emissions figures for the building. Information provided about the applicable sustainable building programs for qualifying buildings includes certification levels, certification types, ratings, or scores. This layer includes data from City and non-City sources.</SPAN></SPAN></P></DIV></DIV></DIV>
 
 ## Purpose
 This layer was created for general use by CDD staff.  It combines information from eight sustainable building certification programs, including two City regulatory programs, to show the extent and location of sustainable buildings in Cambridge.
 ## Last Modified
-07-10-2023
+09-05-2024
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|BldgID|type: String<br/>width: 50<br/>precision: 0|Unique ID for database from GIS.
-|
+|BldgID|type: String<br/>width: 50<br/>precision: 0|Unique ID for database from GIS.|
 |Latitude|type: Double<br/>width: 8<br/>precision: 38|Geographic coordinate from GIS Bldg ID centroid file.|
 |Longitude|type: Double<br/>width: 8<br/>precision: 38|Geographic coordinate from GIS Bldg ID centroid file.|
 |Article22_SystemLevelEquivalenc|type: String<br/>width: 150<br/>precision: 0||
-|Article22|type: String<br/>width: 3<br/>precision: 0|"Yes" indicates Article 22 building.
-|
-|BEUDO_TotalGHGEmissionsIntensit|type: Double<br/>width: 8<br/>precision: 38||
+|Article22|type: String<br/>width: 3<br/>precision: 0|"Yes" indicates Article 22 building.|
 |BEUDO|type: String<br/>width: 3<br/>precision: 0|"Yes" indicates BUEDO building.|
-|BEUDO_SourceEUI|type: Double<br/>width: 8<br/>precision: 38|A critical variable for reporting about BEUDO.|
 |EnergyStar|type: String<br/>width: 3<br/>precision: 0|"Yes" indicates EnergyStar building.|
 |EnergyStar_CountYearsCert|type: SmallInteger<br/>width: 2<br/>precision: 5|Number of  years certified. EnergyStar certification may be renewed annually.|
 |EnergyStar_LastYearCert|type: String<br/>width: 4<br/>precision: 0|Year of last certification.|

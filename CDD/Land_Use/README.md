@@ -11,8 +11,7 @@ Updated parcel layer with the latest available land use data.
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|ml|type: String<br/>width: 16<br/>precision: 0|Parcel map-lot ID
-|
+|ml|type: String<br/>width: 16<br/>precision: 0|Parcel map-lot ID|
 |location|type: String<br/>width: 50<br/>precision: 0|Street address|
 |street_name|type: String<br/>width: 50<br/>precision: 0|Street name|
 |use_code|type: String<br/>width: 10<br/>precision: 0|Land use code for this property|
