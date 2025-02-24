@@ -7,7 +7,7 @@ INFRA_Catchbasin
 ## Purpose
 Catchbasin
 ## Last Modified
-02-03-2025
+02-24-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -20,10 +20,10 @@ Catchbasin
 |WATERTYPE|type: String<br/>width: 10<br/>precision: 0||
 |INSTALLDATE|type: Date<br/>width: 8<br/>precision: 0||
 |SURFACEELEVATION|type: Double<br/>width: 8<br/>precision: 38||
-|LASTEDITOR|type: String<br/>width: 10<br/>precision: 0|Initials of person making most recent edit |
-|LASTEDITDATE|type: Date<br/>width: 8<br/>precision: 0|Last edit date. |
-|COMMENTS|type: String<br/>width: 150<br/>precision: 0|Additional notes and or comments |
-|OWNER|type: String<br/>width: 5<br/>precision: 0|Owner of catch basin |
+|LASTEDITOR|type: String<br/>width: 10<br/>precision: 0|Initials of person making most recent edit|
+|LASTEDITDATE|type: Date<br/>width: 8<br/>precision: 0|Last edit date.|
+|COMMENTS|type: String<br/>width: 150<br/>precision: 0|Additional notes and or comments|
+|OWNER|type: String<br/>width: 5<br/>precision: 0|Owner of catch basin|
 |ARCFMID|type: String<br/>width: 20<br/>precision: 0||
 |HISTORICALID|type: String<br/>width: 20<br/>precision: 0||
 |FRAMEMATERIAL|type: String<br/>width: 10<br/>precision: 0||

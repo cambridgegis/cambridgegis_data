@@ -14,8 +14,8 @@
     <spdom>
       <bounding>
         <westbc>-71.147610</westbc>
-        <eastbc>-71.084817</eastbc>
-        <northbc>42.395479</northbc>
+        <eastbc>-71.084815</eastbc>
+        <northbc>42.395801</northbc>
         <southbc>42.368055</southbc>
       </bounding>
     </spdom>
@@ -31,7 +31,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -109,7 +109,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20200106</metd>
+    <metd>20250224</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

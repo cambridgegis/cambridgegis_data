@@ -7,7 +7,7 @@ ENVIRONMENTAL_StreetTrees
 ## Purpose
 City owned and maintained trees. This layer is maintained by Cambridge Public Works and updated regularly by the City Arborist. 
 ## Last Modified
-02-03-2025
+02-24-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -30,7 +30,7 @@ City owned and maintained trees. This layer is maintained by Cambridge Public Wo
 |Location|type: String<br/>width: 50<br/>precision: 0|Designates whether the site is located along a street (Street Tree), beyond the back edge of a sidewalk in a front yard or other area not immediately adjacent to a street (Back of Sidewalk), in a park or other open space (Park Tree, Cemetery Tree, Golf Course), or on the grounds of a public school or other municipal building (Public School, City Building).|
 |Ownership|type: String<br/>width: 50<br/>precision: 0|Designates the ownership of the tax parcel on which the site falls.|
 |ADACompliant|type: String<br/>width: 1<br/>precision: 0|Designates whether the site is ADA compliant, for instance whether the site has the minimum required sidewalk width of 4 feet.|
-|TreeGrateActionReq|type: SmallInteger<br/>width: 2<br/>precision: 5|This field is used to record if the metal tree grate surrounding the tree needs to be reset or removed.  When the tree grows, it can get girdled by the tree grate. |
+|TreeGrateActionReq|type: SmallInteger<br/>width: 2<br/>precision: 5|This field is used to record if the metal tree grate surrounding the tree needs to be reset or removed.  When the tree grows, it can get girdled by the tree grate.|
 |BareRoot|type: String<br/>width: 3<br/>precision: 0|Designates whether the last tree was planted as a bare-root tree.|
 |TreeWellCover|type: String<br/>width: 25<br/>precision: 0|The type of cover, if any that is over the tree well. The two values are Tree Grate or Flexi-Pave.|
 |StructuralSoil|type: String<br/>width: 5<br/>precision: 0|Indicates if the tree was planted in structural soil.|
@@ -42,8 +42,8 @@ City owned and maintained trees. This layer is maintained by Cambridge Public Wo
 |created_user|type: String<br/>width: 255<br/>precision: 0||
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |Genus|type: String<br/>width: 55<br/>precision: 0||
-|last_edited_user|type: String<br/>width: 255<br/>precision: 0|Initials of person making most recent edit |
-|last_edited_date|type: Date<br/>width: 8<br/>precision: 0|Last edit date. |
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0|Initials of person making most recent edit|
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0|Last edit date.|
 |CommonName|type: String<br/>width: 55<br/>precision: 0||
 |CartegraphRetireDate|type: Date<br/>width: 8<br/>precision: 0||
 |CartegraphPlantDate|type: Date<br/>width: 8<br/>precision: 0||
@@ -55,7 +55,7 @@ City owned and maintained trees. This layer is maintained by Cambridge Public Wo
 |SiteReplanted|type: String<br/>width: 3<br/>precision: 0||
 |SiteRetiredReason|type: String<br/>width: 255<br/>precision: 0||
 |Biochar_Added|type: String<br/>width: 3<br/>precision: 0||
-|SolarRating|type: SmallInteger<br/>width: 2<br/>precision: 5|Solar radiation rating between 1 and 5, where 1 is the lowest score and 5 is the highest (receives the most light). Pictometry 2014 DSM and DEM were used to determine tree height and measure shadows from 2014 3D buildings. SolarRating is the average of the solar radiation for both the DSM and DEM results for June, July, August, and September. |
+|SolarRating|type: SmallInteger<br/>width: 2<br/>precision: 5|Solar radiation rating between 1 and 5, where 1 is the lowest score and 5 is the highest (receives the most light). Pictometry 2014 DSM and DEM were used to determine tree height and measure shadows from 2014 3D buildings. SolarRating is the average of the solar radiation for both the DSM and DEM results for June, July, August, and September.|
 |TreeWellDepth|type: Double<br/>width: 8<br/>precision: 38||
 |ScheduledRemoval|type: SmallInteger<br/>width: 2<br/>precision: 5||
 |RemovalReason|type: String<br/>width: 25<br/>precision: 0||
