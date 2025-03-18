@@ -8,11 +8,11 @@ CDD_ZoningOverlayDistricts
 ## Purpose
 Created as part of Cambridge's Zoning Ordinance to delineate zoning overlay district boundaries.
 ## Last Modified
-02-22-2024
+03-17-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|OVERLAP|type: String<br/>width: 4<br/>precision: 0|A "Y" in this field indicates a separate polygon that represents an area of overlap between overlay districts.  |
+|OVERLAP|type: String<br/>width: 4<br/>precision: 0|A "Y" in this field indicates a separate polygon that represents an area of overlap between overlay districts.|
 |OrdNum|type: String<br/>width: 12<br/>precision: 0|Ordinance number|
 |Type|type: String<br/>width: 15<br/>precision: 0|Type of overlay district (i.e., Institutional or Other)|
 |Label|type: String<br/>width: 20<br/>precision: 0|Used for mapping|
