@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.148796</westbc>
-        <eastbc>-71.077272</eastbc>
-        <northbc>42.402137</northbc>
-        <southbc>42.355835</southbc>
+        <westbc>-71.148792</westbc>
+        <eastbc>-71.077301</eastbc>
+        <northbc>42.397803</northbc>
+        <southbc>42.356582</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>155</ptvctcnt>
+        <ptvctcnt>156</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -120,16 +120,14 @@
         <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>last_edited_user</attrlabl>
+        <attrlabl>last_edited_date</attrlabl>
       </attr>
       <attr>
-        <attrlabl>last_edited_date</attrlabl>
+        <attrlabl>Marker_Number</attrlabl>
+        <attrdef>Marker number</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -145,7 +143,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20210301</metd>
+    <metd>20250407</metd>
     <metc>
       <cntinfo>
         <cntorgp>

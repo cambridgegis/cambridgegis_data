@@ -7,7 +7,7 @@ TRANS_Intersections
 ## Purpose
 Created in accompaniment with the Centerlines data layer. Each street segment has a "from node" and a "to node" to connect the streets and to indicate the direction of the segment.
 ## Last Modified
-03-17-2025
+03-24-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

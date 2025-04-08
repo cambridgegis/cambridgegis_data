@@ -7,7 +7,7 @@ HISTORICAL_HistoricalMarkers
 ## Purpose
 Created for general use within the Cambridge Historical Commission and for map production.
 ## Last Modified
-03-01-2021
+04-08-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -19,3 +19,4 @@ Created for general use within the Cambridge Historical Commission and for map p
 |EditDate|type: String<br/>width: 4<br/>precision: 0|Last edit date|
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
+|Marker_Number|type: String<br/>width: 10<br/>precision: 0|Marker number|
