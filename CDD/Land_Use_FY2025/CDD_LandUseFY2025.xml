@@ -1,0 +1,197 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>CDD_LandUseFY2025</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set derives from several sources, and is updated annually with data current through July 1 of the reported year. The primary source is a data dump from the VISION assessing data system, which provided data up to date as of January 1, 2012, and is supplemented by information from subsequent building permits and Development Logs. (Use codes provided by this system combine aspects of land use, tax status, and condominium status. In an effort to clarify land use type the data has been cleaned and subdivided to break the original use code into several different fields.) The data set has further been supplemented and updated with development information provided by building permits issued by the Inspectional Services Department and from data found in the Development Log publication. Information from these sources is added to the data set periodically. Land use status is up to date as of the Last Modified date.Differences From “Official” Parcel LayerThe Cambridge GIS system maintains a separate layer of land parcels reflecting up to date subdivision and ownership. The parcel data associated with the Land Use Data set differs from the “official” parcel layer in a number of cases. For that reason this separate parcel layer is provided to work with land use data in a GIS environment. See the Assessing Department’s Parcel layer for the most up-to-date land parcel boundaries.Table of Land Use CodesThe following table lists all land use code found in the data layer:Land Use CodeLand Use DescriptionCategoryGeneral Use Category0101MXD SNGL-FAM-RESResidential with Ground Floor CommercialMixed Use0104MXD TWO-FAM-RESResidential with Ground Floor CommercialMixed Use0105MXD THREE-FM-RESResidential with Ground Floor CommercialMixed Use0111MXD 4-8-UNIT-APTResidential with Ground Floor CommercialMixed Use0112MXD &gt;8-UNIT-APTResidential with Ground Floor CommercialMixed Use0121MXD BOARDING-HSResidential with CommercialMixed Use013MULTIUSE-RESResidential with CommercialMixed Use031MULTIUSE-COMCommercial with ResidentialMixed Use0340MXD GEN-OFFICEOfficeMixed Use0406MXD HIGH-TECHOffice/R&amp;DCommercial041MULTIUSE-INDCommercial with ResidentialMixed Use0942Higher Ed and Comm MixedEducation with CommercialMixed Use101SNGL-FAM-RESResidentialResidential1014SINGLE FAM W/AUResidentialResidential102CONDOMINIUMResidentialResidential1028CNDO-RES-PKGResidentialResidential104TWO-FAM-RESResidentialResidential105THREE-FM-RESResidentialResidential106RES-LAND-IMPTransportationTransportation1062RES LND-IMP UNDVacantVacant1067RES-COV-PKGTransportationTransportation109MULTIPLE-RESResidentialResidential1094MULT-RES-2FAMResidentialResidential1095MULT-RES-3FAMResidentialResidential1098MULT-RES-4-8-APTResidentialResidential1114-8-UNIT-APTResidentialResidential112&gt;8-UNIT-APTResidentialResidential113ASSISTED-LIVBoarding House/Assisted LivingResidential114AFFORDABLE APTResidentialResidential121BOARDING-HSEBoarding House/Assisted LivingResidential130RES-DEV-LANDVacantVacant131RES-PDV-LANDVacantVacant132RES-UDV-LANDVacantVacant1322RES-UDV-PARK (OS) LNVacantVacant140CHILD-CAREEducationEducation300HOTELHotelCommercial302INN-RESORTHotelCommercial304NURSING-HOMEHealthHealth316WAREHOUSECommercialCommercial323SH-CNTR/MALLCommercialCommercial324SUPERMARKETCommercialCommercial325RETAIL-STORECommercialCommercial326EATING-ESTBLCommercialCommercial327RETAIL-CONDOCommercialCommercial330AUTO-SALESCommercialCommercial332AUTO-REPAIRCommercialCommercial334GAS-STATIONCommercialCommercial336PARKING-GARTransportationTransportation337PARKING-LOTTransportationTransportation340GEN-OFFICEOfficeCommercial341BANKCommercialCommercial342MEDICAL-OFFCHealthHealth343OFFICE-CONDOOfficeCommercial345RETAIL-OFFICOfficeCommercial346INV-OFFICEOfficeCommercial353FRAT-ORGANIZCommercialCommercial362THEATRECommercialCommercial375TENNIS-CLUBCommercialCommercial390COM-DEV-LANDVacantVacant391COM-PDV-LANDVacantVacant392COM-UDV-LANDVacantVacant3922CRMCL REC LNDVacantVacant400MANUFACTURNGIndustrialIndustrial401WAREHOUSEIndustrialIndustrial404RES-&amp;-DEV-FCOffice/R&amp;DCommercial406HIGH-TECHOffice/R&amp;DCommercial407CLEAN-MANUFIndustrialIndustrial413RESRCH IND CNDIndustrialIndustrial422ELEC GEN PLANTUtilityUtility424PUB UTIL REGUtilityUtility430TELE-EXCH-STAUtilityUtility440IND-DEV-LANDVacantVacant442IND-UDV-LANDVacantVacant910DCR- State Parks and RecPublic Open SpaceOpen Space9100DCR- State Parks and RecPublic Open SpaceOpen Space920ParklandsPublic Open SpaceOpen Space930Government OperationsGovernmentGovernment Operations933Vacant Local EducationVacantVacant934Public SchoolsEducationEducation936Vacant, Tax TitleVacantVacant940Private Pre &amp; Elem SchoolEducationEducation9403Private Elementary EducationEducationEducation941Private Secondary SchoolEducationEducation9410Private Secondary EducationEducationEducation9413Private Secondary EducationEducationEducation942Private CollegeHigher EducationEducation9420Private College, UniversityHigher EducationEducation9421Private College Res UnitsEducation ResidentialResidential943Other Educ &amp; Research OrgHigher EducationEducation946Vacant (Private Ed)VacantVacant953CemeteriesCemeteryCemetery955Hospitals, Medical OfficeHealthHealth956MuseumsEducationEducation957Charitable ServicesCharitable/ReligiousCharitable/Religious960ReligiousCharitable/ReligiousCharitable/Religious9600ChurchReligiousCharitable/Religious970Housing AuthorityResidentialResidential9700Housing AuthorityResidentialResidential971Water UtilityUtilityUtility972Road Right of WayTransportationTransportation975MBTA/RailroadTransportationTransportation995Privately Owned Public Open SpacePublic Open SpaceOpen Space</abstract>
+      <purpose>Updated parcel layer with the latest available land use data.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-71.160322</westbc>
+        <eastbc>-71.063974</eastbc>
+        <northbc>42.404081</northbc>
+        <southbc>42.352818</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>City of Cambridge</themekey>
+        <themekey>CDD</themekey>
+        <themekey>Land Use</themekey>
+        <themekey>Parcels</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. For planning purposes only.</useconst>
+    <datacred>City of Cambridge</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>12805</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
+          <lambertc>
+            <stdparll>41.71666666666667</stdparll>
+            <stdparll>42.68333333333333</stdparll>
+            <longcm>-71.5</longcm>
+            <latprjo>41.0</latprjo>
+            <feast>656166.6666666665</feast>
+            <fnorth>2460625.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cambridge.GISDATA.CDD_LandUseFY2024</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ml</attrlabl>
+        <attrdef>Parcel map-lot ID
+</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>location</attrlabl>
+        <attrdef>Street address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>street_name</attrlabl>
+        <attrdef>Street name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>use_code</attrlabl>
+        <attrdef>Land use code for this property</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>use_description</attrlabl>
+        <attrdef>Land use description for the Use Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>use_category</attrlabl>
+        <attrdef>Land use category for this property. More specific than General Use Category.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>general_use_category</attrlabl>
+        <attrdef>General land use category</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>mixed_use_type</attrlabl>
+        <attrdef>Detail of mixed use type for mixed use properties</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>group_quarters</attrlabl>
+        <attrdef>Indicates whether property is used for group quarters living arrangement such as a group home or dormitory.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>grad_student_housing</attrlabl>
+        <attrdef>Indicates whether property houses graduate students in apartment-style units.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>condo_flag</attrlabl>
+        <attrdef>Is this a condo building?</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>tax_status</attrlabl>
+        <attrdef>Basis for property tax exemption, if any.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>public_note</attrlabl>
+        <attrdef>Notes about this property</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>street_number_index</attrlabl>
+        <attrdef>Street number index</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>land_area</attrlabl>
+        <attrdef>Area of parcel in square feet.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>residential_units</attrlabl>
+        <attrdef>Residential units at this parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20250708</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

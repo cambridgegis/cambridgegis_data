@@ -2,6 +2,10 @@
 ## GIS File Name
 HYDRO_Floodplains
 ## Description
+This dataset is OBSOLETE as of 7/8/2025 and will be removed from GitHub on 7/8/2026. An updated version of this dataset is available at:
+* [FEMA_Floodplains_100_Year](https://github.com/cambridgegis/cambridgegis_data/tree/main/Hydro/FEMA_Floodplains_100_Year)
+* [FEMA_Floodplains_500_Year](https://github.com/cambridgegis/cambridgegis_data/tree/main/Hydro/FEMA_Floodplains_500_Year)
+
 <DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>The National Flood Hazard Layer (NFHL) data incorporates all Digital Flood Insurance Rate Map(DFIRM) databases published by FEMA, and any Letters Of Map Revision (LOMRs) that have been issued against those databases since their publication date. The DFIRM Database is the digital, geospatial version of the flood hazard information shown on the published paper Flood Insurance Rate Maps(FIRMs). The primary risk classifications used are the 1-percent-annual-chance flood event, the 0.2-percent-annual-chance flood event, and areas of minimal flood risk. The NFHL data are derived from Flood Insurance Studies (FISs), previously published Flood Insurance Rate Maps (FIRMs), flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data where available. The FISs and FIRMs are published by the Federal Emergency Management Agency (FEMA). The specifications for the horizontal control of DFIRM data are consistent with those required for mapping at a scale of 1:12,000. The NFHL data contain layers in the Standard DFIRM datasets except for S_Label_Pt and S_Label_Ld. The NFHL is available as State or US Territory data sets. Each State or Territory data set consists of all DFIRMs and corresponding LOMRs available on the publication date of the data set.</SPAN></P></DIV></DIV></DIV>
 
 ## Purpose
