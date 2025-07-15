@@ -11,26 +11,30 @@ The Flood Insurance Rate Map (FIRM) Database depicts flood risk information and 
 
 FIRM and FIS Effective Date July 8, 2025.
 ## Last Modified
-07-07-2025
+07-15-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|dfirm_id|type: String<br/>width: 6<br/>precision: 0||
-|version_id|type: String<br/>width: 11<br/>precision: 0||
-|fld_ar_id|type: String<br/>width: 25<br/>precision: 0||
-|study_typ|type: String<br/>width: 38<br/>precision: 0||
-|fld_zone|type: String<br/>width: 17<br/>precision: 0||
-|zone_subty|type: String<br/>width: 72<br/>precision: 0||
-|sfha_tf|type: String<br/>width: 1<br/>precision: 0||
-|static_bfe|type: Double<br/>width: 8<br/>precision: 38||
-|v_datum|type: String<br/>width: 17<br/>precision: 0||
-|depth|type: Double<br/>width: 8<br/>precision: 38||
-|len_unit|type: String<br/>width: 16<br/>precision: 0||
-|velocity|type: Double<br/>width: 8<br/>precision: 38||
-|vel_unit|type: String<br/>width: 20<br/>precision: 0||
-|ar_revert|type: String<br/>width: 17<br/>precision: 0||
-|ar_subtrv|type: String<br/>width: 72<br/>precision: 0||
-|bfe_revert|type: Double<br/>width: 8<br/>precision: 38||
-|dep_revert|type: Double<br/>width: 8<br/>precision: 38||
-|dual_zone|type: String<br/>width: 1<br/>precision: 0||
-|source_cit|type: String<br/>width: 11<br/>precision: 0||
+|dfirm_id|type: String<br/>width: 6<br/>precision: 0|Study Identifier. For a single jurisdiction Flood Risk Project, the value is composed of the two-digit State FIPS code and the four-digit FEMA CID code (e.g., 480001). For a countywide Flood Risk Project, the value is composed of the two-digit State FIPS code, the three-digit county FIPS code and the letter “C” (e.g., 48107C). Within each FIRM Database, the DFIRM_ID value will be identical.|
+|version_id|type: String<br/>width: 11<br/>precision: 0|Version Identifier. Identifies the product version and relates the feature to standards according to how it was created.|
+|fld_ar_id|type: String<br/>width: 25<br/>precision: 0|Primary key for table lookup. Assigned by table creator.|
+|study_typ|type: String<br/>width: 38<br/>precision: 0|Study Type. This describes the type of Flood Risk Project performed for flood hazard identification. Acceptable values for this field are listed in the D_Study_Typ table.|
+|fld_zone|type: String<br/>width: 17<br/>precision: 0|Flood Zone. This is a flood zone designation. These zones are used by FEMA to designate the SFHAs. Acceptable values for this field are listed in the D_Zone table.|
+|zone_subty|type: String<br/>width: 72<br/>precision: 0|Flood Zone Subtype. This field captures additional information about the flood zones. For example, Zone X could have “AREA WITH REDUCED FLOOD HAZARD DUE TO ACCREDITED LEVEE SYSTEM” or “0.2-PCT ANNUAL CHANCE FLOOD HAZARD” as a subtype. Types of floodways are also stored in this field. Floodways are designated by FEMA and adopted by communities to provide an area that will remain free of development to moderate increases in flood heights due to encroachment on the floodplain. Normal floodways are specified as ‘FLOODWAY.’ Special cases will have a more specific term for the designation (such as COLORADO RIVER) and will appear as a note on the hardcopy FIRM. See the FIRM Panel Technical Reference for available floodway notes. NOTE: The symbol ‘%’ is a reserved symbol in most software packages, so the word ‘percent’ was abbreviated to ‘PCT.’ Acceptable values for this field are listed in the D_Zone_Subtype table.|
+|sfha_tf|type: String<br/>width: 1<br/>precision: 0|Special Flood Hazard Area. If the area is within a SFHA this field would be true. This field will be true for any area coded as an A or V flood zone area. It should be false or any X or D flood areas. Acceptable values for this field are listed in the D_TrueFalse table.|
+|static_bfe|type: Double<br/>width: 8<br/>precision: 38|Static Base Flood Elevation. This field will be populated for areas that have been determined to have a constant Base Flood Elevation (BFE) over a flood zone. The BFE value will be shown beneath the zone label. In this situation the same BFE applies to the entire polygon. This normally occurs in lakes or coastal zones.|
+|v_datum|type: String<br/>width: 17<br/>precision: 0|Vertical Datum. The vertical datum indicates the reference surface from which the flood elevations are measured. Normally this would be North American Vertical Datum of 1988 for new studies. This field is only populated if the STATIC_BFE field is populated. Acceptable values for this field are listed in the D_V_Datum table.|
+|depth|type: Double<br/>width: 8<br/>precision: 38|Depth This is the depth for Zone AO areas. This value is shown beneath the zone label on the FIRM. This field is only populated if a depth is shown on the FIRM.|
+|len_unit|type: String<br/>width: 16<br/>precision: 0|Length Units. This unit indicates the measurement system used for the BFEs and/or depths. Normally this would be feet. This field is only populated if the STATIC_BFE or DEPTH field is populated. Acceptable values for this field are listed in the D_Length_Units table.|
+|velocity|type: Double<br/>width: 8<br/>precision: 38|Velocity. This is the velocity measurement of the flood flow in the area. Normally this is applicable to alluvial fan areas (certain Zone AO areas). This value is shown beneath the zone label on the FIRM. This field is only populated when a velocity is associated with the flood zone area.|
+|vel_unit|type: String<br/>width: 20<br/>precision: 0|Velocity Unit. This is the unit of measurement for the velocity. This field is populated when the VELOCITY field is populated. Acceptable values for this field are listed in the D_Velocity_Units table.|
+|ar_revert|type: String<br/>width: 17<br/>precision: 0|Flood Control Restoration Zones – Zone AR Classification. If this area is Zone AR in FLD_Zone field, this field would hold the zone that area would revert to if the AR zone were removed. This field is only populated if the corresponding area is Zone AR. Acceptable values for this field are listed in the D_Zone table, but should only include one of AE, AO, AH, A, and X domain values.|
+|ar_subtrv|type: String<br/>width: 72<br/>precision: 0|Flood Control Restoration Zones – Zone AR Classification Zone Subtype. If this area is Zone AR in FLD_Zone field, this field would hold the zone subtype that area would revert to if the AR zone were removed. This field is only populated if the corresponding area is Zone AR. NOTE: The symbol ‘%’ is a reserved symbol in most software packages, so the word ‘percent’ was abbreviated to ‘PCT.’ Acceptable values for this field are listed in the D_Zone_Subtype_ table and must be one of the allowable subtypes for Zones AE, AO, AH, A or X.|
+|bfe_revert|type: Double<br/>width: 8<br/>precision: 38|Flood Control Restoration Zones – BFE Revert. If zone is Zone AR in FLD_Zone field, this field would hold the static base flood elevation for the reverted zone. This field is populated when Zone equals AR and the reverted zone has a static BFE.|
+|dep_revert|type: Double<br/>width: 8<br/>precision: 38|Flood Control Restoration Zones – Depth Revert. If zone is Zone AR in FLD_Zone field, this field would hold the flood depth for the reverted zone. This field is populated when Zone equals AR and the reverted zone has a depth assigned.|
+|dual_zone|type: String<br/>width: 1<br/>precision: 0|Flood Control Restoration Zones – Dual Zone Classification. If the flood hazard areas shown on the effective FIRM shall be designated as “dual” SFHAs (i.e., Zone AR/AE, Zone AR/AH, Zone AR/AO, Zone AR/A), this field will be coded as true. It should be false for any for AR Zones that revert to Shaded X. Acceptable values for this field are listed in the D_TrueFalse table.|
+|source_cit|type: String<br/>width: 11<br/>precision: 0|Source Citation. Abbreviation used in the metadata file when describing the source information for the feature. The abbreviation must match a value in L_Source_Cit.|
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
