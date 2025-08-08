@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.160322</westbc>
-        <eastbc>-71.063974</eastbc>
-        <northbc>42.404081</northbc>
-        <southbc>42.352818</southbc>
+        <eastbc>-71.063973</eastbc>
+        <northbc>42.404073</northbc>
+        <southbc>42.352810</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -189,7 +189,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20250708</metd>
+    <metd>20250807</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
