@@ -25,7 +25,7 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-71.161294</westbc>
+        <westbc>-71.161328</westbc>
         <eastbc>-71.063067</eastbc>
         <northbc>42.404332</northbc>
         <southbc>42.351896</southbc>
@@ -221,7 +221,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>93063</ptvctcnt>
+        <ptvctcnt>95793</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -296,7 +296,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20250708</metd>
+    <metd>20250807</metd>
     <metc>
       <cntinfo>
         <cntorgp>

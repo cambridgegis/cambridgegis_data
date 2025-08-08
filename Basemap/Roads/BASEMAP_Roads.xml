@@ -25,7 +25,7 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-71.161323</westbc>
+        <westbc>-71.161325</westbc>
         <eastbc>-71.063066</eastbc>
         <northbc>42.404386</northbc>
         <southbc>42.351894</southbc>
@@ -221,7 +221,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>165</ptvctcnt>
+        <ptvctcnt>162</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -313,7 +313,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20250708</metd>
+    <metd>20250807</metd>
     <metc>
       <cntinfo>
         <cntorgp>
