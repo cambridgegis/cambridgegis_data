@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>635</ptvctcnt>
+        <ptvctcnt>632</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -133,7 +133,7 @@
       </attr>
       <attr>
         <attrlabl>Shape_Length</attrlabl>
-        <attrdef>Length in feet of the line segment, generated automatically</attrdef>
+        <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
         <attrdomv>
           <udom>Positive real numbers that are automatically generated.</udom>
@@ -142,7 +142,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20241202</metd>
+    <metd>20250909</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

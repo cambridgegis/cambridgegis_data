@@ -221,7 +221,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>95793</ptvctcnt>
+        <ptvctcnt>95791</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -286,6 +286,18 @@
         <attrlabl>GRADE</attrlabl>
       </attr>
       <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
         <attrlabl>Shape_Length</attrlabl>
         <attrdef>Length of feature in internal units.</attrdef>
         <attrdefs>Esri</attrdefs>
@@ -296,7 +308,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20250807</metd>
+    <metd>20250909</metd>
     <metc>
       <cntinfo>
         <cntorgp>
