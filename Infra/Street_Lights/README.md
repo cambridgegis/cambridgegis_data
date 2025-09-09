@@ -29,7 +29,7 @@ INFRA_StreetLights
 ## Purpose
 This layer has all City of Cambridge owned street lights. These lights are maintained by the Cambridge Electrical Department.
 ## Last Modified
-08-16-2024
+09-08-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -39,14 +39,14 @@ This layer has all City of Cambridge owned street lights. These lights are maint
 |Intersection|type: String<br/>width: 20<br/>precision: 0|Street intersection if the light is at one|
 |NumLamps|type: Integer<br/>width: 4<br/>precision: 10|Number of lamps on a pole|
 |EditDate|type: String<br/>width: 8<br/>precision: 0|Date (year) lasted edited|
-|Description|type: String<br/>width: 25<br/>precision: 0|Type of head on the light. |
+|Description|type: String<br/>width: 25<br/>precision: 0|Type of head on the light.|
 |Owner|type: String<br/>width: 25<br/>precision: 0|Owner - always City of Cambridge|
 |LEDchk|type: String<br/>width: 6<br/>precision: 0|Field check by Cambridge GIS|
 |Neighborhood|type: Double<br/>width: 8<br/>precision: 38|CDD Neighborhood each light is in.|
 |Street_ID|type: String<br/>width: 254<br/>precision: 0|Street ID. Each street has a unique ID. The first part of the PoleID.|
 |Pole_Num|type: String<br/>width: 254<br/>precision: 0|ID for each pole on a street. Part of the unique PoleID|
-|FixtureType|type: String<br/>width: 254<br/>precision: 0|Coding for LED project. Corresponds to the number of LED lights in a fixture. A1 = 120 bulbs, A2 = 80 bulbs, A3 = 40 bulbs per lamp |
-|Lamp1|type: String<br/>width: 50<br/>precision: 0|Unique ID for a pole with 2 lamps. |
+|FixtureType|type: String<br/>width: 254<br/>precision: 0|Coding for LED project. Corresponds to the number of LED lights in a fixture. A1 = 120 bulbs, A2 = 80 bulbs, A3 = 40 bulbs per lamp|
+|Lamp1|type: String<br/>width: 50<br/>precision: 0|Unique ID for a pole with 2 lamps.|
 |Lamp2|type: String<br/>width: 50<br/>precision: 0|Unique ID for a pole with 2 lamps.|
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
 |last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
