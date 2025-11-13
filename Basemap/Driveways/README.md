@@ -7,8 +7,12 @@ BASEMAP_Driveways
 ## Purpose
 City of Cambridge 1" - 40' base map layers from an April 12 & April 22, 2018 flyover. Basemap layers created by WSP.
 ## Last Modified
-08-05-2025
+11-04-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
 |TYPE|type: String<br/>width: 50<br/>precision: 0|Type of driveway (paved or unpaved)|
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||

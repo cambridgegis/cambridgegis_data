@@ -7,11 +7,11 @@ DPW_PedestrianRamps
 ## Purpose
 City owned and maintained pedestrian ramps. This layer is maintained by Cambridge Public Works
 ## Last Modified
-12-02-2024
+11-12-2025
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
-|LOCATION|type: String<br/>width: 30<br/>precision: 0|Location description |
+|LOCATION|type: String<br/>width: 30<br/>precision: 0|Location description|
 |SW_WIDTH|type: Single<br/>width: 4<br/>precision: 4||
 |TOTAL_RAMP|type: Single<br/>width: 4<br/>precision: 4||
 |OPENING_WI|type: Single<br/>width: 4<br/>precision: 3||
