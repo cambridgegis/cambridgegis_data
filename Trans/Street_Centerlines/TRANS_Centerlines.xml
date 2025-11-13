@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>String</sdtstype>
-        <ptvctcnt>2642</ptvctcnt>
+        <ptvctcnt>2644</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -248,7 +248,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20250909</metd>
+    <metd>20251112</metd>
     <metc>
       <cntinfo>
         <cntorgp>
