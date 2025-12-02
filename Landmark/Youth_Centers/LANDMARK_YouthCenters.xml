@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>6</ptvctcnt>
+        <ptvctcnt>5</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -85,16 +85,13 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SITE_NAME</attrlabl>
+        <attrlabl>Name</attrlabl>
         <attrdef>Youth center name</attrdef>
+        <attrdefs>Grades / ages of youth served at the center</attrdefs>
       </attr>
       <attr>
         <attrlabl>ADDRESS</attrlabl>
         <attrdef>Youth center address</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>PHONE</attrlabl>
-        <attrdef>Youth center phone number</attrdef>
       </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
@@ -105,10 +102,17 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>EditDate</attrlabl>
+        <attrlabl>GlobalID</attrlabl>
       </attr>
       <attr>
-        <attrlabl>GlobalID</attrlabl>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YouthServed</attrlabl>
+        <attrdef>Grades / ages of youth served at the center</attrdef>
       </attr>
     </detailed>
   </eainfo>
@@ -124,7 +128,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20241007</metd>
+    <metd>20251201</metd>
     <metc>
       <cntinfo>
         <cntorgp>
