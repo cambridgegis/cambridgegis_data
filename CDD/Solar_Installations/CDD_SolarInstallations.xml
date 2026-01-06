@@ -12,10 +12,10 @@
     </descript>
     <spdom>
       <bounding>
-        <westbc>-71.159783</westbc>
+        <westbc>-71.159788</westbc>
         <eastbc>-71.078165</eastbc>
-        <northbc>42.401987</northbc>
-        <southbc>42.355493</southbc>
+        <northbc>42.401988</northbc>
+        <southbc>42.354485</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -35,7 +35,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1000</ptvctcnt>
+        <ptvctcnt>1156</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -142,7 +142,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20250407</metd>
+    <metd>20260105</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
