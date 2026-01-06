@@ -7,7 +7,7 @@ CDD_SolarInstallations
 ## Purpose
 To provide information on the quantity, location, and capacity of solar PV and hot water installations in Cambridge.
 ## Last Modified
-03-25-2025
+01-05-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
