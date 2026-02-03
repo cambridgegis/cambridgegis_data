@@ -57,7 +57,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>42714</ptvctcnt>
+        <ptvctcnt>42718</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -343,10 +343,13 @@
       <attr>
         <attrlabl>NurseryStockType</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>Neighborhood</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20260105</metd>
+    <metd>20260202</metd>
     <metc>
       <cntinfo>
         <cntorgp>

@@ -7,7 +7,7 @@ LANDMARK_PublicSchools
 ## Purpose
 Created for general use by City staff. Used for both mapping and specific identification of buildings with a similar use. Also used by emergency responders for evacuation and if the school is a designated shelter.
 ## Last Modified
-09-13-2024
+01-28-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -18,3 +18,7 @@ Created for general use by City staff. Used for both mapping and specific identi
 |SHEL_FOOD|type: String<br/>width: 16<br/>precision: 0|Denotes whether there are food serving facilities|
 |SHEL_CAP|type: Double<br/>width: 8<br/>precision: 16|Capacity of shelter|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
