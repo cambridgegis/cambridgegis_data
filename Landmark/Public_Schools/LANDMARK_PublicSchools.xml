@@ -13,9 +13,9 @@
     <spdom>
       <bounding>
         <westbc>-71.152714</westbc>
-        <eastbc>-71.086467</eastbc>
+        <eastbc>-71.091055</eastbc>
         <northbc>42.392386</northbc>
-        <southbc>42.355816</southbc>
+        <southbc>42.355833</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -39,7 +39,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>19</ptvctcnt>
+        <ptvctcnt>18</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -125,6 +125,18 @@
       <attr>
         <attrlabl>GlobalID</attrlabl>
       </attr>
+      <attr>
+        <attrlabl>created_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>created_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_user</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>last_edited_date</attrlabl>
+      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -139,7 +151,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20241007</metd>
+    <metd>20260202</metd>
     <metc>
       <cntinfo>
         <cntorgp>
