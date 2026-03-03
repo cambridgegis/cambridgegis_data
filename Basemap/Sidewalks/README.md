@@ -7,7 +7,7 @@ BASEMAP_Sidewalks
 ## Purpose
 City of Cambridge 1" - 40' base map layers from an April 12 & April 22, 2018 flyover. Basemap layers created by WSP.
 ## Last Modified
-08-25-2025
+02-13-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -17,3 +17,7 @@ City of Cambridge 1" - 40' base map layers from an April 12 & April 22, 2018 fly
 |GRADE|type: String<br/>width: 50<br/>precision: 0||
 |TW_Width|type: Double<br/>width: 8<br/>precision: 38||
 |TW_Length|type: Double<br/>width: 8<br/>precision: 38||
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
