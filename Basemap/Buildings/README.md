@@ -7,7 +7,7 @@ BASEMAP_Buildings
 ## Purpose
 City of Cambridge 1" - 40' base map layers from an April 12 & April 22, 2018 flyover. Basemap layers created by WSP.
 ## Last Modified
-12-29-2025
+02-13-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
