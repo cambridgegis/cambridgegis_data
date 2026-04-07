@@ -7,7 +7,7 @@ CDD_SpecialPermits
 ## Purpose
 Points showing the locations of cases that come before the Planning Board, including Special Permit projects, Affordable Housing Overlay Design Review cases, and Planning Board Advisory Consultation cases.
 ## Last Modified
-04-06-2026
+04-07-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
