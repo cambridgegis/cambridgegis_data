@@ -36,7 +36,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>73</ptvctcnt>
+        <ptvctcnt>80</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -171,13 +171,7 @@
         <attrdef>Combination of JOIN_ID and UseCode to give a numerical reference to the park name and facility type for each facility.</attrdef>
       </attr>
       <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
         <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
       </attr>
       <attr>
         <attrlabl>last_edited_date</attrlabl>
@@ -185,7 +179,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20260105</metd>
+    <metd>20260406</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
