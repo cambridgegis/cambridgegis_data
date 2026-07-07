@@ -1,331 +1,304 @@
-﻿<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>INFRA_Hydrants</title>
-        <geoform>vector digital data</geoform>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>Fire Hydrants are maintained by the Engineering group at the Cambridge Water Department, Hydrants are also monitored by Cambridge Fire Department. Used for public safety, mapping, and water distribution.</abstract>
-      <purpose>Fire Hydrants within the City of Cambridge</purpose>
-    </descript>
-    <spdom>
-      <bounding>
-        <westbc>-71.159905</westbc>
-        <eastbc>-71.067073</eastbc>
-        <northbc>42.402608</northbc>
-        <southbc>42.353366</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>Caity of Cambridge</themekey>
-        <themekey>Water Distribution</themekey>
-        <themekey>Hydrants</themekey>
-        <themekey>Fire</themekey>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <datacred>City of Cambridge</datacred>
-    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
-  </idinfo>
-  <spdoinfo>
-    <direct>Vector</direct>
-    <ptvctinf>
-      <sdtsterm>
-        <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1953</ptvctcnt>
-      </sdtsterm>
-    </ptvctinf>
-  </spdoinfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <mapproj>
-          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001 Feet</mapprojn>
-          <lambertc>
-            <stdparll>41.71666666666667</stdparll>
-            <stdparll>42.68333333333333</stdparll>
-            <longcm>-71.5</longcm>
-            <latprjo>41.0</latprjo>
-            <feast>656166.6666666665</feast>
-            <fnorth>2460625.0</fnorth>
-          </lambertc>
-        </mapproj>
-        <planci>
-          <plance>coordinate pair</plance>
-          <coordrep>
-            <absres>0.0003125</absres>
-            <ordres>0.0003125</ordres>
-          </coordrep>
-          <plandu>foot_us</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>D North American 1983</horizdn>
-        <ellips>GRS 1980</ellips>
-        <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257222101</denflat>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>INFRA_Hydrants</enttypl>
-      </enttyp>
-      <attr>
-        <attrlabl>OBJECTID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>ANCILLARYROLE</attrlabl>
-        <attrdef>Ancillary role for hydrant.</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>0</edomv>
-            <edomvd>None</edomvd>
-          </edom>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>Source</edomvd>
-          </edom>
-          <edom>
-            <edomv>2</edomv>
-            <edomvd>Sink</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>ENABLED</attrlabl>
-        <attrdef>Enabled?</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>0</edomv>
-            <edomvd>False</edomvd>
-          </edom>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>True</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>INSTALLDATE</attrlabl>
-        <attrdef>Installation date.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>ROTATION</attrlabl>
-        <attrdef>Annotation rotation value.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>LIFECYCLESTATUS</attrlabl>
-        <attrdef>Lifecycle status.</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>ACT</edomv>
-            <edomvd>Active</edomvd>
-          </edom>
-          <edom>
-            <edomv>ABN</edomv>
-            <edomvd>Abandoned</edomvd>
-          </edom>
-          <edom>
-            <edomv>PROP</edomv>
-            <edomvd>Proposed</edomvd>
-          </edom>
-          <edom>
-            <edomv>MITFL</edomv>
-            <edomvd>MIT Fire Loop</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SUBTYPE</attrlabl>
-        <attrdef>Subtype.</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>GateHydrant</edomvd>
-          </edom>
-          <edom>
-            <edomv>2</edomv>
-            <edomvd>NonGateHydrant</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>LASTEDITOR</attrlabl>
-        <attrdef>Last editor.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>LASTEDITDATE</attrlabl>
-        <attrdef>Last edit date.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>LASTSOURCE</attrlabl>
-        <attrdef>Last edit source.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_ID</attrlabl>
-        <attrdef>Unique hydrant ID.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>GATE</attrlabl>
-        <attrdef>Gate?</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>0</edomv>
-            <edomvd>False</edomvd>
-          </edom>
-          <edom>
-            <edomv>1</edomv>
-            <edomvd>True</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>CONTRACTAUTHORITY</attrlabl>
-        <attrdef>Contract authority</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>MWRA</edomv>
-            <edomvd>MWRA</edomvd>
-          </edom>
-          <edom>
-            <edomv>CAM</edomv>
-            <edomvd>City</edomvd>
-          </edom>
-          <edom>
-            <edomv>PRI</edomv>
-            <edomvd>Private</edomvd>
-          </edom>
-          <edom>
-            <edomv>HVDU</edomv>
-            <edomvd>Harvard</edomvd>
-          </edom>
-          <edom>
-            <edomv>MIT</edomv>
-            <edomvd>MIT</edomvd>
-          </edom>
-          <edom>
-            <edomv>UNK</edomv>
-            <edomvd>Unknown</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_GPM</attrlabl>
-        <attrdef>Gallons per minute.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>GlobalID</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Notes</attrlabl>
-        <attrdef>Notes.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_LOCATION</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_MANF</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_COLOR</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_OWNER</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SWEEPER_HYDRANT</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>HYDRANT_DRAIN</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>LAST_DATE_TESTED</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>COMMENTS</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>created_user</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>created_date</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_user</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>last_edited_date</attrlabl>
-      </attr>
-    </detailed>
-    <detailed>
-      <enttyp>
-        <enttypl>water.GISDATA.Anno_8_25</enttypl>
-      </enttyp>
-    </detailed>
-    <detailed>
-      <enttyp>
-        <enttypl>water.GISDATA.Hydrant_to_HydDB</enttypl>
-      </enttyp>
-    </detailed>
-    <detailed>
-      <enttyp>
-        <enttypl>water.GISDATA.Anno_7_103</enttypl>
-      </enttyp>
-    </detailed>
-  </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>SDE Feature Class</formname>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
-  <metainfo>
-    <metd>20260406</metd>
-    <metc>
-      <cntinfo>
-        <cntorgp>
-          <cntorg>City of Cambridge</cntorg>
-          <cntper>Cambridge GIS</cntper>
-        </cntorgp>
-        <cntpos>GIS Data</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>831 Massachusetts Ave</address>
-          <city>Cambridge</city>
-          <state>MA</state>
-          <postal>02139</postal>
-        </cntaddr>
-        <cntvoice>617-349-4140</cntvoice>
-        <cntemail>CambridgeGIS@cambridgema.gov</cntemail>
-      </cntinfo>
-    </metc>
-    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
-    <mettc>local time</mettc>
-  </metainfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>INFRA_Hydrants</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Fire Hydrants are maintained by the Engineering group at the Cambridge Water Department, Hydrants are also monitored by Cambridge Fire Department. Used for public safety, mapping, and water distribution.</abstract>
+<purpose>Fire Hydrants within the City of Cambridge</purpose>
+</descript>
+<spdom>
+<bounding>
+<westbc>-71.175631</westbc>
+<eastbc>-71.067073</eastbc>
+<northbc>42.402653</northbc>
+<southbc>42.353366</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Caity of Cambridge</themekey>
+<themekey>Water Distribution</themekey>
+<themekey>Hydrants</themekey>
+<themekey>Fire</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<datacred>City of Cambridge</datacred>
+<native>Esri ArcGIS 13.7.0.1901</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>INFRA_Hydrants</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ANCILLARYROLE</attrlabl>
+<attrdef>Ancillary role for hydrant.</attrdef>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>None</edomvd>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>Source</edomvd>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>Sink</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ENABLED</attrlabl>
+<attrdef>Enabled?</attrdef>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>False</edomvd>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>True</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INSTALLDATE</attrlabl>
+<attrdef>Installation date.</attrdef>
+</attr>
+<attr>
+<attrlabl>ROTATION</attrlabl>
+<attrdef>Annotation rotation value.</attrdef>
+</attr>
+<attr>
+<attrlabl>LIFECYCLESTATUS</attrlabl>
+<attrdef>Lifecycle status.</attrdef>
+<attrdomv>
+<edom>
+<edomv>ACT</edomv>
+<edomvd>Active</edomvd>
+</edom>
+<edom>
+<edomv>ABN</edomv>
+<edomvd>Abandoned</edomvd>
+</edom>
+<edom>
+<edomv>PROP</edomv>
+<edomvd>Proposed</edomvd>
+</edom>
+<edom>
+<edomv>MITFL</edomv>
+<edomvd>MIT Fire Loop</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBTYPE</attrlabl>
+<attrdef>Subtype.</attrdef>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>GateHydrant</edomvd>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>NonGateHydrant</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LASTEDITOR</attrlabl>
+<attrdef>Last editor.</attrdef>
+</attr>
+<attr>
+<attrlabl>LASTEDITDATE</attrlabl>
+<attrdef>Last edit date.</attrdef>
+</attr>
+<attr>
+<attrlabl>LASTSOURCE</attrlabl>
+<attrdef>Last edit source.</attrdef>
+</attr>
+<attr>
+<attrlabl>HYDRANT_ID</attrlabl>
+<attrdef>Unique hydrant ID.</attrdef>
+</attr>
+<attr>
+<attrlabl>GATE</attrlabl>
+<attrdef>Gate?</attrdef>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>False</edomvd>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>True</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CONTRACTAUTHORITY</attrlabl>
+<attrdef>Contract authority</attrdef>
+<attrdomv>
+<edom>
+<edomv>MWRA</edomv>
+<edomvd>MWRA</edomvd>
+</edom>
+<edom>
+<edomv>CAM</edomv>
+<edomvd>City</edomvd>
+</edom>
+<edom>
+<edomv>PRI</edomv>
+<edomvd>Private</edomvd>
+</edom>
+<edom>
+<edomv>HVDU</edomv>
+<edomvd>Harvard</edomvd>
+</edom>
+<edom>
+<edomv>MIT</edomv>
+<edomvd>MIT</edomvd>
+</edom>
+<edom>
+<edomv>UNK</edomv>
+<edomvd>Unknown</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HYDRANT_GPM</attrlabl>
+<attrdef>Gallons per minute.</attrdef>
+</attr>
+<attr>
+<attrlabl>GlobalID</attrlabl>
+</attr>
+<attr>
+<attrlabl>Notes</attrlabl>
+<attrdef>Notes.</attrdef>
+</attr>
+<attr>
+<attrlabl>HYDRANT_LOCATION</attrlabl>
+</attr>
+<attr>
+<attrlabl>HYDRANT_MANF</attrlabl>
+</attr>
+<attr>
+<attrlabl>HYDRANT_COLOR</attrlabl>
+</attr>
+<attr>
+<attrlabl>HYDRANT_OWNER</attrlabl>
+</attr>
+<attr>
+<attrlabl>SWEEPER_HYDRANT</attrlabl>
+</attr>
+<attr>
+<attrlabl>HYDRANT_DRAIN</attrlabl>
+</attr>
+<attr>
+<attrlabl>LAST_DATE_TESTED</attrlabl>
+</attr>
+<attr>
+<attrlabl>COMMENTS</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_date</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_date</attrlabl>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>water.GISDATA.Anno_8_25</enttypl>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>water.GISDATA.Hydrant_to_HydDB</enttypl>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>water.GISDATA.Anno_7_103</enttypl>
+</enttyp>
+</detailed>
+</eainfo>
+<distinfo>
+<distliab>See access and use constraints information.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDE Feature Class</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+</onlinopt>
+</digtopt>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20260706</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Cambridge</cntorg>
+<cntper>Cambridge GIS</cntper>
+</cntorgp>
+<cntpos>GIS Data</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>831 Massachusetts Ave</address>
+<city>Cambridge</city>
+<state>MA</state>
+<postal>02139</postal>
+</cntaddr>
+<cntvoice>617-349-4140</cntvoice>
+<cntemail>CambridgeGIS@cambridgema.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
 </metadata>

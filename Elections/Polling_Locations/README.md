@@ -7,7 +7,7 @@ ELECTIONS_PollingLocations
 ## Purpose
 This layer was created for the Cambridge Election Commission, for mapping, and for public distribution.
 ## Last Modified
-09-24-2024
+06-15-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -17,5 +17,5 @@ This layer was created for the Cambridge Election Commission, for mapping, and f
 |LOCATION_NOTE|type: String<br/>width: 50<br/>precision: 0|Building entrance and room notes|
 |EditDate|type: String<br/>width: 4<br/>precision: 0||
 |created_date|type: Date<br/>width: 8<br/>precision: 0||
-|last_edited_date|type: Date<br/>width: 8<br/>precision: 0|None|
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||
 |Sort|type: SmallInteger<br/>width: 2<br/>precision: 5||

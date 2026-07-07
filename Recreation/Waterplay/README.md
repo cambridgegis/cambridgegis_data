@@ -2,12 +2,12 @@
 ## GIS File Name
 RECREATION_Waterplay
 ## Description
-<DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This polygon layer contains the outdoor public waterplay facilities within Cambridge. Waterplay facilities are located within city parks in in city playgrounds. </SPAN></P></DIV></DIV></DIV>
+<DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This point layer contains the outdoor public waterplay facilities within Cambridge. Waterplay facilities are located within city parks in in city playgrounds. </SPAN></P></DIV></DIV></DIV>
 
 ## Purpose
 Created for general use within the Community Development Department (CDD) and for map making.
 ## Last Modified
-06-15-2022
+07-06-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
