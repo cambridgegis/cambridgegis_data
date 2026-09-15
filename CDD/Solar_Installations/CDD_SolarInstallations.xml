@@ -35,11 +35,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-<<<<<<< HEAD
         <ptvctcnt>1260</ptvctcnt>
-=======
-        <ptvctcnt>1209</ptvctcnt>
->>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -146,11 +142,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-<<<<<<< HEAD
     <metd>20260821</metd>
-=======
-    <metd>20260601</metd>
->>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

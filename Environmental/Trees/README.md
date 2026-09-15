@@ -7,11 +7,7 @@ ENVIRONMENTAL_StreetTrees
 ## Purpose
 City owned and maintained trees. This layer is maintained by Cambridge Public Works and updated regularly by the City Arborist. 
 ## Last Modified
-<<<<<<< HEAD
 09-14-2026
-=======
-08-17-2026
->>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -21,7 +17,7 @@ City owned and maintained trees. This layer is maintained by Cambridge Public Wo
 |diameter|type: Single<br/>width: 4<br/>precision: 6|Tree diameter in inches taken at approximately 4.5 feet above ground (DBH). If the diameter point falls on a swelling in the trunk it is customary to measure below the swelling at the point where the diameter is smallest. Note: an average diameter should be calculated for trees with multiple trunks (see the Trunks field); an online calculator for multi-stemmed trees may be found at https://www.treetec.net.au/TPZ_SRZ_DBH_calculator.php.|
 |trunks|type: SmallInteger<br/>width: 2<br/>precision: 5|Number of tree trunks (see note at Diameter about using the number of trunks to calculate an average tree diameter).|
 |notes|type: String<br/>width: 500<br/>precision: 0|Miscellaneous notes.|
-|SiteType|type: String<br/>width: 20<br/>precision: 0|Designates whether the site is currently occupied by a tree (Tree) or stump (Stump), is an empty planting site (Planting  Site), or has been paved over or is otherwise empty and no longer available for planting (Retired). Note: this field typically supersedes any conflicting data within the record; for example, a record designated as a “Planting Site” would indicate that any values for Diameter and Trunks were no longer valid.|
+|SiteType|type: String<br/>width: 20<br/>precision: 0|Designates whether the site is currently occupied by a tree (Tree) or stump (Stump), is an empty planting site (Planting  Site), or has been paved over or is otherwise empty and no longer available for planting (Retired). Note: this field typically supersedes any conflicting data within the record; for example, a record designated as a ï¿½Planting Siteï¿½ would indicate that any values for Diameter and Trunks were no longer valid.|
 |PlantDate|type: Date<br/>width: 8<br/>precision: 0|Date that a tree was last planted at this site.|
 |RemovalDate|type: Date<br/>width: 8<br/>precision: 0|Date that a tree was last removed from this site.|
 |SpeciesShort|type: String<br/>width: 50<br/>precision: 0|Genus of the current tree species (see Species).|

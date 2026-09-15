@@ -7,11 +7,7 @@ INFRA_Catchbasin
 ## Purpose
 Catchbasin
 ## Last Modified
-<<<<<<< HEAD
 09-14-2026
-=======
-08-17-2026
->>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

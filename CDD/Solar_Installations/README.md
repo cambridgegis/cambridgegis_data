@@ -7,16 +7,12 @@ CDD_SolarInstallations
 ## Purpose
 To provide information on the number, location and capacity of photovoltaic (PV) and solar hot water installations in Cambridge.
 ## Last Modified
-<<<<<<< HEAD
 08-21-2026
-=======
-05-12-2026
->>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
 |SystemID|type: String<br/>width: 15<br/>precision: 0|Internal randomly-generated identifier of the system|
-|SystemStatus|type: String<br/>width: 15<br/>precision: 0|Status of system installation. Systems that have been installed are considered ‘Active’ systems. Only ‘Active’ systems are included in this layer.|
+|SystemStatus|type: String<br/>width: 15<br/>precision: 0|Status of system installation. Systems that have been installed are considered ï¿½Activeï¿½ systems. Only ï¿½Activeï¿½ systems are included in this layer.|
 |SystemType|type: String<br/>width: 30<br/>precision: 0|PV (photovoltaic) or Solar Hot Water|
 |FullStreetAddress|type: String<br/>width: 100<br/>precision: 0|Street address|
 |BuildingType|type: String<br/>width: 30<br/>precision: 0|Building type for this installation|
