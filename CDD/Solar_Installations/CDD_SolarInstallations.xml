@@ -7,8 +7,8 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This point layer identifies parcels with known solar installations. It includes both photovoltaic (PV) and solar hot water installations. The point may not fall in the exact location of the solar equipment, especially on larger parcels, or parcels with equipment in multiple locations. This dataset will be updated regularly with new installations.</abstract>
-      <purpose>To provide information on the quantity, location, and capacity of solar PV and hot water installations in Cambridge.</purpose>
+      <abstract>This point layer displays the locations of known photovoltaic (PV) and solar hot water installations. The location coordinates may not represent the exact placement of the solar equipment on each parcel, particularly for large parcels or those with solar equipment in multiple locations. This layer only includes PV and solar hot water systems that have been installed. Systems that were previously permitted and installed that have since been retired and removed are not included. This layer will be updated quarterly.</abstract>
+      <purpose>To provide information on the number, location and capacity of photovoltaic (PV) and solar hot water installations in Cambridge.</purpose>
     </descript>
     <spdom>
       <bounding>
@@ -35,7 +35,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>1209</ptvctcnt>
+        <ptvctcnt>1260</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -97,7 +97,7 @@
       </attr>
       <attr>
         <attrlabl>SystemStatus</attrlabl>
-        <attrdef>Status of system (active, retired, etc.)</attrdef>
+        <attrdef>Status of system installation. Systems that have been installed are considered ‘Active’ systems. Only ‘Active’ systems are included in this layer.</attrdef>
       </attr>
       <attr>
         <attrlabl>SystemType</attrlabl>
@@ -117,7 +117,7 @@
       </attr>
       <attr>
         <attrlabl>KW</attrlabl>
-        <attrdef>If the record is a PV system, the rated capacity of the system in KW.</attrdef>
+        <attrdef>If the record is a photovoltaic (PV) system, the rated capacity of the system in kW. The rated capacity represents the power output potential of the system.</attrdef>
       </attr>
       <attr>
         <attrlabl>SolarHotWaterSystemArea</attrlabl>
@@ -142,7 +142,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20260601</metd>
+    <metd>20260821</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

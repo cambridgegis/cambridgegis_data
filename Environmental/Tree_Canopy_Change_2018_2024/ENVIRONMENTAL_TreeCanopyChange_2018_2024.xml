@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<pubdate>20250630</pubdate>
+<title>UrbanForestry_TreeCanopyChange_2018_2024</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This layer is a high-resolution tree canopy change-detection layer for Cambridge, MA. It contains three tree-canopy classes for the period 2018-2024: (1) No Change; (2) Gain; and (3) Loss. It was created by extracting tree canopy from existing high-resolution land-cover maps for 2018 and 2024 and then comparing the mapped trees directly. Tree canopy that existed during both time periods was assigned to the No Change category while trees removed by development, storms, or disease were assigned to the Loss class. Trees planted during the interval were assigned to the Gain category, as were the edges of existing trees that expanded noticeably. Direct comparison was possible because both the 2018 and 2024 maps were created using object-based image analysis (OBIA) and included similar source datasets (LiDAR-derived surface models, multispectral imagery, and thematic GIS inputs). OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. No accuracy assessment was conducted, but the dataset will be subjected to manual review and correction at a scale of 1:2500.</abstract>
+<purpose>This dataset was developed as part of an Urban Tree Canopy (UTC) assessment for Cambridge, MA. It shows how tree canopy changed during the period 2018-2024, highlighting trees that were gained or lost during the 6-year period. It is intended for use in monitoring patterns of change in Cambridge, MA tree canopy.</purpose>
+</descript>
+<status>
+<progress>Complete</progress>
+</status>
+<spdom>
+<bounding>
+<westbc>-71.160705</westbc>
+<eastbc>-71.064357</eastbc>
+<northbc>42.404367</northbc>
+<southbc>42.352215</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>2018-2024</themekey>
+<themekey>imageryBaseMapsEarthCover</themekey>
+<themekey>urban</themekey>
+<themekey>change detection</themekey>
+<themekey>tree canopy</themekey>
+<themekey>Cambridge</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Vermont Spatial Analysis Lab</cntorg>
+<cntper>Paige Brochu</cntper>
+</cntorgp>
+<cntpos>Director</cntpos>
+<cntaddr>
+<addrtype>unknown</addrtype>
+<address>81 Carrigan Drive</address>
+<city>Burlington</city>
+<state>VT</state>
+<postal>05405</postal>
+<country>US</country>
+</cntaddr>
+<cntemail>Paige.Brochu@uvm.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>University of Vermont Spatial Analysis Laboratory in collaboration with the City of Cambridge, MA.</datacred>
+<native>Esri ArcGIS 13.7.0.1901</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>ENVIRONMENTAL_TreeCanopyChange_2018_2024</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Class_name</attrlabl>
+<attrdef>Classification name. Contains three tree-canopy classes for the period 2009-2014: (1) No Change; (2) Gain; and (3) Loss</attrdef>
+</attr>
+<attr>
+<attrlabl>Shape_Length</attrlabl>
+<attrdef>Length of feature in internal units.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Area</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<metainfo>
+<metd>20260915</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Cambridge</cntorg>
+<cntper>Cambridge GIS</cntper>
+</cntorgp>
+<cntpos>GIS Data</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>831 Massachusetts Ave</address>
+<city>Cambridge</city>
+<state>MA</state>
+<postal>02139</postal>
+</cntaddr>
+<cntvoice>617-349-4140</cntvoice>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
