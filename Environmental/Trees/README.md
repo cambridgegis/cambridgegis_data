@@ -7,7 +7,11 @@ ENVIRONMENTAL_StreetTrees
 ## Purpose
 City owned and maintained trees. This layer is maintained by Cambridge Public Works and updated regularly by the City Arborist. 
 ## Last Modified
+<<<<<<< HEAD
 09-14-2026
+=======
+08-17-2026
+>>>>>>> 44a03d195bb4bc3d9f0bf31452f5ab2d6b2f7be9
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
