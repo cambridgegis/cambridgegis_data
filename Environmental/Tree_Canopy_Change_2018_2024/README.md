@@ -1,4 +1,8 @@
 # Tree Canopy Change 2018 2024
+
+> [!IMPORTANT]  
+> The 2018-2024 Tree Canopy Change file is too big for for our GitHub tier. Please see [Tree Canopy Change 2018 2024](https://www.cambridgema.gov/gis/gisdatadictionary/environmental/environmental_treecanopychange_2018_2024) in our data dictionary for other downloads options.
+
 ## GIS File Name
 UrbanForestry_TreeCanopyChange_2018_2024
 ## Description

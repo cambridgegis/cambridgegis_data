@@ -1,4 +1,8 @@
 # Tree Canopy 2024
+
+> [!IMPORTANT]  
+> The 2024 Tree Canopy file is too big our GitHub tier. Please see [Tree Canopy 2024](https://www.cambridgema.gov/gis/gisdatadictionary/environmental/environmental_treecanopy2024) in our data dictionary for other downloads options.
+
 ## GIS File Name
 UrbanForestry_TreeCanopy2024
 ## Description
