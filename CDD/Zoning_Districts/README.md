@@ -7,7 +7,7 @@ CDD_ZoningDistricts
 ## Purpose
 Created as part of Cambridge's Zoning Ordinance to delineate zoning district boundaries.
 ## Last Modified
-03-02-2026
+10-05-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
@@ -15,3 +15,7 @@ Created as part of Cambridge's Zoning Ordinance to delineate zoning district bou
 |PUD_TYPE|type: String<br/>width: 50<br/>precision: 0|Planned Unit Development district overlay classification|
 |ZCODE|type: Integer<br/>width: 4<br/>precision: 10|No longer used|
 |PUD_TYPE_NEW|type: String<br/>width: 50<br/>precision: 0|New planned Unit Development district overlay classification|
+|created_user|type: String<br/>width: 255<br/>precision: 0||
+|created_date|type: Date<br/>width: 8<br/>precision: 0||
+|last_edited_user|type: String<br/>width: 255<br/>precision: 0||
+|last_edited_date|type: Date<br/>width: 8<br/>precision: 0||

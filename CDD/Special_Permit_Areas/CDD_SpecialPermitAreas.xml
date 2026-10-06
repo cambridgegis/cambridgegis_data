@@ -37,7 +37,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>355</ptvctcnt>
+        <ptvctcnt>357</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -156,7 +156,7 @@
     </detailed>
   </eainfo>
   <metainfo>
-    <metd>20260504</metd>
+    <metd>20261005</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

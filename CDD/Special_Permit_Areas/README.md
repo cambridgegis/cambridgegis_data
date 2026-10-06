@@ -7,7 +7,7 @@ CDD_SpecialPermitAreas
 ## Purpose
 This polygon layer shows the land area that is involved in Special Permit development projects.
 ## Last Modified
-04-07-2026
+10-05-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
