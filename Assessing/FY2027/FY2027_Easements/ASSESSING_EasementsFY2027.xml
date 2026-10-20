@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>ASSESSING_EasementsFY2027</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This line layer contains easement and right-of-way information on individual tax parcels throughout the City. </abstract>
+<purpose>Created for internal use by the Assessing Department to provide a visual reference of easements associated with each parcel. Not all easements are shown in this layer.</purpose>
+</descript>
+<spdom>
+<bounding>
+<westbc>-71.159664</westbc>
+<eastbc>-71.066756</eastbc>
+<northbc>42.401174</northbc>
+<southbc>42.353268</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Cambridge</themekey>
+<themekey>Tax</themekey>
+<themekey>Assessing</themekey>
+<themekey>Easements</themekey>
+<themekey>rights-of-way</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<datacred>City of Cambridge</datacred>
+<native>Esri ArcGIS 13.7.0.1901</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>ASSESSING_EasementsFY2027</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>GlobalID</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_date</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_date</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape_Length</attrlabl>
+<attrdef>Length of feature in internal units.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distliab>See access and use constraints information.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDE Feature Class</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+</onlinopt>
+</digtopt>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20261001</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Cambridge</cntorg>
+<cntper>Assessing Department</cntper>
+</cntorgp>
+<cntpos>Assessing</cntpos>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>

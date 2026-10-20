@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>ASSESSING_ParcelsFY2027</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This polygon layer contains all of the property parcels in Cambridge. Each parcel has a unique Map and Lot ID number that links it to a record in the Assessing Department's Vision database system. </abstract>
+<purpose>Created for internal use by the Assessing Department to provide a visual reference associated with each parcel in the CAMA database. Created for interdepartmental and external use as part of the web viewers on the City's website. Also created for addressing/geocoding needs, although the Buildings and Master Address List are currently more accurate than Parcels. 
+
+NOTE: The Parcels GIS data layer is NOT used by Assessing to calculate land area or taxes. Assessors refer to actual deeds or plans accepted by the Massachusetts Land Court. The figures stored in the GIS data layer are for general reference purposes only.</purpose>
+</descript>
+<spdom>
+<bounding>
+<westbc>-71.160584</westbc>
+<eastbc>-71.063972</eastbc>
+<northbc>42.404339</northbc>
+<southbc>42.351866</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Cambridge</themekey>
+<themekey>Tax</themekey>
+<themekey>Assessing</themekey>
+<themekey>Parcels</themekey>
+<themekey>Lots</themekey>
+<themekey>Property</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None, but to be used for planning purposes only</useconst>
+<datacred>City of Cambridge</datacred>
+<native>Esri ArcGIS 13.7.0.1901</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>ASSESSING_ParcelsFY2027</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ML</attrlabl>
+<attrdef>Map and Lot numbers separated by "-"</attrdef>
+</attr>
+<attr>
+<attrlabl>MAP</attrlabl>
+<attrdef>Map (block) number</attrdef>
+</attr>
+<attr>
+<attrlabl>LOT</attrlabl>
+<attrdef>Lot (parcel) number</attrdef>
+</attr>
+<attr>
+<attrlabl>UYEAR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Editor</attrlabl>
+<attrdef>Initials of person making most recent edit</attrdef>
+</attr>
+<attr>
+<attrlabl>EditDate</attrlabl>
+<attrdef>Date of most recent edit</attrdef>
+</attr>
+<attr>
+<attrlabl>GlobalID</attrlabl>
+</attr>
+<attr>
+<attrlabl>LOC_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>POLY_TYPE</attrlabl>
+</attr>
+<attr>
+<attrlabl>SOURCE</attrlabl>
+</attr>
+<attr>
+<attrlabl>PLAN_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>created_date</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_user</attrlabl>
+</attr>
+<attr>
+<attrlabl>last_edited_date</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape_Length</attrlabl>
+<attrdef>Length of feature in internal units.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Area</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distliab>See access and use constraints information.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDE Feature Class</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+</onlinopt>
+</digtopt>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20261001</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Cambridge</cntorg>
+<cntper>Assessing Department</cntper>
+</cntorgp>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
