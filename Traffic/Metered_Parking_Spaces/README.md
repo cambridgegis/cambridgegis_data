@@ -7,7 +7,7 @@ TRAFFIC_MeteredParkingSpaces
 ## Purpose
 Created for use with online permitting for street obstructions (moving vans, dumpsters, etc.) and for the Traffic and Parking Department for parking meter inventory.
 ## Last Modified
-10-05-2026
+11-02-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|

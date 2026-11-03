@@ -7,7 +7,7 @@ ELECTIONS_CongressionalDistricts
 ## Purpose
 This polygon layer contains the two elective districts in Cambridge for legislators elected to the United State House of Representatives, effective for elections occurring on or after January 1, 2022.
 ## Last Modified
-01-05-2023
+11-02-2026
 ## Attributes
 |Name|Type Details|Description|
 |----|------------|-----------|
